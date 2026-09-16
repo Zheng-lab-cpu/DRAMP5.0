@@ -1,0 +1,136 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=22
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP22885                                                          21.2    0.40 
+  DRAMP18321                                                          19.2    2.1  
+  DRAMP18355                                                          18.1    7.4  
+  DRAMP12864                                                          18.1    7.4  
+  DRAMP00257                                                          18.1    7.4  
+  DRAMP19008                                                          17.3    8.6  
+  DRAMP05288                                                          17.3    8.6  
+
+
+> DRAMP22885
+Length=21
+
+ Score = 21.2 bits (43),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  2   ITFLSLKLKRAAFLAWRRRRS  22
+           I+FL   L+  AFL  RR R+
+Sbjct  1   ISFLCFGLRFTAFLCLRRLRN  21
+
+
+> DRAMP18321
+Length=51
+
+ Score = 19.2 bits (38),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  2   ITFLSLKLKRAAFLAWRRRRS  22
+           I FL+ K ++   LAW+R+ +
+Sbjct  8   IQFLATKGQKYVSLAWKRKGT  28
+
+
+> DRAMP18355
+Length=51
+
+ Score = 18.1 bits (35),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 7/21 (33%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  2   ITFLSLKLKRAAFLAWRRRRS  22
+           I FL+ K ++   LAW+ + +
+Sbjct  8   IQFLATKGQKYVSLAWKHKGT  28
+
+
+> DRAMP12864
+Length=51
+
+ Score = 18.1 bits (35),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 7/21 (33%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  2   ITFLSLKLKRAAFLAWRRRRS  22
+           I FL+ K ++   LAW+ + +
+Sbjct  8   IQFLATKGQKYVSLAWKHKGT  28
+
+
+> DRAMP00257
+Length=51
+
+ Score = 18.1 bits (35),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 7/21 (33%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  2   ITFLSLKLKRAAFLAWRRRRS  22
+           I FL+ K ++   LAW+ + +
+Sbjct  8   IQFLATKGQKYVSLAWKHKGT  28
+
+
+> DRAMP19008
+Length=13
+
+ Score = 17.3 bits (33),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 6/12 (50%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  9   LKRAAFLAWRRR  20
+           LK+  F  WRR+
+Sbjct  2   LKKFPFWPWRRK  13
+
+
+> DRAMP05288
+Length=13
+
+ Score = 17.3 bits (33),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 6/12 (50%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  9   LKRAAFLAWRRR  20
+           LK+  F  WRR+
+Sbjct  2   LKKFPFWPWRRK  13
+
+
+
+Lambda      K        H        a         alpha
+   0.340    0.137    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15319832
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

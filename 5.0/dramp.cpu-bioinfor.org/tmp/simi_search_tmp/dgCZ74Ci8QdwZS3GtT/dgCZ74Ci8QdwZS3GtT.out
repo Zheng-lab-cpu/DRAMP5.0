@@ -1,0 +1,194 @@
+# /var/www/dramp/cgi-bin/seq-search/bin/ssearch35 -Q -s PAM120 -b 10 -d 10 -E 20.0 -T 8 /var/www/dramp/tmp/simi_search_tmp/dgCZ74Ci8QdwZS3GtT/dgCZ74Ci8QdwZS3GtT.in /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+***WARNING*** cannot open scoring matrix file PAM120
+SSEARCH searches a sequence data bank
+ version 36.05 March, 2010
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: /var/www/dramp/tmp/simi_search_tmp/dgCZ74Ci8QdwZS3GtT/dgCZ74Ci8QdwZS3GtT.in
+  1>>>PEPTIDE - 11 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+       opt      E()
+< 20     8     0:=
+  22     7     0:=          one = represents 48 library sequences
+  24     5     0:=
+  26    27     1:*
+  28    43     6:*
+  30    88    39:*=
+  32   236   151:===*=
+  34   430   408:========*
+  36   963   839:=================*===
+  38  1598  1386:============================*=====
+  40  2236  1934:========================================*======
+  42  2129  2364:=============================================    *
+  44  2843  2608:======================================================*=====
+  46  2489  2656:====================================================   *
+  48  2264  2543:================================================    *
+  50  2037  2320:===========================================     *
+  52  2028  2040:==========================================*
+  54  1671  1742:=================================== *
+  56  1208  1455:==========================    *
+  58  1151  1195:========================*
+  60   871   968:=================== *
+  62   727   776:================*
+  64   596   617:============*
+  66   596   488:==========*==
+  68   383   384:=======*
+  70   236   301:===== *
+  72   386   235:====*====
+  74   259   183:===*==
+  76   181   143:==*=
+  78   142   111:==*
+  80   119    86:=*=
+  82    82    66:=*
+  84    62    52:=*
+  86    55    40:*=
+  88    48    31:*          inset = represents 1 library sequences
+  90    16    24:*
+  92    18    19:*         :==================*
+  94     9    14:*         :=========    *
+  96    10    11:*         :==========*
+  98     2     9:*         :==      *
+ 100     5     7:*         :===== *
+ 102     1     5:*         :=   *
+ 104     3     4:*         :===*
+ 106     0     3:*         :  *
+ 108     6     2:*         :=*====
+ 110     0     2:*         : *
+ 112     0     1:*         :*
+ 114     0     1:*         :*
+ 116     0     1:*         :*
+ 118     0     1:*         :*
+>120     0     1:*         :*
+   696332 residues in 28274 sequences
+Statistics: MLE_cen statistics: Lambda= 0.3096;  K=0.1375 (cen=999)
+ statistics sampled from 28274 (28274) to 28274 sequences
+ Kolmogorov-Smirnov  statistic: 0.0308 (N=29) at  44
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.1 Aug 2009)
+Parameters: BL50 matrix (15:-5), open/ext: -10/-2
+ Scan time:  0.040
+
+The best scores are:                                      s-w bits E(28274)
+DRAMP01839                                         (  24)   38 19.8       8
+DRAMP01837                                         (  24)   38 19.8       8
+DRAMP01846                                         (  24)   38 19.8       8
+DRAMP01845                                         (  24)   38 19.8       8
+DRAMP01844                                         (  24)   38 19.8       8
+DRAMP01843                                         (  24)   38 19.8       8
+DRAMP21269                                         (  16)   35 18.5      13
+DRAMP03696                                         (  58)   39 20.3      14
+DRAMP04307                                         (  18)   35 18.5      15
+DRAMP21195                                         (  20)   35 18.5      17
+
+>>DRAMP01839                                              (24 aa)
+ s-w opt:  38  Z-score: 109.2  bits: 19.8 E(28274):    8
+Smith-Waterman score: 38; 100.0% identity (100.0% similar) in 7 aa overlap (2-8:10-16)
+
+                       10      
+PEPTID         LAKKLIKTNLA     
+                :::::::        
+DRAMP0 GFKDWIKSAAKKLIKTVASNIANQ
+               10        20    
+
+>>DRAMP01837                                              (24 aa)
+ s-w opt:  38  Z-score: 109.2  bits: 19.8 E(28274):    8
+Smith-Waterman score: 38; 100.0% identity (100.0% similar) in 7 aa overlap (2-8:10-16)
+
+                       10      
+PEPTID         LAKKLIKTNLA     
+                :::::::        
+DRAMP0 GFKDWIKGAAKKLIKTVASNIANQ
+               10        20    
+
+>>DRAMP01846                                              (24 aa)
+ s-w opt:  38  Z-score: 109.2  bits: 19.8 E(28274):    8
+Smith-Waterman score: 38; 100.0% identity (100.0% similar) in 7 aa overlap (2-8:10-16)
+
+                       10      
+PEPTID         LAKKLIKTNLA     
+                :::::::        
+DRAMP0 GFKDWIKGAAKKLIKTVASSIANQ
+               10        20    
+
+>>DRAMP01845                                              (24 aa)
+ s-w opt:  38  Z-score: 109.2  bits: 19.8 E(28274):    8
+Smith-Waterman score: 38; 100.0% identity (100.0% similar) in 7 aa overlap (2-8:10-16)
+
+                       10      
+PEPTID         LAKKLIKTNLA     
+                :::::::        
+DRAMP0 GFKDWIKGAAKKLIKTVASSIANE
+               10        20    
+
+>>DRAMP01844                                              (24 aa)
+ s-w opt:  38  Z-score: 109.2  bits: 19.8 E(28274):    8
+Smith-Waterman score: 38; 100.0% identity (100.0% similar) in 7 aa overlap (2-8:10-16)
+
+                       10      
+PEPTID         LAKKLIKTNLA     
+                :::::::        
+DRAMP0 GIKDWIKGAAKKLIKTVASNIANQ
+               10        20    
+
+>>DRAMP01843                                              (24 aa)
+ s-w opt:  38  Z-score: 109.2  bits: 19.8 E(28274):    8
+Smith-Waterman score: 38; 100.0% identity (100.0% similar) in 7 aa overlap (2-8:10-16)
+
+                       10      
+PEPTID         LAKKLIKTNLA     
+                :::::::        
+DRAMP0 GFKDWIKGAAKKLIKTVAANIANQ
+               10        20    
+
+>>DRAMP21269                                              (16 aa)
+ s-w opt:  35  Z-score: 105.1  bits: 18.5 E(28274):   13
+Smith-Waterman score: 35; 85.7% identity (100.0% similar) in 7 aa overlap (1-7:7-13)
+
+                     10 
+PEPTID       LAKKLIKTNLA
+             :::::.:    
+DRAMP2 LKKLLKLAKKLLKLAG 
+               10       
+
+>>DRAMP03696                                              (58 aa)
+ s-w opt:  39  Z-score: 104.7  bits: 20.3 E(28274):   14
+Smith-Waterman score: 39; 54.5% identity (100.0% similar) in 11 aa overlap (1-11:9-19)
+
+                       10                                        
+PEPTID         LAKKLIKTNLA                                       
+               ..:::.:..::                                       
+DRAMP0 GWWNAFKSIGKKLLKSKLAKDITKMAKQRAKEYVVKKLNGPPEEEVAAIDALMNSLDY
+               10        20        30        40        50        
+
+>>DRAMP04307                                              (18 aa)
+ s-w opt:  35  Z-score: 104.2  bits: 18.5 E(28274):   15
+Smith-Waterman score: 35; 70.0% identity (70.0% similar) in 10 aa overlap (1-10:8-17)
+
+                      10 
+PEPTID        LAKKLIKTNLA
+              ::::: :  : 
+DRAMP0 FASLLGKLAKKLAKKALK
+               10        
+
+>>DRAMP21195                                              (20 aa)
+ s-w opt:  35  Z-score: 103.4  bits: 18.5 E(28274):   17
+Smith-Waterman score: 35; 85.7% identity (100.0% similar) in 7 aa overlap (2-8:5-11)
+
+                  10       
+PEPTID    LAKKLIKTNLA      
+           :::.:::         
+DRAMP2 GATYAKKIIKTITKIATTAW
+               10        20
+
+
+
+11 residues in 1 query   sequences
+696332 residues in 28274 library sequences
+ Scomplib [36.05]
+ start: Tue May  5 18:53:35 2026 done: Tue May  5 18:53:35 2026
+ Total Scan time:  0.040 Total Display time:  0.000
+
+Function used was SSEARCH [version 36.05 March, 2010]

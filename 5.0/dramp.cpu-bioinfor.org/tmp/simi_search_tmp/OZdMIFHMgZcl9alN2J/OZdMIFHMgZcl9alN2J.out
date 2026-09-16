@@ -1,0 +1,29 @@
+***WARNING*** cannot open scoring matrix file BL45
+# ../../cgi-bin/seq-search/bin/fasta36 -Q -s BL45 -b 10 -d 10 -E 0.005 -T 8 ../../tmp/simi_search_tmp/OZdMIFHMgZcl9alN2J/OZdMIFHMgZcl9alN2J.in ./database/DRAMP.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.6 Sep, 2013(preload9)
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: ../../tmp/simi_search_tmp/OZdMIFHMgZcl9alN2J/OZdMIFHMgZcl9alN2J.in
+  1>>>1 - 13 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.5685+/-0.000385; mu= 8.5988+/- 0.013
+ mean_var=18.0364+/- 4.666, 0's: 4560 Z-trim(123.6): 4561  B-trim: 0 in 0/24
+ Lambda= 0.301995
+ statistics sampled from 25230 (25231) to 25230 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL50 matrix (15:-5), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.994), E-opt: 0.2 (0.892), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.005
+
+13 residues in 1 query   sequences
+696332 residues in 28274 library sequences
+ Tcomplib [36.3.6 Sep, 2013(preload9)] (8 proc in memory [0G])
+ start: Sun Jul 13 00:03:21 2025 done: Sun Jul 13 00:03:21 2025
+ Total Scan time:  0.080 Total Display time:  0.000
+
+Function used was FASTA [36.3.6 Sep, 2013(preload9)]

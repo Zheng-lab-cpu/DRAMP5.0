@@ -1,0 +1,113 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 1
+
+Length=29
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP29208                                                          21.6    0.35 
+  DRAMP29209                                                          21.2    0.37 
+  DRAMP29206                                                          21.2    0.40 
+  DRAMP29207                                                          18.9    2.6  
+  DRAMP02835                                                          18.5    5.3  
+
+
+> DRAMP29208
+Length=27
+
+ Score = 21.6 bits (44),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  2   ALEEKYGGFLDK  13
+           ALEE+Y  FLDK
+Sbjct  2   ALEEQYKTFLDK  13
+
+
+> DRAMP29209
+Length=27
+
+ Score = 21.2 bits (43),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 14/23 (61%), Gaps = 1/23 (4%)
+
+Query  2   ALEEKYGGFLDKSHKSIVEDYTY  24
+           ALEE+Y  FLDK    + ED  Y
+Sbjct  2   ALEEQYKTFLDKFMHEL-EDLLY  23
+
+
+> DRAMP29206
+Length=29
+
+ Score = 21.2 bits (43),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  2   ALEEKYGGFLDK  13
+           ALEE+Y  FLDK
+Sbjct  2   ALEEQYKTFLDK  13
+
+
+> DRAMP29207
+Length=27
+
+ Score = 18.9 bits (37),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 13/23 (57%), Gaps = 1/23 (4%)
+
+Query  2   ALEEKYGGFLDKSHKSIVEDYTY  24
+           ALEE+   FLDK    + ED  Y
+Sbjct  2   ALEEQLKTFLDKFMHEL-EDLLY  23
+
+
+> DRAMP02835
+Length=29
+
+ Score = 18.5 bits (36),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 5/9 (56%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  3   LEEKYGGFL  11
+           +E++YGGF+
+Sbjct  21  MEKRYGGFM  29
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17274816
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

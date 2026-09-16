@@ -1,0 +1,148 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=12
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP19008                                                            17.7    3.3  
+DRAMP05288                                                            17.7    3.3  
+DRAMP19009                                                            17.7    3.8  
+DRAMP05287                                                            17.7    3.8  
+DRAMP19010                                                            16.9    6.9  
+DRAMP05286                                                            16.9    6.9  
+DRAMP20296                                                            16.5    9.5  
+DRAMP10776                                                            16.5    9.5  
+
+
+>DRAMP19008
+Length=13
+
+ Score = 17.7 bits (34),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  2   LKRFKIVPWRR  12
+           LK+F   PWRR
+Sbjct  2   LKKFPFWPWRR  12
+
+
+>DRAMP05288
+Length=13
+
+ Score = 17.7 bits (34),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  2   LKRFKIVPWRR  12
+           LK+F   PWRR
+Sbjct  2   LKKFPFWPWRR  12
+
+
+>DRAMP19009
+Length=13
+
+ Score = 17.7 bits (34),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  2   LKRFKIVPWRR  12
+           LK+F   PWRR
+Sbjct  2   LKKFPWFPWRR  12
+
+
+>DRAMP05287
+Length=13
+
+ Score = 17.7 bits (34),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  2   LKRFKIVPWRR  12
+           LK+F   PWRR
+Sbjct  2   LKKFPWFPWRR  12
+
+
+>DRAMP19010
+Length=13
+
+ Score = 16.9 bits (32),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 6/11 (55%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  2   LKRFKIVPWRR  12
+           LK++   PWRR
+Sbjct  2   LKKYPWYPWRR  12
+
+
+>DRAMP05286
+Length=13
+
+ Score = 16.9 bits (32),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 6/11 (55%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  2   LKRFKIVPWRR  12
+           LK++   PWRR
+Sbjct  2   LKKYPWYPWRR  12
+
+
+>DRAMP20296
+Length=9
+
+ Score = 16.5 bits (31),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  5   FKIVPWRR  12
+           FKIV WRR
+Sbjct  1   FKIVWWRR  8
+
+
+>DRAMP10776
+Length=9
+
+ Score = 16.5 bits (31),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  5   FKIVPWRR  12
+           FKIV WRR
+Sbjct  1   FKIVWWRR  8
+
+
+
+Lambda      K        H        a         alpha
+   0.342    0.151    0.571    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8356272
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

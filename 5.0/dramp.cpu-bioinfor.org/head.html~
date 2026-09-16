@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<title>Welcome To Dramp Database</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./css/sf.css" type="text/css">
+ 	<link rel="stylesheet" type="text/css" href="./head_css/global.css" media="all">
+ 	<link rel="stylesheet" type="text/css" href="./head_css/sfx.css" media="all">
+ 	<link rel="stylesheet" type="text/css" href="./css/style.css" media="all">
+</head>
+
+<body id="pg_index" class="">
+	<div style="display: none;" id="busy-spinner"></div>
+	<div id="site-header">
+    <div class="wrapper">
+        <a href="./" class="logo">
+            <span>DRAMP</span>
+        </a>
+        <form method="get" action="/directory/">
+            <input id="words" name="q" placeholder="Search" type="text">
+        </form>
+        <!--Switch to {language}-->
+        <nav id="nav-site">
+            <a href="http://sourceforge.net/directory/" title="Browse our Databases.">Browse</a>
+            <a href="http://sourceforge.net/directory/enterprise" title="The Statistics Of Our Databases.">Statistics</a>
+            <a href="http://sourceforge.net/blog/" title="DownLoad  General .">DownLoads</a>
+            <a href="http://sourceforge.net/support" title="Contact us for help and feedback.">Help</a>
+            <a href="http://sourceforge.net/jobs?source=header" title="Search 80k+ tech jobs." class="featured-link">QuickLink</a>
+        </nav>
+        <nav id="nav-account">
+              <div class="logged_out">
+                <a href="#">Log In</a>
+                <span>or</span>
+                <a href="#">Submit</a>
+              </div>
+        </nav>
+    </div>
+	</div>
+</body>
+</html>

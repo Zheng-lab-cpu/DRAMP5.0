@@ -1,0 +1,89 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= AMP_1
+
+Length=48
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP14910                                                            19.6    6.0  
+DRAMP14909                                                            19.6    7.5  
+DRAMP05383                                                            19.2    10.0 
+
+
+>DRAMP14910
+Length=55
+
+ Score = 19.6 bits (39),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  9   FIDGTRQCGVGASYGGYLMNW  29
+           F  G+RQC V +S+ G +  +
+Sbjct  13  FGKGSRQCRVCSSHTGLVRKY  33
+
+
+>DRAMP14909
+Length=55
+
+ Score = 19.6 bits (39),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 7/18 (39%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  12  GTRQCGVGASYGGYLMNW  29
+           G+RQC V +S+ G +  +
+Sbjct  16  GSRQCRVCSSHTGLIRKY  33
+
+
+>DRAMP05383
+Length=56
+
+ Score = 19.2 bits (38),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 10/21 (48%), Gaps = 0/21 (0%)
+
+Query  9   FIDGTRQCGVGASYGGYLMNW  29
+           F DGT QC V  ++      W
+Sbjct  11  FEDGTSQCLVVGNFSSPTNAW  31
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.145    0.511    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17233710
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

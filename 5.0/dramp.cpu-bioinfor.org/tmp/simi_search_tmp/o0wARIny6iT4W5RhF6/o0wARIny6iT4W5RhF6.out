@@ -1,0 +1,305 @@
+# /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/bin/ssearch35 -Q -s BL80 -b 50 -d 50 -E 20.0 -F 10 -T 8 /www/wwwroot/dramp.cpu-bioinfor.org/tmp/simi_search_tmp/o0wARIny6iT4W5RhF6/o0wARIny6iT4W5RhF6.in /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+SSEARCH searches a sequence data bank
+ version 36.05 March, 2010
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: /www/wwwroot/dramp.cpu-bioinfor.org/tmp/simi_search_tmp/o0wARIny6iT4W5RhF6/o0wARIny6iT4W5RhF6.in
+  1>>>Arenicin-1 - 21 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+       opt      E()
+< 20  4703     0:============================================================
+  22     1     0:=          one = represents 79 library sequences
+  24     2     0:=
+  26    17     1:*
+  28    58     6:*
+  30   104    39:*=
+  32   209   151:=*=
+  34   439   408:=====*
+  36   727   838:==========*
+  38   865  1386:===========      *
+  40  1426  1933:===================     *
+  42  2311  2363:=============================*
+  44  2490  2606:================================*
+  46  2390  2655:===============================  *
+  48  1999  2541:==========================      *
+  50  1732  2319:======================       *
+  52  1485  2039:===================      *
+  54  1111  1742:===============       *
+  56  1138  1455:===============   *
+  58  1133  1194:===============*
+  60   824   967:=========== *
+  62   682   776:=========*
+  64   382   617:=====  *
+  66   287   488:====  *
+  68   299   383:====*
+  70   215   301:===*
+  72   164   235:==*
+  74   126   183:==*
+  76   159   143:=*=
+  78   113   111:=*
+  80   106    86:=*
+  82    77    66:*
+  84    60    52:*
+  86   113    40:*=
+  88    54    31:*          inset = represents 1 library sequences
+  90    39    24:*
+  92    34    19:*         :==================*===============
+  94    23    14:*         :=============*=========
+  96    27    11:*         :==========*================
+  98    19     9:*         :========*==========
+ 100    21     7:*         :======*==============
+ 102    19     5:*         :====*==============
+ 104    12     4:*         :===*========
+ 106     7     3:*         :==*====
+ 108    12     2:*         :=*==========
+ 110     8     2:*         :=*======
+ 112     8     1:*         :*=======
+ 114    13     1:*         :*============
+ 116     9     1:*         :*========
+ 118     5     1:*         :*====
+>120    17     1:*         :*================
+   696332 residues in 28274 sequences
+Statistics:  Expectation_n fit: rho(ln(x))= 1.6333+/-0.000373; mu= 9.4761+/- 0.012
+ mean_var=18.7838+/- 5.878, 0's: 4698 Z-trim: 4707  B-trim: 6108 in 1/23
+ Lambda= 0.295926
+ statistics sampled from 28260 (28274) to 28260 sequences
+ Kolmogorov-Smirnov  statistic: 0.2125 (N=29) at  74
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.1 Aug 2009)
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ Scan time:  0.050
+
+The best scores are:                                      s-w bits E(28274)
+DRAMP11327                                         (  21)   39 20.1      11
+DRAMP11638                                         (  21)   39 20.1      11
+DRAMP11357                                         (  21)   39 20.1      11
+DRAMP11754                                         (  21)   39 20.1      11
+DRAMP11716                                         (  21)   39 20.1      11
+DRAMP11667                                         (  21)   39 20.1      11
+DRAMP11492                                         (  21)   39 20.1      11
+DRAMP11411                                         (  21)   38 19.7      15
+DRAMP11332                                         (  21)   38 19.7      15
+DRAMP11340                                         (  21)   38 19.7      15
+DRAMP11440                                         (  21)   38 19.7      15
+DRAMP11316                                         (  21)   38 19.7      15
+DRAMP11688                                         (  21)   38 19.7      15
+DRAMP11747                                         (  21)   38 19.7      15
+DRAMP11661                                         (  21)   38 19.7      15
+DRAMP11829                                         (  21)   38 19.7      15
+DRAMP11324                                         (  21)   38 19.7      15
+DRAMP11679                                         (  21)   38 19.7      15
+DRAMP07941                                         (  12)   37 18.8      15
+DRAMP18145                                         (  33)   38 20.0      19
+
+>>DRAMP11327                                              (21 aa)
+ s-w opt:  39  Z-score: 106.6  bits: 20.1 E(28274):   11
+Smith-Waterman score: 39; 50.0% identity (61.1% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         : :. :   :. : :::: 
+DRAMP1 GFCWYVCVYRNGLRVCYRRCN
+               10        20 
+
+>>DRAMP11638                                              (21 aa)
+ s-w opt:  39  Z-score: 106.6  bits: 20.1 E(28274):   11
+Smith-Waterman score: 39; 50.0% identity (61.1% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         : :: .   :: . :::: 
+DRAMP1 GFCWYACAYRNGVRACYRRCN
+               10        20 
+
+>>DRAMP11357                                              (21 aa)
+ s-w opt:  39  Z-score: 106.6  bits: 20.1 E(28274):   11
+Smith-Waterman score: 39; 50.0% identity (61.1% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         : :. :   :: . :::: 
+DRAMP1 GFCSYVCVYRNGVRACYRRCN
+               10        20 
+
+>>DRAMP11754                                              (21 aa)
+ s-w opt:  39  Z-score: 106.6  bits: 20.1 E(28274):   11
+Smith-Waterman score: 39; 44.4% identity (66.7% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         : .. .:  :: : .::: 
+DRAMP1 GFCFHVCARRNGVRVCHRRCN
+               10        20 
+
+>>DRAMP11716                                              (21 aa)
+ s-w opt:  39  Z-score: 106.6  bits: 20.1 E(28274):   11
+Smith-Waterman score: 39; 55.6% identity (55.6% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         :  : ::  ::   :::: 
+DRAMP1 GFCWRACVRRNGVRKCYRRCN
+               10        20 
+
+>>DRAMP11667                                              (21 aa)
+ s-w opt:  39  Z-score: 106.6  bits: 20.1 E(28274):   11
+Smith-Waterman score: 39; 50.0% identity (61.1% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         :  . .:  :: : :::: 
+DRAMP1 GFCFNVCARRNGVRVCYRRCN
+               10        20 
+
+>>DRAMP11492                                              (21 aa)
+ s-w opt:  39  Z-score: 106.6  bits: 20.1 E(28274):   11
+Smith-Waterman score: 39; 50.0% identity (66.7% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         ::.. :   :: : .::: 
+DRAMP1 GFCVHVCVYRNGVRVCHRRCN
+               10        20 
+
+>>DRAMP11411                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 47.4% identity (57.9% similar) in 19 aa overlap (2-20:2-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+        ::  . :   :: : .::: 
+DRAMP1 GWCWNVCVYRNGVRVCHRRCN
+               10        20 
+
+>>DRAMP11332                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 50.0% identity (61.1% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         : :. :   :: . :::: 
+DRAMP1 GFCWYVCVYRNGVRACYRRCN
+               10        20 
+
+>>DRAMP11340                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 50.0% identity (61.1% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         : :. :   :: . :::: 
+DRAMP1 GFCWYVCVYRNGVRTCYRRCN
+               10        20 
+
+>>DRAMP11440                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 47.4% identity (63.2% similar) in 19 aa overlap (3-21:3-21)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         : .. :   :: : ::::.
+DRAMP1 GFCGHVCVYRNGVRVCYRRCY
+               10        20 
+
+>>DRAMP11316                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 57.9% identity (57.9% similar) in 19 aa overlap (2-20:4-20)
+
+                 10        20 
+Arenic   RWCVYAYVRVRGVLVRYRRCW
+          : : ::    :: : :::: 
+DRAMP1 GFCWYVCAYR--NGVRVCYRRCN
+               10          20 
+
+>>DRAMP11688                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 44.4% identity (66.7% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         : .. .:  :. : :::: 
+DRAMP1 GFCWHVCARRNGARVCYRRCN
+               10        20 
+
+>>DRAMP11747                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 44.4% identity (61.1% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         : :. .:  :.   :::: 
+DRAMP1 GFCWYVCARRNGLRSCYRRCN
+               10        20 
+
+>>DRAMP11661                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 50.0% identity (61.1% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         :. . ::  ::   :::: 
+DRAMP1 GFCARVCVRRNGVRSCYRRCN
+               10        20 
+
+>>DRAMP11829                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 50.0% identity (55.6% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         :  : .:  ::   :::: 
+DRAMP1 GFCFRACARRNGVRSCYRRCN
+               10        20 
+
+>>DRAMP11324                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 50.0% identity (61.1% similar) in 18 aa overlap (3-20:3-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+         : :. :   :. : :::: 
+DRAMP1 GFCWYVCVYRNGARVCYRRCN
+               10        20 
+
+>>DRAMP11679                                              (21 aa)
+ s-w opt:  38  Z-score: 104.3  bits: 19.7 E(28274):   15
+Smith-Waterman score: 38; 61.5% identity (69.2% similar) in 13 aa overlap (8-20:8-20)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+              ::  :. : :::: 
+DRAMP1 GFCGKVCVRRNGLRVCYRRCN
+               10        20 
+
+>>DRAMP07941                                              (12 aa)
+ s-w opt:  37  Z-score: 104.1  bits: 18.8 E(28274):   15
+Smith-Waterman score: 37; 63.6% identity (81.8% similar) in 11 aa overlap (9-19:2-12)
+
+               10        20 
+Arenic RWCVYAYVRVRGVLVRYRRCW
+               : : :..::::  
+DRAMP0        RRWRIVVIRYRR  
+                      10    
+
+>>DRAMP18145                                              (33 aa)
+ s-w opt:  38  Z-score: 102.6  bits: 20.0 E(28274):   19
+Smith-Waterman score: 38; 83.3% identity (100.0% similar) in 6 aa overlap (1-6:27-32)
+
+                                         10        20 
+Arenic                           RWCVYAYVRVRGVLVRYRRCW
+                                 .:::::               
+DRAMP1 ECGGLMTRCDGKTTFCCSGMNCSPTWKWCVYAP              
+               10        20        30                 
+
+
+
+21 residues in 1 query   sequences
+696332 residues in 28274 library sequences
+ Scomplib [36.05]
+ start: Thu Aug  6 17:30:04 2026 done: Thu Aug  6 17:30:05 2026
+ Total Scan time:  0.050 Total Display time:  0.000
+
+Function used was SSEARCH [version 36.05 March, 2010]

@@ -1,0 +1,405 @@
+# /var/www/dramp/cgi-bin/seq-search/bin/fasta36 -Q -s BL62 -b 1000 -d 1000 -E 0.005 -T 8 /var/www/dramp/tmp/simi_search_tmp/8Y6BpvWs8nFUCDYskJ/8Y6BpvWs8nFUCDYskJ.in /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.6 Sep, 2013(preload9)
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: /var/www/dramp/tmp/simi_search_tmp/8Y6BpvWs8nFUCDYskJ/8Y6BpvWs8nFUCDYskJ.in
+  1>>>peptide_1 - 11 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 1.5331+/-0.000416; mu= 7.7890+/- 0.014
+ mean_var=11.4233+/- 2.844, 0's: 3416 Z-trim(119.8): 3416  B-trim: 0 in 0/24
+ Lambda= 0.379470
+ statistics sampled from 19681 (19681) to 19681 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.978), E-opt: 0.2 (0.696), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.005
+  2>>>peptide_2 - 12 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 1.5767+/-0.000426; mu= 7.9178+/- 0.014
+ mean_var=9.9884+/- 2.631, 0's: 3626 Z-trim(118.8): 3627  B-trim: 611 in 1/23
+ Lambda= 0.405813
+ statistics sampled from 18061 (18062) to 18061 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.978), E-opt: 0.2 (0.667), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.005
+  3>>>peptide_3 - 13 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 1.8288+/-0.000436; mu= 7.6830+/- 0.014
+ mean_var=10.1355+/- 2.880, 0's: 3990 Z-trim(119.4): 3990  B-trim: 595 in 1/23
+ Lambda= 0.402858
+ statistics sampled from 19316 (19316) to 19316 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.982), E-opt: 0.2 (0.673), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.005
+  4>>>peptide_4 - 14 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.0950+/-0.000414; mu= 8.3206+/- 0.013
+ mean_var=11.7901+/- 3.538, 0's: 4449 Z-trim(121.0): 4449  B-trim: 0 in 0/24
+ Lambda= 0.373521
+ statistics sampled from 22709 (22709) to 22709 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.985), E-opt: 0.2 (0.705), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.005
+  5>>>peptide_5 - 15 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.0352+/-0.000481; mu= 4.7556+/- 0.016
+ mean_var=8.1732+/- 2.284, 0's: 3715 Z-trim(118.5): 3715  B-trim: 0 in 0/24
+ Lambda= 0.448620
+ statistics sampled from 16941 (16941) to 16941 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.986), E-opt: 0.2 (0.684), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.005
+  6>>>peptide_6 - 16 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.3428+/-0.000505; mu= 4.2761+/- 0.016
+ mean_var=9.7633+/- 2.775, 0's: 4209 Z-trim(118.2): 4211  B-trim: 1999 in 1/23
+ Lambda= 0.410464
+ statistics sampled from 16724 (16724) to 16724 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.988), E-opt: 0.2 (0.669), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.005
+  7>>>peptide_7 - 17 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.3821+/-0.000515; mu= 4.0233+/- 0.016
+ mean_var=6.6093+/- 2.049, 0's: 3742 Z-trim(118.0): 3743  B-trim: 0 in 0/24
+ Lambda= 0.498879
+ statistics sampled from 16611 (16611) to 16611 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.988), E-opt: 0.2 (0.657), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.005
+  8>>>peptide_8 - 18 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.8107+/-0.000532; mu= 2.8163+/- 0.016
+ mean_var=6.5275+/- 2.035, 0's: 4041 Z-trim(117.7): 4041  B-trim: 417 in 1/23
+ Lambda= 0.501996
+ statistics sampled from 16182 (16182) to 16182 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.989), E-opt: 0.2 (0.646), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.005
+  9>>>peptide_9 - 19 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.4688+/-0.000524; mu= 4.9976+/- 0.017
+ mean_var=10.0937+/- 2.695, 0's: 4321 Z-trim(118.0): 4321  B-trim: 0 in 0/24
+ Lambda= 0.403691
+ statistics sampled from 16938 (16938) to 16938 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.989), E-opt: 0.2 (0.641), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.005
+ 10>>>peptide_10 - 20 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.7862+/-0.000514; mu= 4.4620+/- 0.016
+ mean_var=11.1628+/- 3.212, 0's: 4324 Z-trim(117.8): 4324  B-trim: 704 in 1/23
+ Lambda= 0.383873
+ statistics sampled from 16815 (16815) to 16815 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.989), E-opt: 0.2 (0.637), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.005
+ 11>>>peptide_11 - 21 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 4.8449+/-0.000502; mu= 0.0623+/- 0.016
+ mean_var=6.4396+/- 1.669, 0's: 3851 Z-trim(117.1): 3853  B-trim: 408 in 1/23
+ Lambda= 0.505413
+ statistics sampled from 15493 (15495) to 15493 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.99), E-opt: 0.2 (0.629), width:  16
+ Scan time:  0.090
+!! No sequences with E() < 0.005
+ 12>>>peptide_12 - 22 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 4.6270+/-0.000539; mu= 1.2503+/- 0.018
+ mean_var=7.5238+/- 2.371, 0's: 2895 Z-trim(116.4): 2896  B-trim: 0 in 0/24
+ Lambda= 0.467578
+ statistics sampled from 14393 (14394) to 14393 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.989), E-opt: 0.2 (0.619), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.005
+ 13>>>peptide_13 - 23 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 4.3183+/-0.000455; mu= 3.5422+/- 0.015
+ mean_var=11.5309+/- 2.914, 0's: 4309 Z-trim(118.9): 4310  B-trim: 0 in 0/24
+ Lambda= 0.377697
+ statistics sampled from 19568 (19569) to 19568 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.989), E-opt: 0.2 (0.624), width:  16
+ Scan time:  0.090
+!! No sequences with E() < 0.005
+ 14>>>peptide_14 - 24 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 4.3951+/-0.000444; mu= 3.6350+/- 0.014
+ mean_var=14.6149+/- 3.910, 0's: 4297 Z-trim(119.2): 4297  B-trim: 0 in 0/24
+ Lambda= 0.335487
+ statistics sampled from 20178 (20178) to 20178 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.989), E-opt: 0.2 (0.631), width:  16
+ Scan time:  0.100
+!! No sequences with E() < 0.005
+ 15>>>peptide_15 - 25 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 5.4863+/-0.000542; mu= -0.8695+/- 0.018
+ mean_var=8.9981+/- 2.439, 0's: 3029 Z-trim(116.1): 3035  B-trim: 323 in 1/23
+ Lambda= 0.427563
+ statistics sampled from 13780 (13786) to 13780 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.989), E-opt: 0.2 (0.621), width:  16
+ Scan time:  0.090
+!! No sequences with E() < 0.005
+ 16>>>peptide_16 - 26 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 5.2781+/-0.000474; mu= -0.0087+/- 0.015
+ mean_var=9.1476+/- 2.478, 0's: 4274 Z-trim(118.2): 4279  B-trim: 382 in 1/23
+ Lambda= 0.424054
+ statistics sampled from 17918 (17922) to 17918 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.989), E-opt: 0.2 (0.622), width:  16
+ Scan time:  0.100
+!! No sequences with E() < 0.005
+ 17>>>peptide_17 - 27 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 5.0231+/-0.000521; mu= 0.8149+/- 0.017
+ mean_var=8.7502+/- 2.310, 0's: 3032 Z-trim(116.6): 3034  B-trim: 317 in 1/23
+ Lambda= 0.433576
+ statistics sampled from 14736 (14738) to 14736 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.988), E-opt: 0.2 (0.616), width:  16
+ Scan time:  0.090
+!! No sequences with E() < 0.005
+ 18>>>peptide_18 - 28 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 5.5899+/-0.000489; mu= -0.7194+/- 0.016
+ mean_var=8.7364+/- 2.216, 0's: 4195 Z-trim(118.1): 4196  B-trim: 0 in 0/24
+ Lambda= 0.433918
+ statistics sampled from 17842 (17843) to 17842 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.988), E-opt: 0.2 (0.617), width:  16
+ Scan time:  0.100
+!! No sequences with E() < 0.005
+ 19>>>peptide_19 - 29 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 4.6541+/-0.000574; mu= 2.3822+/- 0.018
+ mean_var=8.1650+/- 2.490, 0's: 3379 Z-trim(116.0): 3379  B-trim: 266 in 1/23
+ Lambda= 0.448845
+ statistics sampled from 13926 (13926) to 13926 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.988), E-opt: 0.2 (0.61), width:  16
+ Scan time:  0.090
+!! No sequences with E() < 0.005
+ 20>>>peptide_20 - 30 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 5.5590+/-0.00053; mu= -0.4377+/- 0.017
+ mean_var=9.3899+/- 2.281, 0's: 3463 Z-trim(116.4): 3463  B-trim: 0 in 0/24
+ Lambda= 0.418546
+ statistics sampled from 14679 (14679) to 14679 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.988), E-opt: 0.2 (0.606), width:  16
+ Scan time:  0.100
+!! No sequences with E() < 0.005
+ 21>>>peptide_21 - 31 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 5.4836+/-0.000549; mu= 0.2077+/- 0.018
+ mean_var=8.9032+/- 2.152, 0's: 3219 Z-trim(116.1): 3220  B-trim: 178 in 1/23
+ Lambda= 0.429834
+ statistics sampled from 14237 (14238) to 14237 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.987), E-opt: 0.2 (0.601), width:  16
+ Scan time:  0.100
+!! No sequences with E() < 0.005
+ 22>>>peptide_22 - 32 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 6.0162+/-0.000469; mu= -1.2352+/- 0.015
+ mean_var=10.4948+/- 2.658, 0's: 4339 Z-trim(117.7): 4339  B-trim: 731 in 1/23
+ Lambda= 0.395901
+ statistics sampled from 17507 (17507) to 17507 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.987), E-opt: 0.2 (0.602), width:  16
+ Scan time:  0.110
+!! No sequences with E() < 0.005
+ 23>>>peptide_23 - 33 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 4.8995+/-0.000498; mu= 2.3770+/- 0.016
+ mean_var=9.7918+/- 2.695, 0's: 3557 Z-trim(116.9): 3560  B-trim: 0 in 0/24
+ Lambda= 0.409868
+ statistics sampled from 15757 (15760) to 15757 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.987), E-opt: 0.2 (0.6), width:  16
+ Scan time:  0.100
+!! No sequences with E() < 0.005
+ 24>>>peptide_24 - 34 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 6.0552+/-0.000515; mu= -1.0857+/- 0.016
+ mean_var=11.8948+/- 3.214, 0's: 4157 Z-trim(117.5): 4161  B-trim: 675 in 1/23
+ Lambda= 0.371874
+ statistics sampled from 16972 (16976) to 16972 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.987), E-opt: 0.2 (0.6), width:  16
+ Scan time:  0.110
+!! No sequences with E() < 0.005
+ 25>>>peptide_25 - 35 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 6.2744+/-0.000484; mu= -1.6331+/- 0.016
+ mean_var=12.3467+/- 2.941, 0's: 3436 Z-trim(116.8): 3444  B-trim: 0 in 0/24
+ Lambda= 0.365005
+ statistics sampled from 15598 (15605) to 15598 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.986), E-opt: 0.2 (0.598), width:  16
+ Scan time:  0.100
+!! No sequences with E() < 0.005
+ 26>>>peptide_26 - 36 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 5.2613+/-0.000537; mu= 1.1315+/- 0.017
+ mean_var=8.6410+/- 2.248, 0's: 4284 Z-trim(117.4): 4284  B-trim: 555 in 1/23
+ Lambda= 0.436307
+ statistics sampled from 17010 (17011) to 17010 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.986), E-opt: 0.2 (0.598), width:  16
+ Scan time:  0.110
+!! No sequences with E() < 0.005
+ 27>>>peptide_27 - 37 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 5.7259+/-0.000517; mu= -0.1489+/- 0.017
+ mean_var=11.0734+/- 2.780, 0's: 3286 Z-trim(116.2): 3290  B-trim: 319 in 1/23
+ Lambda= 0.385420
+ statistics sampled from 14641 (14644) to 14641 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.986), E-opt: 0.2 (0.595), width:  16
+ Scan time:  0.110
+!! No sequences with E() < 0.005
+ 28>>>peptide_28 - 38 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 6.2078+/-0.000473; mu= -1.5062+/- 0.015
+ mean_var=11.2253+/- 2.977, 0's: 4084 Z-trim(117.5): 4095  B-trim: 509 in 1/23
+ Lambda= 0.382803
+ statistics sampled from 17268 (17279) to 17268 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.986), E-opt: 0.2 (0.596), width:  16
+ Scan time:  0.110
+!! No sequences with E() < 0.005
+ 29>>>peptide_29 - 39 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 6.0531+/-0.00048; mu= -0.3558+/- 0.015
+ mean_var=14.8145+/- 5.051, 0's: 4299 Z-trim(118.2): 4303  B-trim: 353 in 1/23
+ Lambda= 0.333219
+ statistics sampled from 18773 (18786) to 18773 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.986), E-opt: 0.2 (0.598), width:  16
+ Scan time:  0.110
+!! No sequences with E() < 0.005
+ 30>>>peptide_30 - 47 aa
+Library: /var/www/dramp/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 6.3357+/-0.000506; mu= -2.5789+/- 0.017
+ mean_var=14.0423+/- 3.426, 0's: 2388 Z-trim(116.4): 2389  B-trim: 2659 in 1/23
+ Lambda= 0.342259
+ statistics sampled from 14902 (14903) to 14902 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 2, E-join: 1 (0.98), E-opt: 0.2 (0.596), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 0.005
+
+772 residues in 30 query   sequences
+696332 residues in 28274 library sequences
+ Tcomplib [36.3.6 Sep, 2013(preload9)] (8 proc in memory [0G])
+ start: Tue May  5 17:24:14 2026 done: Tue May  5 17:24:18 2026
+ Total Scan time:  2.700 Total Display time:  0.030
+
+Function used was FASTA [36.3.6 Sep, 2013(preload9)]

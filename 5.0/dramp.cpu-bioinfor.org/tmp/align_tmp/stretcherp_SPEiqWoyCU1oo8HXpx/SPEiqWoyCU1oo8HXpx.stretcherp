@@ -1,0 +1,81 @@
+########################################
+# Program: stretcher
+# Rundate: Mon 16 Mar 2026 11:31:24
+# Commandline: stretcher
+#    -asequence /var/www/dramp/tmp/align_tmp/stretcherp_SPEiqWoyCU1oo8HXpx/SPEiqWoyCU1oo8HXpx_1.in
+#    -bsequence /var/www/dramp/tmp/align_tmp/stretcherp_SPEiqWoyCU1oo8HXpx/SPEiqWoyCU1oo8HXpx_2.in
+#    -datafile EBLOSUM62
+#    -outfile /var/www/dramp/tmp/align_tmp/stretcherp_SPEiqWoyCU1oo8HXpx/SPEiqWoyCU1oo8HXpx.stretcherp
+# Align_format: markx0
+# Report_file: /var/www/dramp/tmp/align_tmp/stretcherp_SPEiqWoyCU1oo8HXpx/SPEiqWoyCU1oo8HXpx.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EBLOSUM62
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 356
+# Identity:     147/356 (41.3%)
+# Similarity:   147/356 (41.3%)
+# Gaps:          70/356 (19.7%)
+# Score: 284
+# 
+#
+#=======================================
+
+               10        20        30        40        50
+       TCTTATTTTTATTTGTTTACATGTCTTTTCTTATTTTAGTGTCCTTAAAA
+           :::::      :   ::     : :::   ::  : :    :    
+       ----ATTTTACAACATAACCAAAATATGTCTGGATT-GGAGAAAGTTTCT
+                   10        20        30         40     
+
+               60        70        80        90       100
+       GGTTGATAATCACTTGCTGAGTGTGTTTCTCAAACAATTTAATTTCAGGA
+            :: : :   :: ::   :: :        ::  :  :: : :   
+       AAAATATCACCTTGTGATGTTAGTTTGGAAACTTCAGATATATGTAAATG
+          50        60        70        80        90     
+
+              110        120       130       140         
+       GCCTACAAGAAAG-TACGAGATTTAGTCAACTTGTTGAAGAGCTATTGAA
+          :: : : ::: : :   : : ::::   :         ::     ::
+       TAGTATAGGGAAGCTTCATAAGTCAGTCTCATC-------TGC-----AA
+         100       110       120              130        
+
+     150       160       170       180       190         
+       AATCATTTGTGCTTTTCAGCTTGACACAGGTTTGGAGTGTAAGTGTTGAA
+       :  : : :: : :::: :::    ::      ::::   :  ::      
+       ATACTTGTGGGATTTTTAGCACAGCAAG----TGGAAAATCTGT------
+           140       150       160           170         
+
+     200       210       220       230       240         
+       TATCCCAAGAATGACACTCAAGTGCTGTCCATGAAAACTCAGGAAGTTTG
+           ::: : ::      ::  ::::       ::::: :: ::      
+       ----CCAGGTAT------CAGATGCTTCATTACAAAACGCAAGA------
+               180             190       200             
+
+     250       260       270       280       290         
+       CACAATTACTTTCTATGACGTGGTGATAAGACCTTTTAGTCTAGGTTAAT
+         ::: :  :::::   :   :  ::::  :::    :  : ::      
+       --CAAGTGTTTTCTGAAATA-GAAGATAGTACC----AAGCAAG------
+         210       220        230           240          
+
+     300       310       320       330       340         
+       TTTAGTTCTGTATCTGTAATCTATTTTTAAAAAATTACTCCCACTGGTCT
+             ::: :  :   ::  :::: :: :::: : ::   ::    :: 
+       ------TCTTTTCC---AAAGTATTGTTTAAAAGTAACGAACAT---TCA
+                250          260       270          280  
+
+     350     
+       CACACC
+        :::  
+       GACAA-
+             
+
+
+#---------------------------------------
+#---------------------------------------

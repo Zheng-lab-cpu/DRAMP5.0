@@ -1,0 +1,5835 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= TrioAMP_LoRA_0001
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP00486                                                            18.5    9.1  
+
+
+>DRAMP00486
+Length=51
+
+ Score = 18.5 bits (36),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  16  AKAAGGWAVVS  26
+           AKA GGW +V 
+Sbjct  4   AKAQGGWYLVE  14
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.119    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0002
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP02590                                                            23.5    0.11 
+DRAMP02587                                                            23.1    0.12 
+DRAMP02589                                                            23.1    0.13 
+DRAMP02588                                                            23.1    0.13 
+DRAMP21013                                                            20.4    1.0  
+DRAMP01200                                                            18.1    7.3  
+
+
+>DRAMP02590
+Length=55
+
+ Score = 23.5 bits (49),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  3   PIIRPIIRPIIRPII  17
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.5 bits (49),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  7   PIIRPIIRPIIRPII  21
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.5 bits (49),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  11  PIIRPIIRPIIRPII  25
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.5 bits (49),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  15  PIIRPIIRPIIRPII  29
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 21.2 bits (43),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   IRPIIRPIIRPII  13
+            RPI+RP +RP++
+Sbjct  8   TRPILRPYVRPVV  20
+
+
+ Score = 19.2 bits (38),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  19  PIIRPIIRPIIR  30
+           P  RPI+RP +R
+Sbjct  6   PYTRPILRPYVR  17
+
+
+>DRAMP02587
+Length=55
+
+ Score = 23.1 bits (48),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  3   PIIRPIIRPIIRPII  17
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.1 bits (48),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  7   PIIRPIIRPIIRPII  21
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.1 bits (48),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  11  PIIRPIIRPIIRPII  25
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.1 bits (48),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  15  PIIRPIIRPIIRPII  29
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 21.2 bits (43),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   IRPIIRPIIRPII  13
+            RPI+RP +RP++
+Sbjct  8   TRPILRPYVRPVV  20
+
+
+ Score = 19.2 bits (38),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  19  PIIRPIIRPIIR  30
+           P  RPI+RP +R
+Sbjct  6   PYTRPILRPYVR  17
+
+
+>DRAMP02589
+Length=55
+
+ Score = 23.1 bits (48),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  3   PIIRPIIRPIIRPII  17
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.1 bits (48),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  7   PIIRPIIRPIIRPII  21
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.1 bits (48),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  11  PIIRPIIRPIIRPII  25
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.1 bits (48),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  15  PIIRPIIRPIIRPII  29
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 20.8 bits (42),  Expect = 0.92, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   IRPIIRPIIRPII  13
+            RPI+RP +RP++
+Sbjct  8   TRPILRPYVRPVV  20
+
+
+ Score = 19.2 bits (38),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  19  PIIRPIIRPIIR  30
+           P  RPI+RP +R
+Sbjct  6   PYTRPILRPYVR  17
+
+
+>DRAMP02588
+Length=55
+
+ Score = 23.1 bits (48),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  3   PIIRPIIRPIIRPII  17
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.1 bits (48),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  7   PIIRPIIRPIIRPII  21
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.1 bits (48),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  11  PIIRPIIRPIIRPII  25
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 23.1 bits (48),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  15  PIIRPIIRPIIRPII  29
+           P  RPI+RP +RP++
+Sbjct  6   PYTRPILRPYVRPVV  20
+
+
+ Score = 20.8 bits (42),  Expect = 0.95, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   IRPIIRPIIRPII  13
+            RPI+RP +RP++
+Sbjct  8   TRPILRPYVRPVV  20
+
+
+ Score = 19.2 bits (38),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  19  PIIRPIIRPIIR  30
+           P  RPI+RP +R
+Sbjct  6   PYTRPILRPYVR  17
+
+
+>DRAMP21013
+Length=27
+
+ Score = 20.4 bits (41),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 8/23 (35%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+
+Query  3   PIIRPIIRPIIRPIIRPIIRPII  25
+            I+R + + I+RP +R I + I+
+Sbjct  1   KILRGVCKKIMRPFLRRISKDIL  23
+
+
+ Score = 20.4 bits (41),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 8/23 (35%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+
+Query  7   PIIRPIIRPIIRPIIRPIIRPII  29
+            I+R + + I+RP +R I + I+
+Sbjct  1   KILRGVCKKIMRPFLRRISKDIL  23
+
+
+ Score = 18.1 bits (35),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 6/16 (38%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  15  PIIRPIIRPIIRPIIR  30
+            I+R + + I+RP +R
+Sbjct  1   KILRGVCKKIMRPFLR  16
+
+
+>DRAMP01200
+Length=24
+
+ Score = 18.1 bits (35),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 6/15 (40%), Positives = 8/15 (53%), Gaps = 0/15 (0%)
+
+Query  4   IIRPIIRPIIRPIIR  18
+             RP+ RP  +P  R
+Sbjct  8   TFRPVERPFSKPFCR  22
+
+
+ Score = 18.1 bits (35),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 6/15 (40%), Positives = 8/15 (53%), Gaps = 0/15 (0%)
+
+Query  8   IIRPIIRPIIRPIIR  22
+             RP+ RP  +P  R
+Sbjct  8   TFRPVERPFSKPFCR  22
+
+
+ Score = 18.1 bits (35),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 6/15 (40%), Positives = 8/15 (53%), Gaps = 0/15 (0%)
+
+Query  12  IIRPIIRPIIRPIIR  26
+             RP+ RP  +P  R
+Sbjct  8   TFRPVERPFSKPFCR  22
+
+
+ Score = 18.1 bits (35),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 6/15 (40%), Positives = 8/15 (53%), Gaps = 0/15 (0%)
+
+Query  16  IIRPIIRPIIRPIIR  30
+             RP+ RP  +P  R
+Sbjct  8   TFRPVERPFSKPFCR  22
+
+
+ Score = 18.1 bits (35),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 6/14 (43%), Positives = 8/14 (57%), Gaps = 0/14 (0%)
+
+Query  1   IRPIIRPIIRPIIR  14
+            RP+ RP  +P  R
+Sbjct  9   FRPVERPFSKPFCR  22
+
+
+
+Lambda      K        H        a         alpha
+   0.345    0.172    0.540    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0003
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP14617                                                            18.9    3.6  
+DRAMP12998                                                            18.5    6.7  
+
+
+>DRAMP14617
+Length=18
+
+ Score = 18.9 bits (37),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 5/14 (36%), Positives = 9/14 (64%), Gaps = 0/14 (0%)
+
+Query  3   PGKRNNRWRMWRKW  16
+           PG  +  W++W +W
+Sbjct  5   PGHSDTGWKVWHRW  18
+
+
+>DRAMP12998
+Length=30
+
+ Score = 18.5 bits (36),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  11  RMWRKWLRRFLHRMRKLIKH  30
+           R W+ WLRR   R+ ++ +H
+Sbjct  11  RHWKGWLRRIGRRIERVGQH  30
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.142    0.600    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0004
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP18188                                                            22.7    0.13 
+DRAMP20932                                                            22.3    0.19 
+DRAMP20831                                                            21.6    0.33 
+DRAMP20816                                                            21.2    0.40 
+DRAMP20885                                                            21.2    0.43 
+DRAMP18139                                                            21.2    0.55 
+DRAMP20812                                                            20.4    0.97 
+DRAMP20814                                                            20.0    1.2  
+DRAMP03721                                                            20.0    1.2  
+DRAMP20813                                                            20.0    1.3  
+DRAMP05893                                                            20.4    1.4  
+DRAMP20815                                                            19.6    1.6  
+DRAMP17753                                                            20.0    2.2  
+DRAMP26728                                                            18.9    3.9  
+DRAMP19404                                                            19.2    4.0  
+DRAMP19397                                                            19.2    4.2  
+DRAMP19394                                                            19.2    4.2  
+DRAMP03736                                                            19.2    4.2  
+DRAMP18137                                                            18.9    4.2  
+DRAMP04586                                                            19.2    4.4  
+DRAMP03735                                                            18.9    4.6  
+DRAMP03647                                                            18.9    5.4  
+DRAMP20886                                                            18.1    6.1  
+DRAMP04001                                                            18.1    6.2  
+DRAMP18414                                                            18.1    6.6  
+DRAMP03769                                                            18.1    6.6  
+DRAMP21344                                                            18.1    7.3  
+DRAMP18398                                                            18.1    8.4  
+DRAMP01219                                                            18.1    8.6  
+DRAMP04619                                                            17.7    9.1  
+DRAMP19425                                                            18.1    9.8  
+
+
+>DRAMP18188
+Length=14
+
+ Score = 22.7 bits (47),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  11  ILKKLWENFKSI  22
+           IL KLWE FKSI
+Sbjct  2   ILGKLWEGFKSI  13
+
+
+>DRAMP20932
+Length=14
+
+ Score = 22.3 bits (46),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 10/13 (77%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL KLWE  KSIF
+Sbjct  2   ILGKLWEGVKSIF  14
+
+
+>DRAMP20831
+Length=13
+
+ Score = 21.6 bits (44),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL KLWE  KS+F
+Sbjct  1   ILGKLWEGLKSLF  13
+
+
+>DRAMP20816
+Length=14
+
+ Score = 21.2 bits (43),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 10/14 (71%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  10  KILKKLWENFKSIF  23
+           KIL KLW+  KSIF
+Sbjct  1   KILGKLWKGVKSIF  14
+
+
+>DRAMP20885
+Length=12
+
+ Score = 21.2 bits (43),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  11  ILKKLWENFKSI  22
+           ILKKLWE  KSI
+Sbjct  1   ILKKLWEGVKSI  12
+
+
+>DRAMP18139
+Length=13
+
+ Score = 21.2 bits (43),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL K+WE  KSIF
+Sbjct  1   ILGKIWEGIKSIF  13
+
+
+>DRAMP20812
+Length=14
+
+ Score = 20.4 bits (41),  Expect = 0.97, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL KLW+  KSIF
+Sbjct  2   ILGKLWKGVKSIF  14
+
+
+>DRAMP20814
+Length=14
+
+ Score = 20.0 bits (40),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL KLW+  KSIF
+Sbjct  2   ILGKLWKGVKSIF  14
+
+
+>DRAMP03721
+Length=13
+
+ Score = 20.0 bits (40),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL K+WE  KS+F
+Sbjct  1   ILGKIWEGIKSLF  13
+
+
+>DRAMP20813
+Length=14
+
+ Score = 20.0 bits (40),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL KLW+  KSIF
+Sbjct  2   ILGKLWKGVKSIF  14
+
+
+>DRAMP05893
+Length=47
+
+ Score = 20.4 bits (41),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  13  KKLWENFKSIFK  24
+           + LWEN  +IFK
+Sbjct  33  RGLWENLSNIFK  44
+
+
+>DRAMP20815
+Length=14
+
+ Score = 19.6 bits (39),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL KLW+  KSIF
+Sbjct  2   ILGKLWKGVKSIF  14
+
+
+>DRAMP17753
+Length=77
+
+ Score = 20.0 bits (40),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  7   SVKKILKKLWENFKSIFK  24
+           +V KI+K  W+ FK + K
+Sbjct  56  TVTKIIKTAWKGFKDLCK  73
+
+
+>DRAMP26728
+Length=20
+
+ Score = 18.9 bits (37),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 6/20 (30%), Positives = 10/20 (50%), Gaps = 0/20 (0%)
+
+Query  3   KIWESVKKILKKLWENFKSI  22
+             W ++   L  LW+ F +I
+Sbjct  1   NCWSNISTALTTLWKRFVAI  20
+
+
+>DRAMP19404
+Length=42
+
+ Score = 19.2 bits (38),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  3   KIWESVKKILKKLWEN  18
+           K+W+ +K   KKLW +
+Sbjct  2   KVWDWIKSTAKKLWNS  17
+
+
+>DRAMP19397
+Length=44
+
+ Score = 19.2 bits (38),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  3   KIWESVKKILKKLWEN  18
+           K+W+ +K   KKLW +
+Sbjct  2   KVWDWIKSTAKKLWNS  17
+
+
+>DRAMP19394
+Length=44
+
+ Score = 19.2 bits (38),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  3   KIWESVKKILKKLWEN  18
+           K+W+ +K   KKLW +
+Sbjct  2   KVWDWIKSTAKKLWNS  17
+
+
+>DRAMP03736
+Length=44
+
+ Score = 19.2 bits (38),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  3   KIWESVKKILKKLWEN  18
+           K+W+ +K   KKLW +
+Sbjct  2   KVWDWIKSTAKKLWNS  17
+
+
+>DRAMP18137
+Length=13
+
+ Score = 18.9 bits (37),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 8/13 (62%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL  LW   KSIF
+Sbjct  1   ILSYLWNGIKSIF  13
+
+
+>DRAMP04586
+Length=60
+
+ Score = 19.2 bits (38),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 6/15 (40%), Positives = 9/15 (60%), Gaps = 0/15 (0%)
+
+Query  4   IWESVKKILKKLWEN  18
+           IW S+K +  K W +
+Sbjct  2   IWSSIKNLASKAWNS  16
+
+
+>DRAMP03735
+Length=44
+
+ Score = 18.9 bits (37),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  3   KIWESVKKILKKLWEN  18
+           K+W+ +K   KKLW +
+Sbjct  2   KVWDWIKSTAKKLWNS  17
+
+
+>DRAMP03647
+Length=40
+
+ Score = 18.9 bits (37),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 16/26 (62%), Gaps = 2/26 (8%)
+
+Query  2   IKIWESVKKILKKLWENFKSIFKVEG  27
+           I+IWE +  I K+L +  +S F V G
+Sbjct  7   IRIWEWLNGIRKRLRQ--RSPFYVRG  30
+
+
+>DRAMP20886
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  11  ILKKLWENFKSI  22
+           ILKKL E  KSI
+Sbjct  1   ILKKLLEGVKSI  12
+
+
+>DRAMP04001
+Length=13
+
+ Score = 18.1 bits (35),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL K+W+  KS+F
+Sbjct  1   ILGKIWKGIKSLF  13
+
+
+>DRAMP18414
+Length=14
+
+ Score = 18.1 bits (35),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL K+WE  KS+ 
+Sbjct  2   ILGKIWEGVKSLI  14
+
+
+>DRAMP03769
+Length=14
+
+ Score = 18.1 bits (35),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+           IL K+WE  KS+ 
+Sbjct  2   ILGKIWEGVKSLI  14
+
+
+>DRAMP21344
+Length=13
+
+ Score = 18.1 bits (35),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 8/13 (62%), Gaps = 0/13 (0%)
+
+Query  11  ILKKLWENFKSIF  23
+            L  LW  FKS+F
+Sbjct  1   FLGALWNVFKSVF  13
+
+
+>DRAMP18398
+Length=19
+
+ Score = 18.1 bits (35),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 6/15 (40%), Positives = 8/15 (53%), Gaps = 0/15 (0%)
+
+Query  9   KKILKKLWENFKSIF  23
+             IL  +W   KS+F
+Sbjct  5   DAILSAIWSGIKSLF  19
+
+
+>DRAMP01219
+Length=31
+
+ Score = 18.1 bits (35),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 7/10 (70%), Positives = 8/10 (80%), Gaps = 0/10 (0%)
+
+Query  15  LWENFKSIFK  24
+           LWENFK+  K
+Sbjct  2   LWENFKNAGK  11
+
+
+>DRAMP04619
+Length=21
+
+ Score = 17.7 bits (34),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  12  LKKLWENFKSIFK  24
+           +KK W   K+IFK
+Sbjct  2   VKKFWGGVKAIFK  14
+
+
+>DRAMP19425
+Length=42
+
+ Score = 18.1 bits (35),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 6/16 (38%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  3   KIWESVKKILKKLWEN  18
+           K+W+ +K   KK+W +
+Sbjct  2   KVWDWIKSAAKKIWSS  17
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0005
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP06285                                                            33.9    5e-06
+DRAMP04233                                                            33.9    5e-06
+DRAMP02295                                                            27.3    0.002
+DRAMP19406                                                            27.7    0.003
+DRAMP29051                                                            23.1    0.077
+DRAMP09412                                                            23.1    0.098
+DRAMP06286                                                            22.7    0.12 
+DRAMP04234                                                            22.7    0.12 
+DRAMP09408                                                            19.2    2.3  
+DRAMP01550                                                            19.2    2.4  
+DRAMP09410                                                            19.2    2.6  
+DRAMP03751                                                            18.9    3.6  
+DRAMP17777                                                            19.2    4.1  
+DRAMP03235                                                            18.9    5.3  
+DRAMP06312                                                            18.1    7.4  
+
+
+>DRAMP06285
+Length=20
+
+ Score = 33.9 bits (76),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 18/20 (90%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   FLGVVFKWASKVFGAVFGKV  20
+           FLGVVFK ASKVF AVFGKV
+Sbjct  1   FLGVVFKLASKVFPAVFGKV  20
+
+
+>DRAMP04233
+Length=20
+
+ Score = 33.9 bits (76),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 18/20 (90%), Positives = 18/20 (90%), Gaps = 0/20 (0%)
+
+Query  1   FLGVVFKWASKVFGAVFGKV  20
+           FLGVVFK ASKVF AVFGKV
+Sbjct  1   FLGVVFKLASKVFPAVFGKV  20
+
+
+>DRAMP02295
+Length=24
+
+ Score = 27.3 bits (59),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  1   FLGVVFKWASKVFGAVFGKVRKKA  24
+           FLG +FK ASKV  +VF  + KK 
+Sbjct  1   FLGALFKVASKVLPSVFCAITKKC  24
+
+
+>DRAMP19406
+Length=63
+
+ Score = 27.7 bits (60),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  1   FLGVVFKWASKVFGAVFGKVRKKA  24
+           FLG +FK ASKV  +VF  + KK 
+Sbjct  40  FLGALFKVASKVLPSVFCAITKKC  63
+
+
+>DRAMP29051
+Length=24
+
+ Score = 23.1 bits (48),  Expect = 0.077, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 14/24 (58%), Gaps = 0/24 (0%)
+
+Query  1   FLGVVFKWASKVFGAVFGKVRKKA  24
+           FLG +FK ASK+  A    + KK 
+Sbjct  1   FLGALFKVASKLVPAAICSISKKC  24
+
+
+>DRAMP09412
+Length=13
+
+ Score = 23.1 bits (48),  Expect = 0.098, Method: Compositional matrix adjust.
+ Identities = 10/13 (77%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   FLGVVFKWASKVF  13
+           FLG +FKWASKV 
+Sbjct  1   FLGWLFKWASKVL  13
+
+
+>DRAMP06286
+Length=20
+
+ Score = 22.7 bits (47),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 15/19 (79%), Gaps = 0/19 (0%)
+
+Query  5   VFKWASKVFGAVFGKVRKK  23
+           +F+ ASKVF A+ GK +KK
+Sbjct  2   LFRVASKVFPALIGKFKKK  20
+
+
+>DRAMP04234
+Length=20
+
+ Score = 22.7 bits (47),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 15/19 (79%), Gaps = 0/19 (0%)
+
+Query  5   VFKWASKVFGAVFGKVRKK  23
+           +F+ ASKVF A+ GK +KK
+Sbjct  2   LFRVASKVFPALIGKFKKK  20
+
+
+>DRAMP09408
+Length=11
+
+ Score = 19.2 bits (38),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   FLGVVFKWASK  11
+           FLG +FKWA K
+Sbjct  1   FLGWLFKWAKK  11
+
+
+>DRAMP01550
+Length=25
+
+ Score = 19.2 bits (38),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 12/23 (52%), Gaps = 0/23 (0%)
+
+Query  1   FLGVVFKWASKVFGAVFGKVRKK  23
+            LG +FK ASKV   V   + + 
+Sbjct  2   LLGAMFKVASKVLPHVVPAITEH  24
+
+
+>DRAMP09410
+Length=11
+
+ Score = 19.2 bits (38),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   FLGVVFKWASK  11
+           FLG +FKWA K
+Sbjct  1   FLGWLFKWAWK  11
+
+
+>DRAMP03751
+Length=18
+
+ Score = 18.9 bits (37),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  1   FLGVVFKWASKVFGAVF  17
+           F G +FK A+K+  ++F
+Sbjct  1   FFGHLFKLATKIIPSLF  17
+
+
+>DRAMP17777
+Length=67
+
+ Score = 19.2 bits (38),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 10/16 (63%), Gaps = 0/16 (0%)
+
+Query  1   FLGVVFKWASKVFGAV  16
+           F+G VF W  ++ G V
+Sbjct  22  FIGFVFSWIFRILGVV  37
+
+
+>DRAMP03235
+Length=35
+
+ Score = 18.9 bits (37),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 7/21 (33%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  9   ASKVFGAVFGKVRKKAKKVAE  29
+           A K F   + K+R  AK++ +
+Sbjct  2   AFKTFTPDWNKIRNDAKRMQD  22
+
+
+>DRAMP06312
+Length=18
+
+ Score = 18.1 bits (35),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 6/15 (40%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  16  VFGKVRKKAKKVAEK  30
+           +  K+RKK K+V ++
+Sbjct  2   ILNKLRKKLKRVLQR  16
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.138    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0006
+
+Length=30
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.339    0.147    0.522    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0007
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP15066                                                            18.9    6.2  
+
+
+>DRAMP15066
+Length=48
+
+ Score = 18.9 bits (37),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 10/24 (42%), Gaps = 0/24 (0%)
+
+Query  2   RLKKRRWKYRVPPPRPPPYPPGRW  25
+           R  KRR  Y V   +P     G W
+Sbjct  12  RAAKRRTHYSVKLAKPIKAKDGTW  35
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.153    0.699    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0008
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP26628                                                            18.5    5.6  
+DRAMP02434                                                            18.5    9.9  
+
+
+>DRAMP26628
+Length=20
+
+ Score = 18.5 bits (36),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 5/9 (56%), Positives = 8/9 (89%), Gaps = 0/9 (0%)
+
+Query  20  YTGPIPRWW  28
+           Y GPIP+++
+Sbjct  11  YKGPIPQFF  19
+
+
+>DRAMP02434
+Length=59
+
+ Score = 18.5 bits (36),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 6/13 (46%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  RFWHRRRSHYTGP  23
+           R W  R+++Y+GP
+Sbjct  11  RPWSDRKNNYSGP  23
+
+
+
+Lambda      K        H        a         alpha
+   0.339    0.149    0.755    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0009
+
+Length=30
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.144    0.494    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0010
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP01467                                                            20.0    1.7  
+DRAMP15272                                                            19.6    3.5  
+DRAMP24464                                                            18.9    4.1  
+DRAMP22463                                                            18.5    4.3  
+DRAMP01490                                                            18.9    4.9  
+DRAMP01482                                                            18.9    6.2  
+DRAMP01480                                                            18.5    6.4  
+DRAMP02523                                                            18.9    7.1  
+DRAMP01492                                                            18.1    8.8  
+
+
+>DRAMP01467
+Length=37
+
+ Score = 20.0 bits (40),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  1   GMKKIAKKVIAKIAKEFGLD  20
+           G+ K+A K +AK   +FGL+
+Sbjct  8   GVAKLAGKTLAKEGGKFGLE  27
+
+
+>DRAMP15272
+Length=88
+
+ Score = 19.6 bits (39),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 7/18 (39%), Positives = 11/18 (61%), Gaps = 0/18 (0%)
+
+Query  5   IAKKVIAKIAKEFGLDPS  22
+           ++ +  AKI  EFG D +
+Sbjct  2   LSTEATAKIVSEFGRDAN  19
+
+
+>DRAMP24464
+Length=20
+
+ Score = 18.9 bits (37),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 7/14 (50%), Positives = 9/14 (64%), Gaps = 0/14 (0%)
+
+Query  11  AKIAKEFGLDPSTY  24
+           + + K  GL PSTY
+Sbjct  7   SHLFKGVGLSPSTY  20
+
+
+>DRAMP22463
+Length=20
+
+ Score = 18.5 bits (36),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 11/18 (61%), Gaps = 0/18 (0%)
+
+Query  13  IAKEFGLDPSTYAAIYKL  30
+           + +EF LD  +YA  Y L
+Sbjct  1   VDREFLLDYKSYAKKYSL  18
+
+
+>DRAMP01490
+Length=37
+
+ Score = 18.9 bits (37),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  1   GMKKIAKKVIAKIAKEFGLD  20
+           G+ K+A K +AK   +FGL+
+Sbjct  8   GVAKLAGKGLAKEGGKFGLE  27
+
+
+>DRAMP01482
+Length=46
+
+ Score = 18.9 bits (37),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 12/20 (60%), Gaps = 0/20 (0%)
+
+Query  1   GMKKIAKKVIAKIAKEFGLD  20
+           G+K +  K +  I KE G+D
+Sbjct  10  GIKNLLVKGVKNIGKEVGMD  29
+
+
+>DRAMP01480
+Length=37
+
+ Score = 18.5 bits (36),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  1   GMKKIAKKVIAKIAKEFGLD  20
+           G+ KIA K +AK   + GLD
+Sbjct  8   GVAKIATKGLAKNLGKMGLD  27
+
+
+>DRAMP02523
+Length=94
+
+ Score = 18.9 bits (37),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  10  IAKIAKEFGLDPSTYAA  26
+           +AK+ ++FGL    Y+A
+Sbjct  18  LAKLLEKFGLQRVQYSA  34
+
+
+>DRAMP01492
+Length=37
+
+ Score = 18.1 bits (35),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  1   GMKKIAKKVIAKIAKEFGLD  20
+           G  K+A K +AK   +FGL+
+Sbjct  8   GAAKLAGKGLAKEGGKFGLE  27
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0011
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP06551                                                            21.9    0.21 
+DRAMP06561                                                            21.2    0.41 
+DRAMP06562                                                            20.8    0.72 
+DRAMP06538                                                            20.4    0.84 
+DRAMP06552                                                            20.4    0.87 
+DRAMP06559                                                            20.4    1.1  
+DRAMP06569                                                            20.0    1.4  
+DRAMP06556                                                            20.0    1.5  
+DRAMP06535                                                            20.0    1.5  
+DRAMP06553                                                            19.6    1.6  
+DRAMP06546                                                            19.6    1.6  
+DRAMP06543                                                            19.6    1.8  
+DRAMP06537                                                            19.6    1.9  
+DRAMP06568                                                            19.6    2.1  
+DRAMP17637                                                            20.0    2.2  
+DRAMP06549                                                            19.2    2.2  
+DRAMP06534                                                            19.2    2.2  
+DRAMP02338                                                            20.0    2.2  
+DRAMP06548                                                            19.2    2.2  
+DRAMP06539                                                            19.2    2.3  
+DRAMP03853                                                            19.2    2.3  
+DRAMP20464                                                            19.2    2.4  
+DRAMP18921                                                            19.2    2.4  
+DRAMP05371                                                            19.2    2.4  
+DRAMP03870                                                            19.2    2.4  
+DRAMP06540                                                            19.2    2.5  
+DRAMP06544                                                            19.2    2.6  
+DRAMP06542                                                            19.2    2.7  
+DRAMP06565                                                            19.2    2.7  
+DRAMP06536                                                            19.2    2.7  
+DRAMP06567                                                            19.2    3.0  
+DRAMP06555                                                            18.9    3.1  
+DRAMP06545                                                            18.9    3.2  
+DRAMP13274                                                            18.9    3.2  
+DRAMP04048                                                            18.9    3.2  
+DRAMP06560                                                            18.9    3.3  
+DRAMP06554                                                            18.9    3.4  
+DRAMP06541                                                            18.9    3.5  
+DRAMP06550                                                            18.9    3.6  
+DRAMP06564                                                            18.9    3.7  
+DRAMP06563                                                            18.9    3.7  
+DRAMP06547                                                            18.9    3.8  
+DRAMP03854                                                            18.9    3.8  
+DRAMP06693                                                            18.9    4.0  
+DRAMP06636                                                            18.9    4.0  
+DRAMP06617                                                            18.9    4.0  
+DRAMP06664                                                            18.9    4.1  
+DRAMP06607                                                            18.9    4.1  
+DRAMP06571                                                            18.9    4.2  
+DRAMP06558                                                            18.5    4.4  
+DRAMP20759                                                            18.5    4.5  
+DRAMP05206                                                            18.5    4.5  
+DRAMP02851                                                            18.5    4.5  
+DRAMP06732                                                            18.5    4.8  
+DRAMP06675                                                            18.5    4.8  
+DRAMP06580                                                            18.5    4.8  
+DRAMP06523                                                            18.5    4.8  
+DRAMP06566                                                            18.5    4.9  
+DRAMP03855                                                            18.5    4.9  
+DRAMP06517                                                            18.5    5.0  
+DRAMP06529                                                            18.5    5.1  
+DRAMP06528                                                            18.5    5.2  
+DRAMP06526                                                            18.5    5.2  
+DRAMP06518                                                            18.5    5.2  
+DRAMP21413                                                            18.5    5.3  
+DRAMP21412                                                            18.5    5.3  
+DRAMP06530                                                            18.5    5.4  
+DRAMP06519                                                            18.5    5.4  
+DRAMP06557                                                            18.5    5.4  
+DRAMP06525                                                            18.5    5.4  
+DRAMP06524                                                            18.5    5.4  
+DRAMP06516                                                            18.5    5.4  
+DRAMP07788                                                            18.5    5.5  
+DRAMP06527                                                            18.5    5.6  
+DRAMP06521                                                            18.5    5.6  
+DRAMP06520                                                            18.5    5.6  
+DRAMP03852                                                            18.5    5.6  
+DRAMP06657                                                            18.5    5.7  
+DRAMP06600                                                            18.5    5.7  
+DRAMP06656                                                            18.5    5.7  
+DRAMP06599                                                            18.5    5.7  
+DRAMP06533                                                            18.5    5.7  
+DRAMP06515                                                            18.5    5.7  
+DRAMP25197                                                            18.5    6.1  
+DRAMP13280                                                            18.1    6.1  
+DRAMP06719                                                            18.1    6.1  
+DRAMP06696                                                            18.1    6.1  
+DRAMP06639                                                            18.1    6.1  
+DRAMP06620                                                            18.1    6.1  
+DRAMP06481                                                            18.1    6.2  
+DRAMP06522                                                            18.1    6.4  
+DRAMP06737                                                            18.1    6.5  
+DRAMP06680                                                            18.1    6.5  
+DRAMP06585                                                            18.1    6.5  
+DRAMP22778                                                            18.1    6.6  
+DRAMP21409                                                            18.1    6.6  
+DRAMP06687                                                            18.1    6.6  
+DRAMP06630                                                            18.1    6.6  
+DRAMP06611                                                            18.1    6.6  
+DRAMP07799                                                            18.1    6.7  
+DRAMP06531                                                            18.1    6.7  
+DRAMP06484                                                            18.1    6.8  
+DRAMP06702                                                            18.1    6.8  
+DRAMP06645                                                            18.1    6.8  
+DRAMP06626                                                            18.1    6.8  
+DRAMP06695                                                            18.1    7.2  
+DRAMP06686                                                            18.1    7.2  
+DRAMP06638                                                            18.1    7.2  
+DRAMP06629                                                            18.1    7.2  
+DRAMP06619                                                            18.1    7.2  
+DRAMP06610                                                            18.1    7.2  
+DRAMP06488                                                            18.1    7.4  
+DRAMP18041                                                            18.1    7.7  
+DRAMP04056                                                            18.1    7.7  
+DRAMP06726                                                            18.1    7.9  
+DRAMP06532                                                            18.1    7.9  
+DRAMP06738                                                            18.1    8.1  
+DRAMP06735                                                            18.1    8.1  
+DRAMP06649                                                            18.1    8.2  
+DRAMP06592                                                            18.1    8.2  
+DRAMP06727                                                            18.1    8.3  
+DRAMP06739                                                            17.7    8.6  
+DRAMP06736                                                            17.7    8.7  
+DRAMP06729                                                            17.7    8.7  
+DRAMP06705                                                            17.7    8.7  
+DRAMP06670                                                            17.7    8.7  
+DRAMP06575                                                            17.7    8.7  
+DRAMP03861                                                            17.7    8.7  
+DRAMP06730                                                            17.7    8.8  
+DRAMP06725                                                            17.7    8.8  
+DRAMP06724                                                            17.7    8.9  
+DRAMP06734                                                            17.7    9.0  
+DRAMP06728                                                            17.7    9.1  
+DRAMP06733                                                            17.7    9.3  
+DRAMP06678                                                            17.7    9.3  
+DRAMP06583                                                            17.7    9.3  
+DRAMP06570                                                            17.7    9.3  
+DRAMP03856                                                            17.7    9.3  
+DRAMP06663                                                            17.7    9.4  
+DRAMP06606                                                            17.7    9.4  
+DRAMP06742                                                            17.7    9.5  
+DRAMP06709                                                            17.7    9.7  
+DRAMP06480                                                            17.7    9.8  
+
+
+>DRAMP06551
+Length=12
+
+ Score = 21.9 bits (45),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 11/12 (92%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           RW RIVVIRVAR
+Sbjct  1   RWARIVVIRVAR  12
+
+
+>DRAMP06561
+Length=12
+
+ Score = 21.2 bits (43),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 11/12 (92%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R LRIVVIRVAR
+Sbjct  1   RLLRIVVIRVAR  12
+
+
+>DRAMP06562
+Length=12
+
+ Score = 20.8 bits (42),  Expect = 0.72, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R +RIVVIRVAR
+Sbjct  1   RLMRIVVIRVAR  12
+
+
+>DRAMP06538
+Length=12
+
+ Score = 20.4 bits (41),  Expect = 0.84, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R+ RIVVIRVAR
+Sbjct  1   RFARIVVIRVAR  12
+
+
+>DRAMP06552
+Length=12
+
+ Score = 20.4 bits (41),  Expect = 0.87, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R+ RIVVIRVAR
+Sbjct  1   RYARIVVIRVAR  12
+
+
+>DRAMP06559
+Length=12
+
+ Score = 20.4 bits (41),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R +RIVVIRVAR
+Sbjct  1   RLIRIVVIRVAR  12
+
+
+>DRAMP06569
+Length=12
+
+ Score = 20.0 bits (40),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R +RIVVIRVAR
+Sbjct  1   RLVRIVVIRVAR  12
+
+
+>DRAMP06556
+Length=12
+
+ Score = 20.0 bits (40),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLFRIVVIRVAR  12
+
+
+>DRAMP06535
+Length=12
+
+ Score = 20.0 bits (40),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RCARIVVIRVAR  12
+
+
+>DRAMP06553
+Length=12
+
+ Score = 19.6 bits (39),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLCRIVVIRVAR  12
+
+
+>DRAMP06546
+Length=12
+
+ Score = 19.6 bits (39),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RQARIVVIRVAR  12
+
+
+>DRAMP06543
+Length=12
+
+ Score = 19.6 bits (39),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RMARIVVIRVAR  12
+
+
+>DRAMP06537
+Length=12
+
+ Score = 19.6 bits (39),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   REARIVVIRVAR  12
+
+
+>DRAMP06568
+Length=12
+
+ Score = 19.6 bits (39),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLTRIVVIRVAR  12
+
+
+>DRAMP17637
+Length=77
+
+ Score = 20.0 bits (40),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  4   RIVVIRVARKLGLPTSHI  21
+           +I    +ARKLG+ TS +
+Sbjct  49  KISNKEMARKLGVKTSQL  66
+
+
+>DRAMP06549
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RTARIVVIRVAR  12
+
+
+>DRAMP06534
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RAARIVVIRVAR  12
+
+
+>DRAMP02338
+Length=60
+
+ Score = 20.0 bits (40),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 1/17 (6%)
+
+Query  10  VARKLGLPTSHIYYGWL  26
+           V RKL LPT  +++G L
+Sbjct  32  VCRKLCLPT-EMFFGPL  47
+
+
+>DRAMP06548
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RSARIVVIRVAR  12
+
+
+>DRAMP06539
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RGARIVVIRVAR  12
+
+
+>DRAMP03853
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RGARIVVIRVAR  12
+
+
+>DRAMP20464
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLARIVVIRVAR  12
+
+
+>DRAMP18921
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLARIVVIRVAR  12
+
+
+>DRAMP05371
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLARIVVIRVAR  12
+
+
+>DRAMP03870
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLARIVVIRVAR  12
+
+
+>DRAMP06540
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RHARIVVIRVAR  12
+
+
+>DRAMP06544
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RNARIVVIRVAR  12
+
+
+>DRAMP06542
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RKARIVVIRVAR  12
+
+
+>DRAMP06565
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLQRIVVIRVAR  12
+
+
+>DRAMP06536
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RDARIVVIRVAR  12
+
+
+>DRAMP06567
+Length=12
+
+ Score = 19.2 bits (38),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLSRIVVIRVAR  12
+
+
+>DRAMP06555
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLERIVVIRVAR  12
+
+
+>DRAMP06545
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RPARIVVIRVAR  12
+
+
+>DRAMP13274
+Length=14
+
+ Score = 18.9 bits (37),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  1   RWLRIVVIRVARK  13
+           R  RIVVIRV R+
+Sbjct  2   RLCRIVVIRVCRR  14
+
+
+>DRAMP04048
+Length=14
+
+ Score = 18.9 bits (37),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  1   RWLRIVVIRVARK  13
+           R  RIVVIRV R+
+Sbjct  2   RLCRIVVIRVCRR  14
+
+
+>DRAMP06560
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLKRIVVIRVAR  12
+
+
+>DRAMP06554
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLDRIVVIRVAR  12
+
+
+>DRAMP06541
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RIARIVVIRVAR  12
+
+
+>DRAMP06550
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RVARIVVIRVAR  12
+
+
+>DRAMP06564
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLPRIVVIRVAR  12
+
+
+>DRAMP06563
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLNRIVVIRVAR  12
+
+
+>DRAMP06547
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RRARIVVIRVAR  12
+
+
+>DRAMP03854
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RRARIVVIRVAR  12
+
+
+>DRAMP06693
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIR+AR
+Sbjct  1   RLARIVVIRIAR  12
+
+
+>DRAMP06636
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIV+IRVAR
+Sbjct  1   RLARIVIIRVAR  12
+
+
+>DRAMP06617
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RI+VIRVAR
+Sbjct  1   RLARIIVIRVAR  12
+
+
+>DRAMP06664
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVV+RVAR
+Sbjct  1   RLARIVVVRVAR  12
+
+
+>DRAMP06607
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  R+VVIRVAR
+Sbjct  1   RLARVVVIRVAR  12
+
+
+>DRAMP06571
+Length=12
+
+ Score = 18.9 bits (37),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLYRIVVIRVAR  12
+
+
+>DRAMP06558
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLHRIVVIRVAR  12
+
+
+>DRAMP20759
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV R
+Sbjct  1   RLCRIVVIRVCR  12
+
+
+>DRAMP05206
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV R
+Sbjct  1   RLCRIVVIRVCR  12
+
+
+>DRAMP02851
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV R
+Sbjct  1   RLCRIVVIRVCR  12
+
+
+>DRAMP06732
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVA+
+Sbjct  1   RLARIVVIRVAK  12
+
+
+>DRAMP06675
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVI+VAR
+Sbjct  1   RLARIVVIKVAR  12
+
+
+>DRAMP06580
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  +IVVIRVAR
+Sbjct  1   RLAKIVVIRVAR  12
+
+
+>DRAMP06523
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           +  RIVVIRVAR
+Sbjct  1   KLARIVVIRVAR  12
+
+
+>DRAMP06566
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLRRIVVIRVAR  12
+
+
+>DRAMP03855
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLRRIVVIRVAR  12
+
+
+>DRAMP06517
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06529
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06528
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06526
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06518
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP21413
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV R
+Sbjct  1   RKCRIVVIRVCR  12
+
+
+>DRAMP21412
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV R
+Sbjct  1   RKCRIVVIRVCR  12
+
+
+>DRAMP06530
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06519
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06557
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVAR
+Sbjct  1   RLGRIVVIRVAR  12
+
+
+>DRAMP06525
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06524
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06516
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP07788
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           RW RIVVIRV R
+Sbjct  1   RWWRIVVIRVRR  12
+
+
+>DRAMP06527
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06521
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06520
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP03852
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06657
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVV+RVAR
+Sbjct  1   RLARIVVMRVAR  12
+
+
+>DRAMP06600
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  R+VVIRVAR
+Sbjct  1   RLARMVVIRVAR  12
+
+
+>DRAMP06656
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVV+RVAR
+Sbjct  1   RLARIVVLRVAR  12
+
+
+>DRAMP06599
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  R+VVIRVAR
+Sbjct  1   RLARLVVIRVAR  12
+
+
+>DRAMP06533
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06515
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP25197
+Length=20
+
+ Score = 18.5 bits (36),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 6/11 (55%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  10  VARKLGLPTSH  20
+           V   LG+PT+H
+Sbjct  2   VNDSLGVPTTH  12
+
+
+>DRAMP13280
+Length=18
+
+ Score = 18.1 bits (35),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV R
+Sbjct  1   RLCRIVVIRVCR  12
+
+
+>DRAMP06719
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV+R
+Sbjct  1   RLARIVVIRVSR  12
+
+
+>DRAMP06696
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIR+AR
+Sbjct  1   RLARIVVIRMAR  12
+
+
+>DRAMP06639
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIV+IRVAR
+Sbjct  1   RLARIVMIRVAR  12
+
+
+>DRAMP06620
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RI+VIRVAR
+Sbjct  1   RLARIMVIRVAR  12
+
+
+>DRAMP06481
+Length=11
+
+ Score = 18.1 bits (35),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  3   RIVVIRVAR  11
+
+
+>DRAMP06522
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06737
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRVA+
+Sbjct  1   RLARIVVIRVAQ  12
+
+
+>DRAMP06680
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVI+VAR
+Sbjct  1   RLARIVVIQVAR  12
+
+
+>DRAMP06585
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  +IVVIRVAR
+Sbjct  1   RLAQIVVIRVAR  12
+
+
+>DRAMP22778
+Length=20
+
+ Score = 18.1 bits (35),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 6/18 (33%), Positives = 10/18 (56%), Gaps = 0/18 (0%)
+
+Query  4   RIVVIRVARKLGLPTSHI  21
+           R   + +A +  LPT H+
+Sbjct  3   RCASVSLAPRNALPTDHL  20
+
+
+>DRAMP21409
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV R
+Sbjct  1   RICRIVVIRVCR  12
+
+
+>DRAMP06687
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIR AR
+Sbjct  1   RLARIVVIRCAR  12
+
+
+>DRAMP06630
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIV IRVAR
+Sbjct  1   RLARIVCIRVAR  12
+
+
+>DRAMP06611
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RI VIRVAR
+Sbjct  1   RLARICVIRVAR  12
+
+
+>DRAMP07799
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R LRIVVIRV R
+Sbjct  1   RRLRIVVIRVRR  12
+
+
+>DRAMP06531
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06484
+Length=10
+
+ Score = 18.1 bits (35),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  2   RIVVIRVAR  10
+
+
+>DRAMP06702
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIR AR
+Sbjct  1   RLARIVVIRTAR  12
+
+
+>DRAMP06645
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIV IRVAR
+Sbjct  1   RLARIVTIRVAR  12
+
+
+>DRAMP06626
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RI VIRVAR
+Sbjct  1   RLARITVIRVAR  12
+
+
+>DRAMP06695
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIR+AR
+Sbjct  1   RLARIVVIRLAR  12
+
+
+>DRAMP06686
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIR AR
+Sbjct  1   RLARIVVIRAAR  12
+
+
+>DRAMP06638
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIV+IRVAR
+Sbjct  1   RLARIVLIRVAR  12
+
+
+>DRAMP06629
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIV IRVAR
+Sbjct  1   RLARIVAIRVAR  12
+
+
+>DRAMP06619
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RI+VIRVAR
+Sbjct  1   RLARILVIRVAR  12
+
+
+>DRAMP06610
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RI VIRVAR
+Sbjct  1   RLARIAVIRVAR  12
+
+
+>DRAMP06488
+Length=9
+
+ Score = 18.1 bits (35),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  1   RIVVIRVAR  9
+
+
+>DRAMP18041
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV+R
+Sbjct  1   RLSRIVVIRVSR  12
+
+
+>DRAMP04056
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV+R
+Sbjct  1   RLSRIVVIRVSR  12
+
+
+>DRAMP06726
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06532
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06738
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06735
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06649
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVV RVAR
+Sbjct  1   RLARIVVCRVAR  12
+
+
+>DRAMP06592
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  R VVIRVAR
+Sbjct  1   RLARCVVIRVAR  12
+
+
+>DRAMP06727
+Length=12
+
+ Score = 18.1 bits (35),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06739
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06736
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06729
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06705
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV R
+Sbjct  1   RLARIVVIRVCR  12
+
+
+>DRAMP06670
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVI VAR
+Sbjct  1   RLARIVVIEVAR  12
+
+
+>DRAMP06575
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R   IVVIRVAR
+Sbjct  1   RLAEIVVIRVAR  12
+
+
+>DRAMP03861
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06730
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06725
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06724
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06734
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06728
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06733
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06678
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVI VAR
+Sbjct  1   RLARIVVINVAR  12
+
+
+>DRAMP06583
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R   IVVIRVAR
+Sbjct  1   RLANIVVIRVAR  12
+
+
+>DRAMP06570
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP03856
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  4   RIVVIRVAR  12
+           RIVVIRVAR
+Sbjct  4   RIVVIRVAR  12
+
+
+>DRAMP06663
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVV RVAR
+Sbjct  1   RLARIVVTRVAR  12
+
+
+>DRAMP06606
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  R VVIRVAR
+Sbjct  1   RLARTVVIRVAR  12
+
+
+>DRAMP06742
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+>DRAMP06709
+Length=12
+
+ Score = 17.7 bits (34),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   RWLRIVVIRVAR  12
+           R  RIVVIRV R
+Sbjct  1   RLARIVVIRVGR  12
+
+
+>DRAMP06480
+Length=11
+
+ Score = 17.7 bits (34),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   RWLRIVVIRVA  11
+           R  RIVVIRVA
+Sbjct  1   RLARIVVIRVA  11
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.150    0.575    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0012
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP03494                                                            20.4    1.0  
+DRAMP20964                                                            18.5    6.2  
+DRAMP20945                                                            18.5    6.2  
+
+
+>DRAMP03494
+Length=32
+
+ Score = 20.4 bits (41),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  5   WKKWKKWWKRVRRVR  19
+           WK +KK  K VRRVR
+Sbjct  1   WKPFKKIEKAVRRVR  15
+
+
+>DRAMP20964
+Length=22
+
+ Score = 18.5 bits (36),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 16/21 (76%), Gaps = 1/21 (5%)
+
+Query  4   KWKKWKKWWKR-VRRVRRWWR  23
+           KWK +KK +KR V+R++ + R
+Sbjct  1   KWKLFKKIFKRIVQRIKDFLR  21
+
+
+>DRAMP20945
+Length=22
+
+ Score = 18.5 bits (36),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 16/21 (76%), Gaps = 1/21 (5%)
+
+Query  4   KWKKWKKWWKR-VRRVRRWWR  23
+           KWK +KK +KR V+R++ + R
+Sbjct  1   KWKLFKKIFKRIVQRIKDFLR  21
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.135    0.617    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0013
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP01687                                                            29.6    2e-04
+DRAMP27811                                                            29.3    4e-04
+DRAMP02761                                                            29.3    4e-04
+DRAMP01654                                                            28.9    5e-04
+DRAMP02760                                                            28.1    0.001
+DRAMP01677                                                            25.8    0.006
+DRAMP01636                                                            25.4    0.015
+DRAMP01684                                                            25.0    0.017
+DRAMP01692                                                            24.6    0.023
+DRAMP18451                                                            24.6    0.023
+DRAMP02006                                                            22.7    0.13 
+DRAMP01651                                                            22.3    0.16 
+DRAMP01261                                                            22.3    0.18 
+DRAMP01656                                                            22.3    0.20 
+DRAMP01630                                                            21.9    0.25 
+DRAMP06414                                                            21.9    0.28 
+DRAMP01672                                                            21.9    0.28 
+DRAMP08672                                                            21.9    0.28 
+DRAMP01670                                                            21.9    0.28 
+DRAMP01666                                                            21.6    0.31 
+DRAMP01708                                                            21.6    0.34 
+DRAMP01546                                                            21.2    0.51 
+DRAMP01258                                                            21.2    0.57 
+DRAMP01665                                                            20.8    0.63 
+DRAMP13198                                                            21.2    0.64 
+DRAMP01631                                                            20.8    0.64 
+DRAMP02393                                                            21.2    0.65 
+DRAMP01239                                                            20.8    0.76 
+DRAMP01704                                                            20.8    0.78 
+DRAMP01985                                                            20.8    0.81 
+DRAMP01260                                                            20.8    0.82 
+DRAMP05266                                                            20.8    0.85 
+DRAMP02391                                                            20.8    0.85 
+DRAMP01650                                                            20.4    0.87 
+DRAMP28646                                                            20.8    0.88 
+DRAMP01678                                                            20.4    0.91 
+DRAMP01547                                                            20.4    1.0  
+DRAMP01911                                                            20.4    1.0  
+DRAMP03520                                                            20.4    1.2  
+DRAMP02394                                                            20.0    1.3  
+DRAMP01867                                                            20.8    1.4  
+DRAMP01637                                                            20.4    1.4  
+DRAMP01661                                                            20.0    1.5  
+DRAMP01660                                                            20.0    1.6  
+DRAMP01709                                                            20.0    1.7  
+DRAMP01685                                                            19.6    1.7  
+DRAMP01658                                                            19.6    1.8  
+DRAMP05210                                                            19.6    2.1  
+DRAMP03797                                                            19.6    2.1  
+DRAMP01702                                                            19.6    2.2  
+DRAMP01640                                                            19.2    2.5  
+DRAMP01219                                                            19.2    2.5  
+DRAMP17781                                                            20.0    2.7  
+DRAMP01659                                                            19.2    2.9  
+DRAMP01649                                                            18.9    4.2  
+DRAMP04621                                                            18.9    4.3  
+DRAMP01644                                                            18.9    4.4  
+DRAMP01679                                                            18.9    4.8  
+DRAMP18453                                                            18.5    4.9  
+DRAMP01645                                                            18.5    5.9  
+DRAMP08964                                                            18.5    6.1  
+DRAMP05800                                                            18.9    6.3  
+DRAMP01673                                                            18.5    6.3  
+DRAMP01646                                                            18.5    6.5  
+DRAMP29099                                                            18.5    6.5  
+DRAMP18848                                                            18.5    6.5  
+DRAMP08967                                                            18.5    6.5  
+DRAMP05752                                                            18.1    6.9  
+DRAMP01688                                                            18.1    6.9  
+DRAMP02363                                                            18.1    6.9  
+DRAMP01662                                                            18.1    7.0  
+DRAMP01663                                                            18.1    7.1  
+DRAMP01445                                                            18.1    7.5  
+DRAMP01240                                                            18.5    7.9  
+DRAMP01639                                                            18.1    8.1  
+DRAMP08968                                                            18.1    8.5  
+DRAMP03405                                                            18.1    8.5  
+DRAMP01711                                                            17.7    9.1  
+DRAMP03833                                                            18.1    9.3  
+DRAMP03831                                                            18.1    9.5  
+DRAMP03834                                                            18.1    9.7  
+DRAMP01238                                                            18.1    9.7  
+DRAMP03830                                                            18.1    9.8  
+
+
+>DRAMP01687
+Length=27
+
+ Score = 29.6 bits (65),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 17/25 (68%), Positives = 18/25 (72%), Gaps = 4/25 (16%)
+
+Query  1   SLWSKIKE----AGKAVLGAVTNLV  21
+           SLWSKIKE    AGKA L AVT +V
+Sbjct  1   SLWSKIKEMAATAGKAALNAVTGMV  25
+
+
+>DRAMP27811
+Length=24
+
+ Score = 29.3 bits (64),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 16/20 (80%), Gaps = 0/20 (0%)
+
+Query  2   LWSKIKEAGKAVLGAVTNLV  21
+           LW+KIK AGKAVLG +  L+
+Sbjct  5   LWTKIKGAGKAVLGKIKGLL  24
+
+
+>DRAMP02761
+Length=24
+
+ Score = 29.3 bits (64),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 16/20 (80%), Gaps = 0/20 (0%)
+
+Query  2   LWSKIKEAGKAVLGAVTNLV  21
+           LW+KIK AGKAVLG +  L+
+Sbjct  5   LWTKIKGAGKAVLGKIKGLL  24
+
+
+>DRAMP01654
+Length=29
+
+ Score = 28.9 bits (63),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 14/15 (93%), Positives = 14/15 (93%), Gaps = 0/15 (0%)
+
+Query  2   LWSKIKEAGKAVLGA  16
+           LWSKIKEAGKAVL A
+Sbjct  2   LWSKIKEAGKAVLTA  16
+
+
+>DRAMP02760
+Length=24
+
+ Score = 28.1 bits (61),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 16/20 (80%), Gaps = 0/20 (0%)
+
+Query  2   LWSKIKEAGKAVLGAVTNLV  21
+           LW+K+K AGKAVLG +  L+
+Sbjct  5   LWTKMKGAGKAVLGKIKGLL  24
+
+
+>DRAMP01677
+Length=25
+
+ Score = 25.8 bits (55),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 14/24 (58%), Positives = 16/24 (67%), Gaps = 4/24 (17%)
+
+Query  2   LWSKIKE----AGKAVLGAVTNLV  21
+           LWSKIKE    AGKA +G V  +V
+Sbjct  2   LWSKIKEAAKTAGKAAMGFVNEMV  25
+
+
+>DRAMP01636
+Length=51
+
+ Score = 25.4 bits (54),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 16/24 (67%), Gaps = 4/24 (17%)
+
+Query  2   LWSKIKE----AGKAVLGAVTNLV  21
+           LWSKIKE    AGK  +G V ++V
+Sbjct  25  LWSKIKEAAKTAGKMAMGFVNDMV  48
+
+
+>DRAMP01684
+Length=25
+
+ Score = 25.0 bits (53),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 16/24 (67%), Gaps = 4/24 (17%)
+
+Query  2   LWSKIKE----AGKAVLGAVTNLV  21
+           LWSKIKE    AGK  +G V ++V
+Sbjct  2   LWSKIKEAAKTAGKMAMGFVNDMV  25
+
+
+>DRAMP01692
+Length=31
+
+ Score = 24.6 bits (52),  Expect = 0.023, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  7   KEAGKAVLGAVTNLVPASES  26
+           K AGKAVL AVTN+   +E 
+Sbjct  12  KVAGKAVLNAVTNMANQNEQ  31
+
+
+>DRAMP18451
+Length=23
+
+ Score = 24.6 bits (52),  Expect = 0.023, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  6   IKEAGKAVLGAVTNLV  21
+           +K  GKA LGAVT+L+
+Sbjct  6   VKHIGKAALGAVTHLI  21
+
+
+>DRAMP02006
+Length=21
+
+ Score = 22.7 bits (47),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 11/17 (65%), Gaps = 0/17 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAV  17
+            +W  +K  GKAVLG V
+Sbjct  1   GIWDTLKNVGKAVLGKV  17
+
+
+>DRAMP01651
+Length=28
+
+ Score = 22.3 bits (46),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 13/26 (50%), Positives = 16/26 (62%), Gaps = 5/26 (19%)
+
+Query  1   SLWSKI-----KEAGKAVLGAVTNLV  21
+           +LW  I     K AGKAVL  VT++V
+Sbjct  1   ALWKDILKNVGKAAGKAVLNTVTDMV  26
+
+
+>DRAMP01261
+Length=25
+
+ Score = 22.3 bits (46),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 15/24 (63%), Gaps = 4/24 (17%)
+
+Query  2   LWSKIKEAGKA----VLGAVTNLV  21
+           LWSKIKEA K      +G V ++V
+Sbjct  2   LWSKIKEAAKTAGLMAMGFVNDMV  25
+
+
+>DRAMP01656
+Length=30
+
+ Score = 22.3 bits (46),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 9/9 (100%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2   LWSKIKEAG  10
+           LWSKIKEAG
+Sbjct  3   LWSKIKEAG  11
+
+
+>DRAMP01630
+Length=28
+
+ Score = 21.9 bits (45),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 13/15 (87%), Gaps = 0/15 (0%)
+
+Query  7   KEAGKAVLGAVTNLV  21
+           K AGKAVL +VT++V
+Sbjct  12  KAAGKAVLNSVTDMV  26
+
+
+>DRAMP06414
+Length=29
+
+ Score = 21.9 bits (45),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  2   LWSKIKEAGKA  12
+           LWSKIK AGK+
+Sbjct  2   LWSKIKTAGKS  12
+
+
+>DRAMP01672
+Length=29
+
+ Score = 21.9 bits (45),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  2   LWSKIKEAGKA  12
+           LWSKIK AGK+
+Sbjct  2   LWSKIKTAGKS  12
+
+
+>DRAMP08672
+Length=30
+
+ Score = 21.9 bits (45),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  7   KEAGKAVLGAVTNLVPA  23
+           K AGKA LGAV  LV A
+Sbjct  12  KLAGKAALGAVKKLVGA  28
+
+
+>DRAMP01670
+Length=30
+
+ Score = 21.9 bits (45),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  7   KEAGKAVLGAVTNLVPA  23
+           K AGKA LGAV  LV A
+Sbjct  12  KLAGKAALGAVKKLVGA  28
+
+
+>DRAMP01666
+Length=29
+
+ Score = 21.6 bits (44),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 11/18 (61%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+
+Query  7   KEAGKAVLGAVTNLVPAS  24
+           K AGKA L AVT++V  S
+Sbjct  12  KAAGKAALNAVTDMVNQS  29
+
+
+>DRAMP01708
+Length=30
+
+ Score = 21.6 bits (44),  Expect = 0.34, Method: Compositional matrix adjust.
+ Identities = 10/19 (53%), Positives = 12/19 (63%), Gaps = 0/19 (0%)
+
+Query  7   KEAGKAVLGAVTNLVPASE  25
+           K AG+A L A+T LV   E
+Sbjct  11  KAAGRAALNAITGLVNQGE  29
+
+
+>DRAMP01546
+Length=21
+
+ Score = 21.2 bits (43),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 12/20 (60%), Gaps = 3/20 (15%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNL  20
+           SLW  IK AGK   G + NL
+Sbjct  1   SLWETIKNAGK---GFIQNL  17
+
+
+>DRAMP01258
+Length=28
+
+ Score = 21.2 bits (43),  Expect = 0.57, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  7   KEAGKAVLGAVTNLV  21
+           K AGKA L AVT++V
+Sbjct  12  KAAGKAALNAVTDMV  26
+
+
+>DRAMP01665
+Length=29
+
+ Score = 20.8 bits (42),  Expect = 0.63, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  7   KEAGKAVLGAVTNLV  21
+           K AGKA L AVT++V
+Sbjct  12  KAAGKAALNAVTDMV  26
+
+
+>DRAMP13198
+Length=37
+
+ Score = 21.2 bits (43),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  3   WSKIKEAGKAVL  14
+           W K+K AG+ VL
+Sbjct  7   WRKVKHAGRRVL  18
+
+
+>DRAMP01631
+Length=28
+
+ Score = 20.8 bits (42),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  7   KEAGKAVLGAVTNLV  21
+           K AGKA L AVT++V
+Sbjct  12  KAAGKAALNAVTDMV  26
+
+
+>DRAMP02393
+Length=38
+
+ Score = 21.2 bits (43),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  3   WSKIKEAGKAVL  14
+           W K+K AG+ VL
+Sbjct  7   WRKVKHAGRRVL  18
+
+
+>DRAMP01239
+Length=31
+
+ Score = 20.8 bits (42),  Expect = 0.76, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   SLWSKIKEAGK  11
+            LW+ IKEAGK
+Sbjct  1   GLWNTIKEAGK  11
+
+
+>DRAMP01704
+Length=27
+
+ Score = 20.8 bits (42),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 9/15 (60%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  7   KEAGKAVLGAVTNLV  21
+           K AG+A L A+T LV
+Sbjct  11  KAAGRAALNAITGLV  25
+
+
+>DRAMP01985
+Length=29
+
+ Score = 20.8 bits (42),  Expect = 0.81, Method: Compositional matrix adjust.
+ Identities = 8/23 (35%), Positives = 13/23 (57%), Gaps = 0/23 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLVPA  23
+            LW  IK+AGK +  +V + +  
+Sbjct  1   GLWDTIKQAGKKIFLSVLDKIRC  23
+
+
+>DRAMP01260
+Length=30
+
+ Score = 20.8 bits (42),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 11/17 (65%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  7   KEAGKAVLGAVTNLVPA  23
+           K AG+A LGAV  LV A
+Sbjct  12  KLAGQAALGAVKTLVGA  28
+
+
+>DRAMP05266
+Length=38
+
+ Score = 20.8 bits (42),  Expect = 0.85, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  3   WSKIKEAGKAVL  14
+           W K+K AG+ VL
+Sbjct  7   WRKVKHAGRRVL  18
+
+
+>DRAMP02391
+Length=38
+
+ Score = 20.8 bits (42),  Expect = 0.85, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  3   WSKIKEAGKAVL  14
+           W K+K AG+ VL
+Sbjct  7   WRKVKHAGRRVL  18
+
+
+>DRAMP01650
+Length=29
+
+ Score = 20.4 bits (41),  Expect = 0.87, Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 16/28 (57%), Gaps = 5/28 (18%)
+
+Query  1   SLWSKI-----KEAGKAVLGAVTNLVPA  23
+           +LW  +     K AG+A LGAV  LV A
+Sbjct  1   ALWKNMLKGIGKLAGQAALGAVKTLVGA  28
+
+
+>DRAMP28646
+Length=32
+
+ Score = 20.8 bits (42),  Expect = 0.88, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  3   WSKIKEAGKAVL  14
+           W K+K AG+ VL
+Sbjct  7   WRKVKHAGRRVL  18
+
+
+>DRAMP01678
+Length=28
+
+ Score = 20.4 bits (41),  Expect = 0.91, Method: Compositional matrix adjust.
+ Identities = 11/17 (65%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  7   KEAGKAVLGAVTNLVPA  23
+           K AG+A LGAV  LV A
+Sbjct  12  KLAGQAALGAVKTLVGA  28
+
+
+>DRAMP01547
+Length=31
+
+ Score = 20.4 bits (41),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 8/14 (57%), Positives = 9/14 (64%), Gaps = 0/14 (0%)
+
+Query  1   SLWSKIKEAGKAVL  14
+           SLW  IK AGK  +
+Sbjct  1   SLWETIKNAGKGFI  14
+
+
+>DRAMP01911
+Length=31
+
+ Score = 20.4 bits (41),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 9/21 (43%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLV  21
+           S+W  IK AGK  L ++ + V
+Sbjct  1   SIWEGIKNAGKGFLVSILDKV  21
+
+
+>DRAMP03520
+Length=39
+
+ Score = 20.4 bits (41),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 7/26 (27%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLVPASES  26
+           + + +I+ AG+ +  A+ +  PA E+
+Sbjct  2   NFFKEIERAGQRIRDAIISAAPAVET  27
+
+
+>DRAMP02394
+Length=31
+
+ Score = 20.0 bits (40),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 10/15 (67%), Gaps = 0/15 (0%)
+
+Query  3   WSKIKEAGKAVLGAV  17
+           W K+K AG+ VL  V
+Sbjct  7   WRKVKNAGRRVLKGV  21
+
+
+>DRAMP01867
+Length=67
+
+ Score = 20.8 bits (42),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  11  KAVLGAVTNLVPA  23
+           + VLG VT L+P+
+Sbjct  46  RFVLGVVTKLLPS  58
+
+
+>DRAMP01637
+Length=51
+
+ Score = 20.4 bits (41),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 14/23 (61%), Gaps = 4/23 (17%)
+
+Query  2   LWSKIKE----AGKAVLGAVTNL  20
+           L SKIKE    AGK  LG V ++
+Sbjct  25  LRSKIKEAAKTAGKMALGFVNDM  47
+
+
+>DRAMP01661
+Length=26
+
+ Score = 20.0 bits (40),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  7   KEAGKAVLGAVTNLV  21
+           K AG+A LGAV  LV
+Sbjct  12  KLAGQAALGAVKTLV  26
+
+
+>DRAMP01660
+Length=26
+
+ Score = 20.0 bits (40),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  7   KEAGKAVLGAVTNLV  21
+           K AG+A LGAV  LV
+Sbjct  12  KLAGQAALGAVKTLV  26
+
+
+>DRAMP01709
+Length=28
+
+ Score = 20.0 bits (40),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  9   AGKAVLGAVTNLV  21
+           AGKAVL  VT++V
+Sbjct  14  AGKAVLNKVTDMV  26
+
+
+>DRAMP01685
+Length=25
+
+ Score = 19.6 bits (39),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 14/23 (61%), Gaps = 4/23 (17%)
+
+Query  2   LWSKIKE----AGKAVLGAVTNL  20
+           L SKIKE    AGK  LG V ++
+Sbjct  2   LRSKIKEAAKTAGKMALGFVNDM  24
+
+
+>DRAMP01658
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  7   KEAGKAVLGAVTNLV  21
+           K AG+A LGAV  LV
+Sbjct  12  KLAGQAALGAVKTLV  26
+
+
+>DRAMP05210
+Length=37
+
+ Score = 19.6 bits (39),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 7/25 (28%), Positives = 14/25 (56%), Gaps = 0/25 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLVPASE  25
+            +  K+K+ G+ + G V  L P ++
+Sbjct  12  KIKEKLKKIGQKIQGFVPKLAPRTD  36
+
+
+>DRAMP03797
+Length=37
+
+ Score = 19.6 bits (39),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 7/25 (28%), Positives = 14/25 (56%), Gaps = 0/25 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLVPASE  25
+            +  K+K+ G+ + G V  L P ++
+Sbjct  12  KIKEKLKKIGQKIQGFVPKLAPRTD  36
+
+
+>DRAMP01702
+Length=25
+
+ Score = 19.6 bits (39),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 14/24 (58%), Gaps = 8/24 (33%)
+
+Query  2   LWSKIKE--------AGKAVLGAV  17
+           LWS IK         AGKAVLG++
+Sbjct  2   LWSTIKNVGKEAAIAAGKAVLGSL  25
+
+
+>DRAMP01640
+Length=28
+
+ Score = 19.2 bits (38),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  9   AGKAVLGAVTNLV  21
+           AGKA L AVT++V
+Sbjct  14  AGKAALNAVTDMV  26
+
+
+>DRAMP01219
+Length=31
+
+ Score = 19.2 bits (38),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 7/14 (50%), Positives = 8/14 (57%), Gaps = 0/14 (0%)
+
+Query  1   SLWSKIKEAGKAVL  14
+           SLW   K AGK  +
+Sbjct  1   SLWENFKNAGKQFI  14
+
+
+>DRAMP17781
+Length=99
+
+ Score = 20.0 bits (40),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 8/15 (53%), Positives = 10/15 (67%), Gaps = 0/15 (0%)
+
+Query  13  VLGAVTNLVPASESS  27
+           VLG  TNL P  ++S
+Sbjct  34  VLGGTTNLPPGFDAS  48
+
+
+>DRAMP01659
+Length=26
+
+ Score = 19.2 bits (38),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  7   KEAGKAVLGAVTNLV  21
+           K AG+A LGAV  LV
+Sbjct  12  KLAGEAALGAVKTLV  26
+
+
+>DRAMP01649
+Length=31
+
+ Score = 18.9 bits (37),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 8/14 (57%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  8   EAGKAVLGAVTNLV  21
+            AGKA LGAV + +
+Sbjct  16  HAGKAALGAVADTI  29
+
+
+>DRAMP04621
+Length=21
+
+ Score = 18.9 bits (37),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 7/10 (70%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  14  LGAVTNLVPA  23
+           LGAVT L+P+
+Sbjct  3   LGAVTKLLPS  12
+
+
+>DRAMP01644
+Length=33
+
+ Score = 18.9 bits (37),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 7/10 (70%), Positives = 8/10 (80%), Gaps = 0/10 (0%)
+
+Query  2   LWSKIKEAGK  11
+           LWS IK+ GK
+Sbjct  2   LWSTIKQKGK  11
+
+
+>DRAMP01679
+Length=31
+
+ Score = 18.9 bits (37),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 8/14 (57%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  8   EAGKAVLGAVTNLV  21
+            AGKA LGAV + +
+Sbjct  16  HAGKAALGAVADTI  29
+
+
+>DRAMP18453
+Length=21
+
+ Score = 18.5 bits (36),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 10/15 (67%), Gaps = 0/15 (0%)
+
+Query  6   IKEAGKAVLGAVTNL  20
+           +K  GK  LGAV+ L
+Sbjct  6   VKGVGKVALGAVSKL  20
+
+
+>DRAMP01645
+Length=33
+
+ Score = 18.5 bits (36),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 7/10 (70%), Positives = 8/10 (80%), Gaps = 0/10 (0%)
+
+Query  2   LWSKIKEAGK  11
+           LWS IK+ GK
+Sbjct  2   LWSTIKQKGK  11
+
+
+>DRAMP08964
+Length=34
+
+ Score = 18.5 bits (36),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 7/26 (27%), Positives = 12/26 (46%), Gaps = 0/26 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLVPASES  26
+            +  K+K+ G+ +      LVP  E 
+Sbjct  9   KIGEKLKKIGQKIKNFFQKLVPQPEQ  34
+
+
+>DRAMP05800
+Length=56
+
+ Score = 18.9 bits (37),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAV  17
+           S++  I +AGK + GA+
+Sbjct  26  SIFKHIFKAGKFIHGAI  42
+
+
+>DRAMP01673
+Length=29
+
+ Score = 18.5 bits (36),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 7/7 (100%), Positives = 7/7 (100%), Gaps = 0/7 (0%)
+
+Query  2  LWSKIKE  8
+          LWSKIKE
+Sbjct  2  LWSKIKE  8
+
+
+>DRAMP01646
+Length=33
+
+ Score = 18.5 bits (36),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 7/8 (88%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  2  LWSKIKEA  9
+          LWSKIKE 
+Sbjct  2  LWSKIKEV  9
+
+
+>DRAMP29099
+Length=37
+
+ Score = 18.5 bits (36),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 6/25 (24%), Positives = 14/25 (56%), Gaps = 0/25 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLVPASE  25
+            +  K+K+ G+ + G +  L P ++
+Sbjct  12  KIKEKLKKIGQKIQGLLPKLAPRTD  36
+
+
+>DRAMP18848
+Length=37
+
+ Score = 18.5 bits (36),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 6/25 (24%), Positives = 14/25 (56%), Gaps = 0/25 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLVPASE  25
+            +  K+K+ G+ + G +  L P ++
+Sbjct  12  KIKEKLKKIGQKIQGLLPKLAPRTD  36
+
+
+>DRAMP08967
+Length=37
+
+ Score = 18.5 bits (36),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 6/25 (24%), Positives = 14/25 (56%), Gaps = 0/25 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLVPASE  25
+            +  K+K+ G+ + G +  L P ++
+Sbjct  12  KIKEKLKKIGQKIQGLLPKLAPRTD  36
+
+
+>DRAMP05752
+Length=26
+
+ Score = 18.1 bits (35),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAV  17
+           S++  I +AGK + GA+
+Sbjct  5   SIFKHIFKAGKFIHGAI  21
+
+
+>DRAMP01688
+Length=26
+
+ Score = 18.1 bits (35),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 9/14 (64%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  7   KEAGKAVLGAVTNL  20
+           K AG+A LGAV  L
+Sbjct  12  KLAGQAALGAVKTL  25
+
+
+>DRAMP02363
+Length=26
+
+ Score = 18.1 bits (35),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAV  17
+           S++  I +AGK + GA+
+Sbjct  5   SIFKHIFKAGKFIHGAI  21
+
+
+>DRAMP01662
+Length=29
+
+ Score = 18.1 bits (35),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 7/7 (100%), Positives = 7/7 (100%), Gaps = 0/7 (0%)
+
+Query  2  LWSKIKE  8
+          LWSKIKE
+Sbjct  2  LWSKIKE  8
+
+
+>DRAMP01663
+Length=29
+
+ Score = 18.1 bits (35),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 7/7 (100%), Positives = 7/7 (100%), Gaps = 0/7 (0%)
+
+Query  2  LWSKIKE  8
+          LWSKIKE
+Sbjct  2  LWSKIKE  8
+
+
+>DRAMP01445
+Length=21
+
+ Score = 18.1 bits (35),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNL  20
+            L SK+   GK VL  V+ L
+Sbjct  1   GLLSKVLGVGKKVLCGVSGL  20
+
+
+>DRAMP01240
+Length=73
+
+ Score = 18.5 bits (36),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 6/13 (46%), Positives = 7/13 (54%), Gaps = 0/13 (0%)
+
+Query  2   LWSKIKEAGKAVL  14
+            W  IK+AGK   
+Sbjct  44  FWDTIKQAGKKFF  56
+
+
+>DRAMP01639
+Length=25
+
+ Score = 18.1 bits (35),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 7/10 (70%), Positives = 7/10 (70%), Gaps = 0/10 (0%)
+
+Query  2   LWSKIKEAGK  11
+           LWS IK  GK
+Sbjct  2   LWSTIKNVGK  11
+
+
+>DRAMP08968
+Length=33
+
+ Score = 18.1 bits (35),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 7/25 (28%), Positives = 12/25 (48%), Gaps = 0/25 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLVPASE  25
+            +  K+K+ G+ +      LVP  E
+Sbjct  9   KIGEKLKKIGQKIKNFFQKLVPQPE  33
+
+
+>DRAMP03405
+Length=33
+
+ Score = 18.1 bits (35),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 7/25 (28%), Positives = 12/25 (48%), Gaps = 0/25 (0%)
+
+Query  1   SLWSKIKEAGKAVLGAVTNLVPASE  25
+            +  K+K+ G+ +      LVP  E
+Sbjct  9   KIGEKLKKIGQKIKNFFQKLVPQPE  33
+
+
+>DRAMP01711
+Length=23
+
+ Score = 17.7 bits (34),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  7   KEAGKAVLGAV  17
+           K AGKA LGAV
+Sbjct  12  KLAGKAALGAV  22
+
+
+>DRAMP03833
+Length=29
+
+ Score = 18.1 bits (35),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 7/14 (50%), Positives = 9/14 (64%), Gaps = 0/14 (0%)
+
+Query  1   SLWSKIKEAGKAVL  14
+            LW+ IK AGK + 
+Sbjct  1   GLWNSIKIAGKNLF  14
+
+
+>DRAMP03831
+Length=29
+
+ Score = 18.1 bits (35),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 7/14 (50%), Positives = 9/14 (64%), Gaps = 0/14 (0%)
+
+Query  1   SLWSKIKEAGKAVL  14
+            LW+ IK AGK + 
+Sbjct  1   GLWNSIKIAGKKLF  14
+
+
+>DRAMP03834
+Length=29
+
+ Score = 18.1 bits (35),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  2   LWSKIKEAGKAVL  14
+           LW+ IK AGK + 
+Sbjct  2   LWNSIKIAGKKLF  14
+
+
+>DRAMP01238
+Length=36
+
+ Score = 18.1 bits (35),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  2   LWSKIKEAGKAVL  14
+           LW+ IK AGK + 
+Sbjct  2   LWNSIKIAGKKLF  14
+
+
+>DRAMP03830
+Length=39
+
+ Score = 18.1 bits (35),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  2   LWSKIKEAGKAVL  14
+           LW+ IK AGK + 
+Sbjct  2   LWNSIKIAGKKLF  14
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.118    0.319    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0014
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP06421                                                            29.3    3e-04
+DRAMP02817                                                            29.3    3e-04
+DRAMP17585                                                            27.3    0.002
+DRAMP04226                                                            18.5    5.2  
+DRAMP05280                                                            18.1    6.7  
+DRAMP02998                                                            18.1    6.7  
+DRAMP17982                                                            18.1    7.2  
+DRAMP02997                                                            18.1    7.2  
+DRAMP17983                                                            18.1    7.5  
+DRAMP05604                                                            18.1    8.1  
+DRAMP02996                                                            18.1    8.1  
+DRAMP03314                                                            17.7    9.7  
+
+
+>DRAMP06421
+Length=20
+
+ Score = 29.3 bits (64),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 15/20 (75%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  1   VDKPPYLPRPRPPRRIYNRG  20
+           VDK  YLPRP PPR IYNR 
+Sbjct  1   VDKGSYLPRPTPPRPIYNRN  20
+
+
+>DRAMP02817
+Length=20
+
+ Score = 29.3 bits (64),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 15/20 (75%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  1   VDKPPYLPRPRPPRRIYNRG  20
+           VDK  YLPRP PPR IYNR 
+Sbjct  1   VDKGSYLPRPTPPRPIYNRN  20
+
+
+>DRAMP17585
+Length=18
+
+ Score = 27.3 bits (59),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 14/18 (78%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  2   DKPPYLPRPRPPRRIYNR  19
+           DK  YLPRP PPR IYNR
+Sbjct  1   DKGSYLPRPTPPRPIYNR  18
+
+
+>DRAMP04226
+Length=19
+
+ Score = 18.5 bits (36),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 8/10 (80%), Positives = 8/10 (80%), Gaps = 0/10 (0%)
+
+Query  1  VDKPPYLPRP  10
+          VDK  YLPRP
+Sbjct  1  VDKGSYLPRP  10
+
+
+>DRAMP05280
+Length=18
+
+ Score = 18.1 bits (35),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  2   DKPPYLPRPRPP  13
+           ++P Y+P+PRPP
+Sbjct  3   NRPVYIPQPRPP  14
+
+
+>DRAMP02998
+Length=18
+
+ Score = 18.1 bits (35),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  2   DKPPYLPRPRPP  13
+           ++P Y+P+PRPP
+Sbjct  3   NRPVYIPQPRPP  14
+
+
+>DRAMP17982
+Length=18
+
+ Score = 18.1 bits (35),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  2   DKPPYLPRPRPP  13
+           ++P Y+P+PRPP
+Sbjct  3   NRPVYIPQPRPP  14
+
+
+>DRAMP02997
+Length=18
+
+ Score = 18.1 bits (35),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  2   DKPPYLPRPRPP  13
+           ++P Y+P+PRPP
+Sbjct  3   NRPVYIPQPRPP  14
+
+
+>DRAMP17983
+Length=18
+
+ Score = 18.1 bits (35),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  2   DKPPYLPRPRPP  13
+           ++P Y+P+PRPP
+Sbjct  3   NRPIYIPQPRPP  14
+
+
+>DRAMP05604
+Length=18
+
+ Score = 18.1 bits (35),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  2   DKPPYLPRPRPP  13
+           ++P Y+P+PRPP
+Sbjct  3   NRPIYIPQPRPP  14
+
+
+>DRAMP02996
+Length=18
+
+ Score = 18.1 bits (35),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  2   DKPPYLPRPRPP  13
+           ++P Y+P+PRPP
+Sbjct  3   NRPIYIPQPRPP  14
+
+
+>DRAMP03314
+Length=16
+
+ Score = 17.7 bits (34),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 9/12 (75%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  1   VDKPPYLPRPRP  12
+           VDKP Y PRP P
+Sbjct  1   VDKPDYRPRPWP  12
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.154    0.599    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0015
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP04450                                                            21.2    0.95 
+DRAMP17673                                                            20.4    1.5  
+DRAMP14103                                                            20.4    1.9  
+DRAMP14104                                                            20.0    2.2  
+DRAMP04449                                                            20.0    2.2  
+DRAMP00727                                                            20.0    2.9  
+DRAMP22564                                                            17.7    9.1  
+DRAMP03730                                                            18.5    9.4  
+DRAMP14752                                                            18.5    9.7  
+
+
+>DRAMP04450
+Length=70
+
+ Score = 21.2 bits (43),  Expect = 0.95, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  11  PSCVKRQKHCKSASGNQS  28
+           P+ VK QK C+ +SG  S
+Sbjct  24  PTMVKAQKLCERSSGTWS  41
+
+
+>DRAMP17673
+Length=75
+
+ Score = 20.4 bits (41),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 9/21 (43%), Positives = 12/21 (57%), Gaps = 4/21 (19%)
+
+Query  1   MSISVLTR----FRPSCVKRQ  17
+           + I+V+ R    FRP CV  Q
+Sbjct  28  VDIAVINRTVEVFRPDCVHEQ  48
+
+
+>DRAMP14103
+Length=80
+
+ Score = 20.4 bits (41),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  11  PSCVKRQKHCKSASGNQS  28
+           P+ VK QK C+ +SG  S
+Sbjct  24  PTMVKAQKLCERSSGTWS  41
+
+
+>DRAMP14104
+Length=80
+
+ Score = 20.0 bits (40),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 10/28 (36%), Positives = 17/28 (61%), Gaps = 1/28 (4%)
+
+Query  2   SISVLTRFR-PSCVKRQKHCKSASGNQS  28
+           ++ + + F  PS V+ QK C+ +SG  S
+Sbjct  14  ALVLFSAFEAPSMVEAQKLCEKSSGTWS  41
+
+
+>DRAMP04449
+Length=80
+
+ Score = 20.0 bits (40),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 10/28 (36%), Positives = 17/28 (61%), Gaps = 1/28 (4%)
+
+Query  2   SISVLTRFR-PSCVKRQKHCKSASGNQS  28
+           ++ + + F  PS V+ QK C+ +SG  S
+Sbjct  14  ALVLFSAFEAPSMVEAQKLCEKSSGTWS  41
+
+
+>DRAMP00727
+Length=83
+
+ Score = 20.0 bits (40),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 8/17 (47%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  13  CVKRQKHCKSASGNQSQ  29
+           CV RQ HC  +S +Q++
+Sbjct  24  CVNRQCHCSRSSTHQTK  40
+
+
+>DRAMP22564
+Length=20
+
+ Score = 17.7 bits (34),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 7/13 (54%), Gaps = 0/13 (0%)
+
+Query  10  RPSCVKRQKHCKS  22
+           RP C K  KH  S
+Sbjct  1   RPDCNKYTKHLYS  13
+
+
+>DRAMP03730
+Length=76
+
+ Score = 18.5 bits (36),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 6/14 (43%), Positives = 9/14 (64%), Gaps = 0/14 (0%)
+
+Query  17  QKHCKSASGNQSQC  30
+           + HC+ ASG +  C
+Sbjct  50  ETHCQKASGEKGYC  63
+
+
+>DRAMP14752
+Length=58
+
+ Score = 18.5 bits (36),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 7/24 (29%), Positives = 12/24 (50%), Gaps = 0/24 (0%)
+
+Query  6   LTRFRPSCVKRQKHCKSASGNQSQ  29
+           L+++   C K    CK   G ++Q
+Sbjct  1   LSKYGGECSKEHNTCKYLKGGKNQ  24
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.124    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0016
+
+Length=30
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.132    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0017
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP04013                                                            19.6    1.7  
+DRAMP02017                                                            18.9    4.1  
+DRAMP06266                                                            18.5    5.3  
+DRAMP05647                                                            18.5    5.5  
+DRAMP02269                                                            18.5    5.5  
+DRAMP00200                                                            19.2    5.6  
+DRAMP01509                                                            18.5    6.0  
+DRAMP01511                                                            18.5    6.4  
+DRAMP01510                                                            18.5    7.4  
+DRAMP01507                                                            18.5    7.4  
+DRAMP01381                                                            18.5    8.0  
+DRAMP01508                                                            18.1    10.0 
+
+
+>DRAMP04013
+Length=23
+
+ Score = 19.6 bits (39),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 11/18 (61%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  6   LLGLLKGLGSLLGDLLGD  23
+           + GLLK  G LLGDL G 
+Sbjct  3   VTGLLKTAGKLLGDLFGS  20
+
+
+>DRAMP02017
+Length=33
+
+ Score = 18.9 bits (37),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  1   GLLSGLLGLLKGLGSLLGDLLGDK  24
+           GLLS + G+LKG G  +   L DK
+Sbjct  1   GLLSAVKGVLKGAGKNVAGSLMDK  24
+
+
+>DRAMP06266
+Length=25
+
+ Score = 18.5 bits (36),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  1   GLLSGLLGLLKGLGS  15
+           G+LS ++G LK LG+
+Sbjct  1   GVLSNVIGYLKKLGT  15
+
+
+>DRAMP05647
+Length=24
+
+ Score = 18.5 bits (36),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  1   GLLSGLLGLLKGLGS  15
+           G+LS ++G LK LG+
+Sbjct  1   GVLSNVIGYLKKLGT  15
+
+
+>DRAMP02269
+Length=24
+
+ Score = 18.5 bits (36),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  1   GLLSGLLGLLKGLGS  15
+           G+LS ++G LK LG+
+Sbjct  1   GVLSNVIGYLKKLGT  15
+
+
+>DRAMP00200
+Length=77
+
+ Score = 19.2 bits (38),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 10/16 (63%), Gaps = 0/16 (0%)
+
+Query  9   LLKGLGSLLGDLLGDK  24
+           +  G GS+ G  +GDK
+Sbjct  20  ISPGFGSIAGAYIGDK  35
+
+
+>DRAMP01509
+Length=37
+
+ Score = 18.5 bits (36),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 13/26 (50%), Positives = 16/26 (62%), Gaps = 1/26 (4%)
+
+Query  5   GLLGLLKGLGSLLGDLLGDKGLGLSG  30
+           G+  LLKG   L+G  LG K LG +G
+Sbjct  1   GVFTLLKGATQLIGKTLG-KELGKTG  25
+
+
+>DRAMP01511
+Length=37
+
+ Score = 18.5 bits (36),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 12/26 (46%), Positives = 16/26 (62%), Gaps = 1/26 (4%)
+
+Query  5   GLLGLLKGLGSLLGDLLGDKGLGLSG  30
+           G+  L+KG   L+G  LG K LG +G
+Sbjct  1   GVFTLIKGATQLIGKTLG-KELGKTG  25
+
+
+>DRAMP01510
+Length=37
+
+ Score = 18.5 bits (36),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 12/26 (46%), Positives = 16/26 (62%), Gaps = 1/26 (4%)
+
+Query  5   GLLGLLKGLGSLLGDLLGDKGLGLSG  30
+           G+  L+KG   L+G  LG K LG +G
+Sbjct  1   GVFTLIKGATQLIGKTLG-KELGKTG  25
+
+
+>DRAMP01507
+Length=37
+
+ Score = 18.5 bits (36),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 12/26 (46%), Positives = 16/26 (62%), Gaps = 1/26 (4%)
+
+Query  5   GLLGLLKGLGSLLGDLLGDKGLGLSG  30
+           G+  L+KG   L+G  LG K LG +G
+Sbjct  1   GVFTLIKGATQLIGKTLG-KELGKTG  25
+
+
+>DRAMP01381
+Length=39
+
+ Score = 18.5 bits (36),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  5   GLLGLLKGLGSLLGDLLGDK  24
+           GL  L+KG   L+G  +  K
+Sbjct  1   GLFTLIKGAAKLIGKTVPKK  20
+
+
+>DRAMP01508
+Length=37
+
+ Score = 18.1 bits (35),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 12/20 (60%), Gaps = 0/20 (0%)
+
+Query  5   GLLGLLKGLGSLLGDLLGDK  24
+           G+  L+KG   L+G  LG +
+Sbjct  1   GVFTLIKGATQLIGKTLGKE  20
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.156    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0018
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP01609                                                            30.0    1e-04
+DRAMP01610                                                            29.3    3e-04
+DRAMP01612                                                            28.5    5e-04
+DRAMP01608                                                            26.2    0.004
+DRAMP01611                                                            25.4    0.009
+DRAMP01613                                                            25.4    0.011
+DRAMP01617                                                            22.7    0.12 
+DRAMP01599                                                            22.3    0.15 
+DRAMP01598                                                            22.3    0.16 
+DRAMP01615                                                            22.3    0.16 
+DRAMP01600                                                            22.3    0.17 
+DRAMP01618                                                            22.3    0.17 
+DRAMP01614                                                            22.3    0.18 
+DRAMP01604                                                            21.9    0.19 
+DRAMP01603                                                            21.9    0.21 
+DRAMP01594                                                            21.9    0.24 
+DRAMP28609                                                            21.9    0.25 
+DRAMP01205                                                            21.9    0.25 
+DRAMP01587                                                            21.6    0.32 
+DRAMP04237                                                            20.8    0.59 
+DRAMP01141                                                            20.4    0.88 
+DRAMP18505                                                            20.4    0.93 
+DRAMP01597                                                            20.4    1.0  
+DRAMP28608                                                            20.0    1.1  
+DRAMP01606                                                            20.0    1.1  
+DRAMP01204                                                            20.0    1.3  
+DRAMP06349                                                            20.0    1.3  
+DRAMP01589                                                            20.0    1.3  
+DRAMP06348                                                            20.0    1.4  
+DRAMP06343                                                            20.0    1.5  
+DRAMP01607                                                            20.0    1.5  
+DRAMP02151                                                            20.4    1.6  
+DRAMP18504                                                            19.6    1.7  
+DRAMP15213                                                            20.4    1.7  
+DRAMP01206                                                            19.2    2.3  
+DRAMP01616                                                            18.9    3.6  
+DRAMP01588                                                            18.9    4.1  
+DRAMP01619                                                            18.5    4.3  
+DRAMP01595                                                            18.5    4.4  
+DRAMP13606                                                            19.2    4.4  
+DRAMP01250                                                            18.5    5.3  
+DRAMP15276                                                            19.2    5.5  
+DRAMP01592                                                            18.1    6.2  
+DRAMP01590                                                            18.1    6.3  
+DRAMP02019                                                            18.5    6.8  
+DRAMP17654                                                            18.9    6.8  
+
+
+>DRAMP01609
+Length=16
+
+ Score = 30.0 bits (66),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 15/16 (94%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLFDIVKKVVGALG L
+Sbjct  1   GLFDIVKKVVGALGSL  16
+
+
+>DRAMP01610
+Length=16
+
+ Score = 29.3 bits (64),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 14/16 (88%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLFDIVKKVVGA+G L
+Sbjct  1   GLFDIVKKVVGAIGSL  16
+
+
+>DRAMP01612
+Length=16
+
+ Score = 28.5 bits (62),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 14/16 (88%), Positives = 14/16 (88%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLFDIVKKVVGA G L
+Sbjct  1   GLFDIVKKVVGAFGSL  16
+
+
+>DRAMP01608
+Length=16
+
+ Score = 26.2 bits (56),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 13/16 (81%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GL DIVKKVVGA G L
+Sbjct  1   GLLDIVKKVVGAFGSL  16
+
+
+>DRAMP01611
+Length=16
+
+ Score = 25.4 bits (54),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 13/16 (81%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLFDIVKKVVG L  L
+Sbjct  1   GLFDIVKKVVGTLAGL  16
+
+
+>DRAMP01613
+Length=16
+
+ Score = 25.4 bits (54),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLFDI KKV+G +G L
+Sbjct  1   GLFDIAKKVIGVIGSL  16
+
+
+>DRAMP01617
+Length=17
+
+ Score = 22.7 bits (47),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 9/14 (64%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  1   GLFDIVKKVVGALG  14
+           GLFDIVKK+ G + 
+Sbjct  1   GLFDIVKKIAGHIA  14
+
+
+>DRAMP01599
+Length=18
+
+ Score = 22.3 bits (46),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  1   GLFDIVKKVVGALGYLGE  18
+           GLFDI+KKV   +G   +
+Sbjct  1   GLFDIIKKVASVVGLASQ  18
+
+
+>DRAMP01598
+Length=18
+
+ Score = 22.3 bits (46),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 9/14 (64%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  1   GLFDIVKKVVGALG  14
+           GLFDI+KKV   +G
+Sbjct  1   GLFDIIKKVASVVG  14
+
+
+>DRAMP01615
+Length=14
+
+ Score = 22.3 bits (46),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 9/14 (64%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  1   GLFDIVKKVVGALG  14
+           GLFDIVKK+ G + 
+Sbjct  1   GLFDIVKKIAGHIA  14
+
+
+>DRAMP01600
+Length=16
+
+ Score = 22.3 bits (46),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLFDI+KKV   +G L
+Sbjct  1   GLFDIIKKVASVIGGL  16
+
+
+>DRAMP01618
+Length=17
+
+ Score = 22.3 bits (46),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFDIVKK+ G +
+Sbjct  1   GLFDIVKKIAGHI  13
+
+
+>DRAMP01614
+Length=17
+
+ Score = 22.3 bits (46),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFDIVKK+ G +
+Sbjct  1   GLFDIVKKIAGHI  13
+
+
+>DRAMP01604
+Length=18
+
+ Score = 21.9 bits (45),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  1   GLFDIVKKVVGALGYLGE  18
+           GLFD++KKV   +G   +
+Sbjct  1   GLFDVIKKVASVIGLASQ  18
+
+
+>DRAMP01603
+Length=18
+
+ Score = 21.9 bits (45),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 8/14 (57%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  1   GLFDIVKKVVGALG  14
+           GLFD++KKV   +G
+Sbjct  1   GLFDVIKKVASVIG  14
+
+
+>DRAMP01594
+Length=16
+
+ Score = 21.9 bits (45),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLFDI+KKV   +G L
+Sbjct  1   GLFDIIKKVASVVGGL  16
+
+
+>DRAMP28609
+Length=13
+
+ Score = 21.9 bits (45),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFDI+K +V  L
+Sbjct  1   GLFDIIKNIVSTL  13
+
+
+>DRAMP01205
+Length=13
+
+ Score = 21.9 bits (45),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFDI+K +V  L
+Sbjct  1   GLFDIIKNIVSTL  13
+
+
+>DRAMP01587
+Length=16
+
+ Score = 21.6 bits (44),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLFD++KKV   +G L
+Sbjct  1   GLFDVIKKVASVIGGL  16
+
+
+>DRAMP04237
+Length=13
+
+ Score = 20.8 bits (42),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  1   GLFDIVKKVVG  11
+           GLFDIVKK+V 
+Sbjct  1   GLFDIVKKLVS  11
+
+
+>DRAMP01141
+Length=19
+
+ Score = 20.4 bits (41),  Expect = 0.88, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           G FD+ KKVVG +
+Sbjct  1   GFFDLAKKVVGGI  13
+
+
+>DRAMP18505
+Length=27
+
+ Score = 20.4 bits (41),  Expect = 0.93, Method: Compositional matrix adjust.
+ Identities = 7/15 (47%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  1   GLFDIVKKVVGALGY  15
+           GLFDI+KK+  +  +
+Sbjct  1   GLFDIIKKIAESFKF  15
+
+
+>DRAMP01597
+Length=11
+
+ Score = 20.4 bits (41),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  1   GLFDIVKKVVG  11
+           GLFDI+KKV  
+Sbjct  1   GLFDIIKKVAS  11
+
+
+>DRAMP28608
+Length=13
+
+ Score = 20.0 bits (40),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFDI+KK+  ++
+Sbjct  1   GLFDIIKKIAESI  13
+
+
+>DRAMP01606
+Length=13
+
+ Score = 20.0 bits (40),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFDI+KK+  ++
+Sbjct  1   GLFDIIKKIAESI  13
+
+
+>DRAMP01204
+Length=21
+
+ Score = 20.0 bits (40),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GL   + KV+G +G+L
+Sbjct  1   GLLSFLPKVIGVIGHL  16
+
+
+>DRAMP06349
+Length=13
+
+ Score = 20.0 bits (40),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  1  GLFDIVKKV  9
+          GLFDI+KK+
+Sbjct  1  GLFDIIKKI  9
+
+
+>DRAMP01589
+Length=16
+
+ Score = 20.0 bits (40),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 8/16 (50%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLFD++ KV   +G L
+Sbjct  1   GLFDVIAKVASVIGGL  16
+
+
+>DRAMP06348
+Length=13
+
+ Score = 20.0 bits (40),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  1  GLFDIVKKV  9
+          GLFDI+KK+
+Sbjct  1  GLFDIIKKI  9
+
+
+>DRAMP06343
+Length=13
+
+ Score = 20.0 bits (40),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFDI+KK+  + 
+Sbjct  1   GLFDIIKKIAESF  13
+
+
+>DRAMP01607
+Length=13
+
+ Score = 20.0 bits (40),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFDI+KK+  + 
+Sbjct  1   GLFDIIKKIAESF  13
+
+
+>DRAMP02151
+Length=67
+
+ Score = 20.4 bits (41),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 8/16 (50%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLF  + KV+G +G L
+Sbjct  47  GLFSFLPKVIGVIGPL  62
+
+
+>DRAMP18504
+Length=27
+
+ Score = 19.6 bits (39),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFDI+KK+  + 
+Sbjct  15  GLFDIIKKIAESF  27
+
+
+>DRAMP15213
+Length=87
+
+ Score = 20.4 bits (41),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 18/29 (62%), Gaps = 4/29 (14%)
+
+Query  6   VKKVVGA----LGYLGERNRGKKKERIVQ  30
+           +KK++G     L YL ++NR + KE I Q
+Sbjct  50  LKKILGKRQRLLAYLSKKNRVRYKELINQ  78
+
+
+>DRAMP01206
+Length=13
+
+ Score = 19.2 bits (38),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFDI+K +   L
+Sbjct  1   GLFDIIKNIFSGL  13
+
+
+>DRAMP01616
+Length=15
+
+ Score = 18.9 bits (37),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  3   FDIVKKVVGALG  14
+           FDIVKK+ G + 
+Sbjct  1   FDIVKKIAGHIA  12
+
+
+>DRAMP01588
+Length=16
+
+ Score = 18.9 bits (37),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 8/16 (50%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  1   GLFDIVKKVVGALGYL  16
+           GLF ++KKV   +G L
+Sbjct  1   GLFAVIKKVASVIGGL  16
+
+
+>DRAMP01619
+Length=15
+
+ Score = 18.5 bits (36),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  3   FDIVKKVVGAL  13
+           FDIVKK+ G +
+Sbjct  1   FDIVKKIAGHI  11
+
+
+>DRAMP01595
+Length=12
+
+ Score = 18.5 bits (36),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  3   FDIVKKVVGALG  14
+           FDI+KKV   +G
+Sbjct  1   FDIIKKVASVVG  12
+
+
+>DRAMP13606
+Length=73
+
+ Score = 19.2 bits (38),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 15/25 (60%), Gaps = 4/25 (16%)
+
+Query  3   FDIVKKVVGALGYLGERNRGKKKER  27
+           F   KK+ GA+    ERNR K++ R
+Sbjct  17  FTATKKIGGAV----ERNRAKRRLR  37
+
+
+>DRAMP01250
+Length=33
+
+ Score = 18.5 bits (36),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 8/14 (57%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  1   GLFDIVKKVVGALG  14
+           GLFD+VK V+  +G
+Sbjct  1   GLFDVVKGVLKGVG  14
+
+
+>DRAMP15276
+Length=86
+
+ Score = 19.2 bits (38),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  1   GLFDIVKKVVGALGYLGERN  20
+           GL+  V K    L YL ERN
+Sbjct  52  GLYTKVSKRKRLLKYLKERN  71
+
+
+>DRAMP01592
+Length=14
+
+ Score = 18.1 bits (35),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 7/14 (50%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  3   FDIVKKVVGALGYL  16
+           FD++KKV   +G L
+Sbjct  1   FDVIKKVASVIGGL  14
+
+
+>DRAMP01590
+Length=16
+
+ Score = 18.1 bits (35),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 6/13 (46%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  1   GLFDIVKKVVGAL  13
+           GLFD++ KV   +
+Sbjct  1   GLFDVIAKVASVI  13
+
+
+>DRAMP02019
+Length=33
+
+ Score = 18.5 bits (36),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 7/10 (70%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  1  GLFDIVKKVV  10
+          GLFD+VK V+
+Sbjct  1  GLFDVVKGVL  10
+
+
+>DRAMP17654
+Length=97
+
+ Score = 18.9 bits (37),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 7/15 (47%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  9   VVGALGYLGERNRGK  23
+           V+G  GYLG ++ G+
+Sbjct  49  VMGNCGYLGIKDNGR  63
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.147    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+Query= TrioAMP_LoRA_0019
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP04564                                                            48.9    4e-12
+DRAMP21241                                                            39.3    3e-08
+DRAMP21242                                                            32.7    1e-05
+DRAMP11233                                                            32.3    2e-05
+DRAMP20904                                                            31.2    5e-05
+DRAMP02315                                                            30.8    7e-05
+DRAMP02316                                                            29.6    2e-04
+DRAMP20903                                                            28.9    4e-04
+DRAMP20902                                                            28.9    5e-04
+DRAMP02356                                                            26.6    0.004
+DRAMP11234                                                            25.8    0.007
+DRAMP20905                                                            25.4    0.009
+DRAMP18494                                                            25.4    0.010
+DRAMP02327                                                            24.6    0.019
+DRAMP02328                                                            24.3    0.029
+DRAMP05808                                                            25.0    0.030
+DRAMP05822                                                            24.6    0.034
+DRAMP20892                                                            23.9    0.036
+DRAMP05743                                                            23.9    0.042
+DRAMP02357                                                            23.9    0.042
+DRAMP20893                                                            23.9    0.042
+DRAMP04807                                                            23.9    0.044
+DRAMP02331                                                            23.9    0.044
+DRAMP02329                                                            23.9    0.045
+DRAMP18493                                                            23.9    0.048
+DRAMP03673                                                            23.5    0.050
+DRAMP02325                                                            23.5    0.051
+DRAMP27765                                                            23.5    0.064
+DRAMP20895                                                            23.5    0.065
+DRAMP19036                                                            23.5    0.067
+DRAMP04806                                                            23.5    0.067
+DRAMP02330                                                            23.5    0.067
+DRAMP20906                                                            23.1    0.076
+DRAMP20898                                                            23.1    0.077
+DRAMP02326                                                            23.1    0.080
+DRAMP20894                                                            22.3    0.15 
+DRAMP20899                                                            22.3    0.16 
+DRAMP27764                                                            22.3    0.19 
+DRAMP19037                                                            21.6    0.29 
+DRAMP04805                                                            21.6    0.29 
+DRAMP02332                                                            21.6    0.29 
+DRAMP20907                                                            21.6    0.35 
+DRAMP05800                                                            21.9    0.41 
+DRAMP27763                                                            21.2    0.41 
+DRAMP20897                                                            21.2    0.41 
+DRAMP20896                                                            21.2    0.42 
+DRAMP27766                                                            21.2    0.49 
+DRAMP20901                                                            19.6    2.3  
+DRAMP11235                                                            19.2    2.4  
+DRAMP02317                                                            19.2    2.4  
+DRAMP05752                                                            19.2    2.7  
+DRAMP02363                                                            19.2    2.7  
+DRAMP05811                                                            19.2    4.0  
+DRAMP20900                                                            18.9    4.0  
+DRAMP05805                                                            19.2    4.0  
+DRAMP01946                                                            18.9    4.3  
+DRAMP05757                                                            18.5    5.7  
+DRAMP02367                                                            18.5    5.7  
+DRAMP05812                                                            18.5    7.9  
+DRAMP24972                                                            17.7    8.6  
+DRAMP01226                                                            18.1    8.6  
+
+
+>DRAMP04564
+Length=25
+
+ Score = 48.9 bits (115),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 24/25 (96%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTRRRH  25
+           FIFHIIKGLFHAG+MIHGLVTRRRH
+Sbjct  1   FIFHIIKGLFHAGKMIHGLVTRRRH  25
+
+
+>DRAMP21241
+Length=21
+
+ Score = 39.3 bits (90),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 19/20 (95%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLV  20
+           FIFHIIKGLFHAG+MIHGLV
+Sbjct  2   FIFHIIKGLFHAGKMIHGLV  21
+
+
+>DRAMP21242
+Length=16
+
+ Score = 32.7 bits (73),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 15/16 (94%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   FIFHIIKGLFHAGRMI  16
+           FIFHIIKGLFHAG+MI
+Sbjct  1   FIFHIIKGLFHAGKMI  16
+
+
+>DRAMP11233
+Length=24
+
+ Score = 32.3 bits (72),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 15/23 (65%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+
+Query  3   FHIIKGLFHAGRMIHGLVTRRRH  25
+           F +IKG  HAG+ IHGL+ RRRH
+Sbjct  2   FWLIKGAIHAGKAIHGLIHRRRH  24
+
+
+>DRAMP20904
+Length=25
+
+ Score = 31.2 bits (69),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 16/24 (67%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTRRR  24
+           FI HII GLF AG+ IH L+ RRR
+Sbjct  1   FIHHIIGGLFSAGKAIHSLIHRRR  24
+
+
+>DRAMP02315
+Length=25
+
+ Score = 30.8 bits (68),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTRRRH  25
+           F   +IKG  HAG+ IHGL+ RRRH
+Sbjct  1   FFGWLIKGAIHAGKAIHGLIHRRRH  25
+
+
+>DRAMP02316
+Length=25
+
+ Score = 29.6 bits (65),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 14/25 (56%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTRRRH  25
+           F   +I+G  HAG+ IHGL+ RRRH
+Sbjct  1   FFGWLIRGAIHAGKAIHGLIHRRRH  25
+
+
+>DRAMP20903
+Length=23
+
+ Score = 28.9 bits (63),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 15/23 (65%), Positives = 17/23 (74%), Gaps = 0/23 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTRR  23
+           FI HII GLF AG+ IH L+ RR
+Sbjct  1   FIHHIIGGLFSAGKAIHRLIRRR  23
+
+
+>DRAMP20902
+Length=25
+
+ Score = 28.9 bits (63),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTRRR  24
+           FI HII GLF  G+ IH L+ RRR
+Sbjct  1   FIHHIIGGLFSVGKHIHSLIHRRR  24
+
+
+>DRAMP02356
+Length=25
+
+ Score = 26.6 bits (57),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTRRR  24
+           F+  I  GL HAG++IHGL+ R R
+Sbjct  1   FLGLIFHGLVHAGKLIHGLIHRNR  24
+
+
+>DRAMP11234
+Length=20
+
+ Score = 25.8 bits (55),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 11/18 (61%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  3   FHIIKGLFHAGRMIHGLV  20
+           F +IKG  HAG+ IHGL+
+Sbjct  2   FWLIKGAIHAGKAIHGLI  19
+
+
+>DRAMP20905
+Length=21
+
+ Score = 25.4 bits (54),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLV  20
+           FI HII GLF AG+ IH L+
+Sbjct  1   FIHHIIGGLFSAGKAIHRLI  20
+
+
+>DRAMP18494
+Length=25
+
+ Score = 25.4 bits (54),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLV  20
+           FI HII GLF AG+ IH L+
+Sbjct  1   FIHHIIGGLFSAGKAIHRLI  20
+
+
+>DRAMP02327
+Length=23
+
+ Score = 24.6 bits (52),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 12/21 (57%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H GR IH LVT
+Sbjct  1   FFHHIFRGIVHVGRTIHKLVT  21
+
+
+>DRAMP02328
+Length=23
+
+ Score = 24.3 bits (51),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 12/21 (57%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H GR IH LVT
+Sbjct  1   FFHHIFRGIVHVGRTIHRLVT  21
+
+
+>DRAMP05808
+Length=69
+
+ Score = 25.0 bits (53),  Expect = 0.030, Method: Compositional matrix adjust.
+ Identities = 12/28 (43%), Positives = 18/28 (64%), Gaps = 1/28 (4%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTRRRHGVE  28
+           F+  +IKG  H GR IHG++ +  HG +
+Sbjct  23  FLGALIKGAIHGGRFIHGMI-QNHHGYD  49
+
+
+>DRAMP05822
+Length=61
+
+ Score = 24.6 bits (52),  Expect = 0.034, Method: Compositional matrix adjust.
+ Identities = 12/28 (43%), Positives = 18/28 (64%), Gaps = 1/28 (4%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTRRRHGVE  28
+           F+  +IKG  H GR IHG++ +  HG +
+Sbjct  23  FLGALIKGAIHGGRFIHGMI-QNHHGYD  49
+
+
+>DRAMP20892
+Length=25
+
+ Score = 23.9 bits (50),  Expect = 0.036, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLV  20
+           FI  II GLF AG+ IH L+
+Sbjct  1   FIAAIIGGLFSAGKAIHRLI  20
+
+
+>DRAMP05743
+Length=24
+
+ Score = 23.9 bits (50),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 14/22 (64%), Gaps = 0/22 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTR  22
+           F+  +IKG  H GR IHG++  
+Sbjct  1   FLGALIKGAIHGGRFIHGMIQN  22
+
+
+>DRAMP02357
+Length=24
+
+ Score = 23.9 bits (50),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 14/22 (64%), Gaps = 0/22 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVTR  22
+           F+  +IKG  H GR IHG++  
+Sbjct  1   FLGALIKGAIHGGRFIHGMIQN  22
+
+
+>DRAMP20893
+Length=25
+
+ Score = 23.9 bits (50),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLV  20
+           FI HII GLF AG+  H L+
+Sbjct  1   FIHHIIGGLFSAGKAAHRLI  20
+
+
+>DRAMP04807
+Length=22
+
+ Score = 23.9 bits (50),  Expect = 0.044, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H G+ IH LVT
+Sbjct  1   FFHHIFRGIVHVGKTIHKLVT  21
+
+
+>DRAMP02331
+Length=22
+
+ Score = 23.9 bits (50),  Expect = 0.044, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H G+ IH LVT
+Sbjct  1   FFHHIFRGIVHVGKTIHKLVT  21
+
+
+>DRAMP02329
+Length=22
+
+ Score = 23.9 bits (50),  Expect = 0.045, Method: Compositional matrix adjust.
+ Identities = 11/18 (61%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+
+Query  4   HIIKGLFHAGRMIHGLVT  21
+           HI KG+ H G+ IH LVT
+Sbjct  4   HIFKGIVHVGKTIHRLVT  21
+
+
+>DRAMP18493
+Length=23
+
+ Score = 23.9 bits (50),  Expect = 0.048, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLV  20
+           FI HII GL   G+ IHGL+
+Sbjct  1   FIHHIIGGLISVGKHIHGLI  20
+
+
+>DRAMP03673
+Length=22
+
+ Score = 23.5 bits (49),  Expect = 0.050, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H G+ IH LVT
+Sbjct  1   FFHHIFRGIVHVGKSIHKLVT  21
+
+
+>DRAMP02325
+Length=23
+
+ Score = 23.5 bits (49),  Expect = 0.051, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H G+ IH LVT
+Sbjct  1   FFHHIFRGIVHVGKTIHKLVT  21
+
+
+>DRAMP27765
+Length=22
+
+ Score = 23.5 bits (49),  Expect = 0.064, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H G+ IH LVT
+Sbjct  1   FFHHIFRGIVHKGKTIHRLVT  21
+
+
+>DRAMP20895
+Length=25
+
+ Score = 23.5 bits (49),  Expect = 0.065, Method: Compositional matrix adjust.
+ Identities = 11/17 (65%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  4   HIIKGLFHAGRMIHGLV  20
+           HII GLF AG+ IH L+
+Sbjct  4   HIIGGLFSAGKAIHRLI  20
+
+
+>DRAMP19036
+Length=22
+
+ Score = 23.5 bits (49),  Expect = 0.067, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H G+ IH LVT
+Sbjct  1   FFHHIFRGIVHVGKTIHRLVT  21
+
+
+>DRAMP04806
+Length=22
+
+ Score = 23.5 bits (49),  Expect = 0.067, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H G+ IH LVT
+Sbjct  1   FFHHIFRGIVHVGKTIHRLVT  21
+
+
+>DRAMP02330
+Length=22
+
+ Score = 23.5 bits (49),  Expect = 0.067, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H G+ IH LVT
+Sbjct  1   FFHHIFRGIVHVGKTIHRLVT  21
+
+
+>DRAMP20906
+Length=23
+
+ Score = 23.1 bits (48),  Expect = 0.076, Method: Compositional matrix adjust.
+ Identities = 11/17 (65%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  4   HIIKGLFHAGRMIHGLV  20
+           HII GLF AG+ IH L+
+Sbjct  2   HIIGGLFSAGKAIHRLI  18
+
+
+>DRAMP20898
+Length=25
+
+ Score = 23.1 bits (48),  Expect = 0.077, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLV  20
+           FI HII GLF AG+  H L+
+Sbjct  1   FIHHIIGGLFSAGKAEHRLI  20
+
+
+>DRAMP02326
+Length=23
+
+ Score = 23.1 bits (48),  Expect = 0.080, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H G+ IH LVT
+Sbjct  1   FFHHIFRGIVHVGKTIHRLVT  21
+
+
+>DRAMP20894
+Length=25
+
+ Score = 22.3 bits (46),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  1   FIFHIIKGLFHAGRMI  16
+           FI HII GLF AG+ I
+Sbjct  1   FIHHIIGGLFSAGKAI  16
+
+
+>DRAMP20899
+Length=25
+
+ Score = 22.3 bits (46),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLV  20
+           FI H   GLF AG+ IH L+
+Sbjct  1   FIHHAAGGLFSAGKAIHRLI  20
+
+
+>DRAMP27764
+Length=22
+
+ Score = 22.3 bits (46),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G  H G+ IH LVT
+Sbjct  1   FFHHIFRGKVHVGKTIHRLVT  21
+
+
+>DRAMP19037
+Length=22
+
+ Score = 21.6 bits (44),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           FI HI +G+ HAGR I   +T
+Sbjct  1   FIHHIFRGIVHAGRSIGRFLT  21
+
+
+>DRAMP04805
+Length=22
+
+ Score = 21.6 bits (44),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           FI HI +G+ HAGR I   +T
+Sbjct  1   FIHHIFRGIVHAGRSIGRFLT  21
+
+
+>DRAMP02332
+Length=22
+
+ Score = 21.6 bits (44),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           FI HI +G+ HAGR I   +T
+Sbjct  1   FIHHIFRGIVHAGRSIGRFLT  21
+
+
+>DRAMP20907
+Length=21
+
+ Score = 21.6 bits (44),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  5   IIKGLFHAGRMIHGLV  20
+           II GLF AG+ IH L+
+Sbjct  1   IIGGLFSAGKAIHRLI  16
+
+
+>DRAMP05800
+Length=56
+
+ Score = 21.9 bits (45),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 13/24 (54%), Gaps = 0/24 (0%)
+
+Query  5   IIKGLFHAGRMIHGLVTRRRHGVE  28
+           I K +F AG+ IHG +     G E
+Sbjct  27  IFKHIFKAGKFIHGAIQAHNDGEE  50
+
+
+>DRAMP27763
+Length=22
+
+ Score = 21.2 bits (43),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI + + H G+ IH LVT
+Sbjct  1   FFHHIFRPIVHVGKTIHRLVT  21
+
+
+>DRAMP20897
+Length=25
+
+ Score = 21.2 bits (43),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 10/14 (71%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  1   FIFHIIKGLFHAGR  14
+           FI HII GLF AG+
+Sbjct  1   FIHHIIGGLFSAGK  14
+
+
+>DRAMP20896
+Length=25
+
+ Score = 21.2 bits (43),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLV  20
+           FI HII G   AG+ IH L+
+Sbjct  1   FIHHIIGGAASAGKAIHRLI  20
+
+
+>DRAMP27766
+Length=22
+
+ Score = 21.2 bits (43),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  1   FIFHIIKGLFHAGRMIHGLVT  21
+           F  HI +G+ H  + IH LVT
+Sbjct  1   FFHHIFRGIVHVKKTIHRLVT  21
+
+
+>DRAMP20901
+Length=25
+
+ Score = 19.6 bits (39),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 9/14 (64%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  1   FIFHIIKGLFHAGR  14
+           FI HII GLF  G+
+Sbjct  1   FIHHIIGGLFSVGK  14
+
+
+>DRAMP11235
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 10/15 (67%), Gaps = 0/15 (0%)
+
+Query  9   LFHAGRMIHGLVTRR  23
+           L  AG+ IH L+ RR
+Sbjct  5   LISAGKAIHDLIRRR  19
+
+
+>DRAMP02317
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 10/15 (67%), Gaps = 0/15 (0%)
+
+Query  9   LFHAGRMIHGLVTRR  23
+           L  AG+ IH L+ RR
+Sbjct  5   LISAGKAIHDLIRRR  19
+
+
+>DRAMP05752
+Length=26
+
+ Score = 19.2 bits (38),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 8/16 (50%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  5   IIKGLFHAGRMIHGLV  20
+           I K +F AG+ IHG +
+Sbjct  6   IFKHIFKAGKFIHGAI  21
+
+
+>DRAMP02363
+Length=26
+
+ Score = 19.2 bits (38),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 8/16 (50%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  5   IIKGLFHAGRMIHGLV  20
+           I K +F AG+ IHG +
+Sbjct  6   IFKHIFKAGKFIHGAI  21
+
+
+>DRAMP05811
+Length=55
+
+ Score = 19.2 bits (38),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  8   GLFHAGRMIHGLV  20
+           G+ H G++IHGL+
+Sbjct  30  GVHHVGKLIHGLI  42
+
+
+>DRAMP20900
+Length=25
+
+ Score = 18.9 bits (37),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 9/14 (64%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  1   FIFHIIKGLFHAGR  14
+           FI HII GLF  G+
+Sbjct  1   FIHHIIGGLFSIGK  14
+
+
+>DRAMP05805
+Length=65
+
+ Score = 19.2 bits (38),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 12/16 (75%), Gaps = 2/16 (13%)
+
+Query  11  HAGRMIHGLVTRRRHG  26
+           HAGR+IH  +  +RHG
+Sbjct  30  HAGRLIHRFI--KRHG  43
+
+
+>DRAMP01946
+Length=32
+
+ Score = 18.9 bits (37),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  2   IFHIIKGLFHAGRMIHG  18
+           +F++ KGL  AG+ + G
+Sbjct  2   LFNVFKGLKTAGKHVAG  18
+
+
+>DRAMP05757
+Length=24
+
+ Score = 18.5 bits (36),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  5   IIKGLFHAGRMIHGLV  20
+           +  G+ H G+ IHGL+
+Sbjct  5   LFHGVHHVGKWIHGLI  20
+
+
+>DRAMP02367
+Length=24
+
+ Score = 18.5 bits (36),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  5   IIKGLFHAGRMIHGLV  20
+           +  G+ H G+ IHGL+
+Sbjct  5   LFHGVHHVGKWIHGLI  20
+
+
+>DRAMP05812
+Length=57
+
+ Score = 18.5 bits (36),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  8   GLFHAGRMIHGLV  20
+           G+ H G+ IHGL+
+Sbjct  30  GVHHVGKWIHGLI  42
+
+
+>DRAMP24972
+Length=19
+
+ Score = 17.7 bits (34),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 6/12 (50%), Positives = 7/12 (58%), Gaps = 0/12 (0%)
+
+Query  17  HGLVTRRRHGVE  28
+           H   T+R HG E
+Sbjct  8   HSSSTKRAHGAE  19
+
+
+>DRAMP01226
+Length=28
+
+ Score = 18.1 bits (35),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 7/20 (35%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  2   IFHIIKGLFHAGRMIHGLVT  21
+           +F I++GL   G+M    V 
+Sbjct  2   LFSILRGLKKLGKMGQAFVN  21
+
+
+
+Lambda      K        H        a         alpha
+   0.343    0.157    0.516    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17914624
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

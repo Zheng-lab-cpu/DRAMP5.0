@@ -1,0 +1,1240 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=21
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP18857                                                            21.9    0.17 
+DRAMP04851                                                            21.9    0.17 
+DRAMP18856                                                            21.6    0.19 
+DRAMP04850                                                            21.6    0.19 
+DRAMP19032                                                            21.6    0.21 
+DRAMP04827                                                            21.6    0.21 
+DRAMP04117                                                            21.2    0.26 
+DRAMP04281                                                            21.2    0.36 
+DRAMP18924                                                            20.4    0.52 
+DRAMP05368                                                            20.4    0.52 
+DRAMP04271                                                            20.4    0.52 
+DRAMP19033                                                            20.4    0.63 
+DRAMP04826                                                            20.4    0.63 
+DRAMP18853                                                            20.4    0.67 
+DRAMP04846                                                            20.4    0.67 
+DRAMP04264                                                            20.4    0.67 
+DRAMP19026                                                            20.0    0.73 
+DRAMP04833                                                            20.0    0.73 
+DRAMP04115                                                            20.0    0.74 
+DRAMP18852                                                            19.6    1.1  
+DRAMP04825                                                            19.6    1.1  
+DRAMP04265                                                            19.6    1.1  
+DRAMP04280                                                            19.6    1.1  
+DRAMP18860                                                            19.6    1.1  
+DRAMP04854                                                            19.6    1.1  
+DRAMP18854                                                            19.6    1.2  
+DRAMP04848                                                            19.6    1.2  
+DRAMP04269                                                            19.6    1.2  
+DRAMP04266                                                            19.6    1.2  
+DRAMP18863                                                            19.6    1.4  
+DRAMP04857                                                            19.6    1.4  
+DRAMP04275                                                            19.6    1.4  
+DRAMP18861                                                            19.6    1.4  
+DRAMP04855                                                            19.6    1.4  
+DRAMP04120                                                            19.2    1.5  
+DRAMP04121                                                            19.2    1.6  
+DRAMP04122                                                            19.2    1.6  
+DRAMP04113                                                            19.2    1.7  
+DRAMP04103                                                            19.2    1.7  
+DRAMP04102                                                            19.2    1.7  
+DRAMP04114                                                            19.2    1.7  
+DRAMP04112                                                            19.2    1.7  
+DRAMP04118                                                            19.2    1.8  
+DRAMP04116                                                            18.9    2.0  
+DRAMP04119                                                            18.9    2.1  
+DRAMP05638                                                            18.9    2.3  
+DRAMP18859                                                            18.9    2.6  
+DRAMP04853                                                            18.9    2.6  
+DRAMP28648                                                            18.9    2.6  
+DRAMP01668                                                            18.9    2.6  
+DRAMP19017                                                            18.9    3.0  
+DRAMP04844                                                            18.9    3.0  
+DRAMP18865                                                            18.5    3.1  
+DRAMP04859                                                            18.5    3.1  
+DRAMP01259                                                            18.5    3.1  
+DRAMP04345                                                            18.5    3.3  
+DRAMP01692                                                            18.5    3.5  
+DRAMP04108                                                            18.5    3.6  
+DRAMP04110                                                            18.5    3.7  
+DRAMP19025                                                            18.5    3.8  
+DRAMP04834                                                            18.5    3.8  
+DRAMP04267                                                            18.5    3.8  
+DRAMP04111                                                            18.1    3.8  
+DRAMP01649                                                            18.5    4.1  
+DRAMP05825                                                            18.1    4.2  
+DRAMP04109                                                            18.1    4.2  
+DRAMP01710                                                            18.5    4.3  
+DRAMP01679                                                            18.5    4.3  
+DRAMP18876                                                            18.1    4.3  
+DRAMP04870                                                            18.1    4.3  
+DRAMP03799                                                            18.5    4.4  
+DRAMP01641                                                            18.5    4.6  
+DRAMP01632                                                            18.1    4.7  
+DRAMP18858                                                            18.1    5.3  
+DRAMP04852                                                            18.1    5.3  
+DRAMP21028                                                            17.7    5.5  
+DRAMP20946                                                            17.7    5.6  
+DRAMP20838                                                            18.1    5.6  
+DRAMP18875                                                            17.7    5.6  
+DRAMP04869                                                            17.7    5.6  
+DRAMP04277                                                            17.7    5.6  
+DRAMP19031                                                            17.7    6.2  
+DRAMP04828                                                            17.7    6.2  
+DRAMP04282                                                            17.7    6.2  
+DRAMP01630                                                            17.7    6.4  
+DRAMP04107                                                            17.7    6.5  
+DRAMP04105                                                            17.7    6.5  
+DRAMP19491                                                            17.7    6.6  
+DRAMP01653                                                            17.3    8.1  
+DRAMP01676                                                            17.3    8.3  
+DRAMP18557                                                            17.3    8.8  
+DRAMP18552                                                            17.3    8.8  
+DRAMP08869                                                            17.3    8.8  
+DRAMP18855                                                            17.3    9.1  
+DRAMP04849                                                            17.3    9.1  
+DRAMP04270                                                            17.3    9.1  
+DRAMP12677                                                            17.3    9.6  
+DRAMP18923                                                            17.3    9.7  
+DRAMP05369                                                            17.3    9.7  
+
+
+>DRAMP18857
+Length=26
+
+ Score = 21.9 bits (45),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 14/19 (74%), Gaps = 1/19 (5%)
+
+Query  2   KWKSFIKKIEKFALNRYPV  20
+           KWKSFIK +EK  L + P+
+Sbjct  1   KWKSFIKNLEK-VLKKGPI  18
+
+
+>DRAMP04851
+Length=26
+
+ Score = 21.9 bits (45),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 14/19 (74%), Gaps = 1/19 (5%)
+
+Query  2   KWKSFIKKIEKFALNRYPV  20
+           KWKSFIK +EK  L + P+
+Sbjct  1   KWKSFIKNLEK-VLKKGPI  18
+
+
+>DRAMP18856
+Length=26
+
+ Score = 21.6 bits (44),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSFIK +EK
+Sbjct  1   KWKSFIKNLEK  11
+
+
+>DRAMP04850
+Length=26
+
+ Score = 21.6 bits (44),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSFIK +EK
+Sbjct  1   KWKSFIKNLEK  11
+
+
+>DRAMP19032
+Length=26
+
+ Score = 21.6 bits (44),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 10/13 (77%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+ K A
+Sbjct  1   KWKSFIKKLTKAA  13
+
+
+>DRAMP04827
+Length=26
+
+ Score = 21.6 bits (44),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 10/13 (77%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+ K A
+Sbjct  1   KWKSFIKKLTKAA  13
+
+
+>DRAMP04117
+Length=20
+
+ Score = 21.2 bits (43),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  2   KWKSFIKKIEKFALN  16
+           KWKSFIKK+   AL+
+Sbjct  1   KWKSFIKKLTSKALH  15
+
+
+>DRAMP04281
+Length=26
+
+ Score = 21.2 bits (43),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 10/13 (77%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+ K A
+Sbjct  1   KWKSFIKKLPKAA  13
+
+
+>DRAMP18924
+Length=26
+
+ Score = 20.4 bits (41),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLTSAA  13
+
+
+>DRAMP05368
+Length=26
+
+ Score = 20.4 bits (41),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLTSAA  13
+
+
+>DRAMP04271
+Length=26
+
+ Score = 20.4 bits (41),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLTSAA  13
+
+
+>DRAMP19033
+Length=27
+
+ Score = 20.4 bits (41),  Expect = 0.63, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLTSAA  13
+
+
+>DRAMP04826
+Length=27
+
+ Score = 20.4 bits (41),  Expect = 0.63, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLTSAA  13
+
+
+>DRAMP18853
+Length=26
+
+ Score = 20.4 bits (41),  Expect = 0.67, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLTSAA  13
+
+
+>DRAMP04846
+Length=26
+
+ Score = 20.4 bits (41),  Expect = 0.67, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLTSAA  13
+
+
+>DRAMP04264
+Length=26
+
+ Score = 20.4 bits (41),  Expect = 0.67, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLTSAA  13
+
+
+>DRAMP19026
+Length=25
+
+ Score = 20.0 bits (40),  Expect = 0.73, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLTSAA  13
+
+
+>DRAMP04833
+Length=25
+
+ Score = 20.0 bits (40),  Expect = 0.73, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLTSAA  13
+
+
+>DRAMP04115
+Length=20
+
+ Score = 20.0 bits (40),  Expect = 0.74, Method: Compositional matrix adjust.
+ Identities = 9/11 (82%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSFIKK+ K
+Sbjct  1   KWKSFIKKLTK  11
+
+
+>DRAMP18852
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 8/10 (80%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  2   KWKSFIKKIE  11
+           KWKSFIKK+ 
+Sbjct  1   KWKSFIKKLT  10
+
+
+>DRAMP04825
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 8/10 (80%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  2   KWKSFIKKIE  11
+           KWKSFIKK+ 
+Sbjct  1   KWKSFIKKLT  10
+
+
+>DRAMP04265
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 8/10 (80%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  2   KWKSFIKKIE  11
+           KWKSFIKK+ 
+Sbjct  1   KWKSFIKKLT  10
+
+
+>DRAMP04280
+Length=27
+
+ Score = 19.6 bits (39),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLPSAA  13
+
+
+>DRAMP18860
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 8/10 (80%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  2   KWKSFIKKIE  11
+           KWKSFIKK+ 
+Sbjct  1   KWKSFIKKLT  10
+
+
+>DRAMP04854
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 8/10 (80%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  2   KWKSFIKKIE  11
+           KWKSFIKK+ 
+Sbjct  1   KWKSFIKKLT  10
+
+
+>DRAMP18854
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSFIK + K
+Sbjct  1   KWKSFIKNLTK  11
+
+
+>DRAMP04848
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSFIK + K
+Sbjct  1   KWKSFIKNLTK  11
+
+
+>DRAMP04269
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSFIK + K
+Sbjct  1   KWKSFIKNLTK  11
+
+
+>DRAMP04266
+Length=25
+
+ Score = 19.6 bits (39),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWKSFIKK+   A
+Sbjct  1   KWKSFIKKLPSAA  13
+
+
+>DRAMP18863
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 8/10 (80%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  2   KWKSFIKKIE  11
+           KWKSFIKK+ 
+Sbjct  1   KWKSFIKKLT  10
+
+
+>DRAMP04857
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 8/10 (80%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  2   KWKSFIKKIE  11
+           KWKSFIKK+ 
+Sbjct  1   KWKSFIKKLT  10
+
+
+>DRAMP04275
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 8/10 (80%), Positives = 9/10 (90%), Gaps = 0/10 (0%)
+
+Query  2   KWKSFIKKIE  11
+           KWKSFIKK+ 
+Sbjct  1   KWKSFIKKLT  10
+
+
+>DRAMP18861
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSFIK + K
+Sbjct  1   KWKSFIKNLTK  11
+
+
+>DRAMP04855
+Length=26
+
+ Score = 19.6 bits (39),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSFIK + K
+Sbjct  1   KWKSFIKNLTK  11
+
+
+>DRAMP04120
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP04121
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP04122
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP04113
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP04103
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP04102
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP04114
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP04112
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP04118
+Length=20
+
+ Score = 19.2 bits (38),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP04116
+Length=20
+
+ Score = 18.9 bits (37),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP04119
+Length=20
+
+ Score = 18.9 bits (37),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 9/9 (100%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFIKK+
+Sbjct  1  KWKSFIKKL  9
+
+
+>DRAMP05638
+Length=32
+
+ Score = 18.9 bits (37),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 6/14 (43%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK+ +KK+   AL+
+Sbjct  3   WKTMLKKLGTMALH  16
+
+
+>DRAMP18859
+Length=26
+
+ Score = 18.9 bits (37),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWK FIK+++K
+Sbjct  1   KWKKFIKELQK  11
+
+
+>DRAMP04853
+Length=26
+
+ Score = 18.9 bits (37),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWK FIK+++K
+Sbjct  1   KWKKFIKELQK  11
+
+
+>DRAMP28648
+Length=34
+
+ Score = 18.9 bits (37),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 6/14 (43%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK+ +KK+   AL+
+Sbjct  3   WKTMLKKLGTMALH  16
+
+
+>DRAMP01668
+Length=34
+
+ Score = 18.9 bits (37),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 6/14 (43%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK+ +KK+   AL+
+Sbjct  3   WKTMLKKLGTMALH  16
+
+
+>DRAMP19017
+Length=33
+
+ Score = 18.9 bits (37),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 6/14 (43%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK+ +KK+   AL+
+Sbjct  3   WKTMLKKLGTMALH  16
+
+
+>DRAMP04844
+Length=33
+
+ Score = 18.9 bits (37),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 6/14 (43%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK+ +KK+   AL+
+Sbjct  3   WKTMLKKLGTMALH  16
+
+
+>DRAMP18865
+Length=26
+
+ Score = 18.5 bits (36),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWK FIK+++K
+Sbjct  1   KWKKFIKELQK  11
+
+
+>DRAMP04859
+Length=26
+
+ Score = 18.5 bits (36),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWK FIK+++K
+Sbjct  1   KWKKFIKELQK  11
+
+
+>DRAMP01259
+Length=31
+
+ Score = 18.5 bits (36),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 6/14 (43%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK+ +KK+   AL+
+Sbjct  3   WKTMLKKLGTMALH  16
+
+
+>DRAMP04345
+Length=19
+
+ Score = 18.5 bits (36),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  2   KWKSFIKKIEKF  13
+           KWK  +K+I+KF
+Sbjct  4   KWKRIVKRIKKF  15
+
+
+>DRAMP01692
+Length=31
+
+ Score = 18.5 bits (36),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 6/12 (50%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  3   WKSFIKKIEKFA  14
+           WK+ +KK+ K A
+Sbjct  3   WKTLLKKVGKVA  14
+
+
+>DRAMP04108
+Length=20
+
+ Score = 18.5 bits (36),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 8/8 (100%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  2  KWKSFIKK  9
+          KWKSFIKK
+Sbjct  1  KWKSFIKK  8
+
+
+>DRAMP04110
+Length=20
+
+ Score = 18.5 bits (36),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 8/8 (100%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  2  KWKSFIKK  9
+          KWKSFIKK
+Sbjct  1  KWKSFIKK  8
+
+
+>DRAMP19025
+Length=30
+
+ Score = 18.5 bits (36),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 8/9 (89%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWK FIKKI
+Sbjct  1  KWKKFIKKI  9
+
+
+>DRAMP04834
+Length=30
+
+ Score = 18.5 bits (36),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 8/9 (89%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWK FIKKI
+Sbjct  1  KWKKFIKKI  9
+
+
+>DRAMP04267
+Length=30
+
+ Score = 18.5 bits (36),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 8/9 (89%), Positives = 8/9 (89%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWK FIKKI
+Sbjct  1  KWKKFIKKI  9
+
+
+>DRAMP04111
+Length=20
+
+ Score = 18.1 bits (35),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 8/8 (100%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  2  KWKSFIKK  9
+          KWKSFIKK
+Sbjct  1  KWKSFIKK  8
+
+
+>DRAMP01649
+Length=31
+
+ Score = 18.5 bits (36),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 7/14 (50%), Positives = 9/14 (64%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK  +KKI   AL+
+Sbjct  3   WKDVLKKIGTVALH  16
+
+
+>DRAMP05825
+Length=24
+
+ Score = 18.1 bits (35),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 7/14 (50%), Positives = 9/14 (64%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK  +KKI   AL+
+Sbjct  2   WKDVLKKIGTVALH  15
+
+
+>DRAMP04109
+Length=20
+
+ Score = 18.1 bits (35),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 8/8 (100%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  2  KWKSFIKK  9
+          KWKSFIKK
+Sbjct  1  KWKSFIKK  8
+
+
+>DRAMP01710
+Length=33
+
+ Score = 18.5 bits (36),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 6/14 (43%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK+ +KK+   AL+
+Sbjct  3   WKTMLKKLGTVALH  16
+
+
+>DRAMP01679
+Length=31
+
+ Score = 18.5 bits (36),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 7/14 (50%), Positives = 9/14 (64%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK  +KKI   AL+
+Sbjct  3   WKDVLKKIGTVALH  16
+
+
+>DRAMP18876
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 8/8 (100%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  2  KWKSFIKK  9
+          KWKSFIKK
+Sbjct  1  KWKSFIKK  8
+
+
+>DRAMP04870
+Length=8
+
+ Score = 18.1 bits (35),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 8/8 (100%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  2  KWKSFIKK  9
+          KWKSFIKK
+Sbjct  1  KWKSFIKK  8
+
+
+>DRAMP03799
+Length=34
+
+ Score = 18.5 bits (36),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 6/19 (32%), Positives = 12/19 (63%), Gaps = 0/19 (0%)
+
+Query  2   KWKSFIKKIEKFALNRYPV  20
+           KW+  I + EK   +++P+
+Sbjct  7   KWRCGIGEEEKGICHKFPI  25
+
+
+>DRAMP01641
+Length=34
+
+ Score = 18.5 bits (36),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 7/14 (50%), Positives = 9/14 (64%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK  +KKI   AL+
+Sbjct  3   WKDVLKKIGTVALH  16
+
+
+>DRAMP01632
+Length=31
+
+ Score = 18.1 bits (35),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 6/14 (43%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  3   WKSFIKKIEKFALN  16
+           WK+ +KK+   AL+
+Sbjct  3   WKTMLKKLGTVALH  16
+
+
+>DRAMP18858
+Length=26
+
+ Score = 18.1 bits (35),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 8/9 (89%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWK FIKK+
+Sbjct  1  KWKEFIKKL  9
+
+
+>DRAMP04852
+Length=26
+
+ Score = 18.1 bits (35),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 8/9 (89%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWK FIKK+
+Sbjct  1  KWKEFIKKL  9
+
+
+>DRAMP21028
+Length=23
+
+ Score = 17.7 bits (34),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 7/15 (47%), Positives = 9/15 (60%), Gaps = 0/15 (0%)
+
+Query  3   WKSFIKKIEKFALNR  17
+           WK  +K + K ALN 
+Sbjct  3   WKDILKNLLKAALNE  17
+
+
+>DRAMP20946
+Length=24
+
+ Score = 17.7 bits (34),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 5/13 (38%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           +W+ FI+   +FA
+Sbjct  4   RWRRFIRGAGRFA  16
+
+
+>DRAMP20838
+Length=25
+
+ Score = 18.1 bits (35),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 5/13 (38%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           +W+ FI+   +FA
+Sbjct  4   RWRRFIRGAGRFA  16
+
+
+>DRAMP18875
+Length=20
+
+ Score = 17.7 bits (34),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 11/15 (73%), Gaps = 1/15 (7%)
+
+Query  1   WK-WKSFIKKIEKFA  14
+           WK +KSFIKK   FA
+Sbjct  1   WKVFKSFIKKASSFA  15
+
+
+>DRAMP04869
+Length=20
+
+ Score = 17.7 bits (34),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 11/15 (73%), Gaps = 1/15 (7%)
+
+Query  1   WK-WKSFIKKIEKFA  14
+           WK +KSFIKK   FA
+Sbjct  1   WKVFKSFIKKASSFA  15
+
+
+>DRAMP04277
+Length=20
+
+ Score = 17.7 bits (34),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 10/15 (67%), Positives = 11/15 (73%), Gaps = 1/15 (7%)
+
+Query  1   WK-WKSFIKKIEKFA  14
+           WK +KSFIKK   FA
+Sbjct  1   WKVFKSFIKKASSFA  15
+
+
+>DRAMP19031
+Length=27
+
+ Score = 17.7 bits (34),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWK FIK + K A
+Sbjct  1   KWKKFIKSLTKSA  13
+
+
+>DRAMP04828
+Length=27
+
+ Score = 17.7 bits (34),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWK FIK + K A
+Sbjct  1   KWKKFIKSLTKSA  13
+
+
+>DRAMP04282
+Length=27
+
+ Score = 17.7 bits (34),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  2   KWKSFIKKIEKFA  14
+           KWK FIK + K A
+Sbjct  1   KWKKFIKSLTKSA  13
+
+
+>DRAMP01630
+Length=28
+
+ Score = 17.7 bits (34),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  3   WKSFIKKIEKFA  14
+           WK F+K I K A
+Sbjct  3   WKDFLKNIGKAA  14
+
+
+>DRAMP04107
+Length=20
+
+ Score = 17.7 bits (34),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 8/9 (89%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KWKSFI K+
+Sbjct  1  KWKSFINKL  9
+
+
+>DRAMP04105
+Length=20
+
+ Score = 17.7 bits (34),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 8/9 (89%), Gaps = 0/9 (0%)
+
+Query  2  KWKSFIKKI  10
+          KW SFIKK+
+Sbjct  1  KWNSFIKKL  9
+
+
+>DRAMP19491
+Length=15
+
+ Score = 17.7 bits (34),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 5/12 (42%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  2   KWKSFIKKIEKF  13
+           +W  F++KI +F
+Sbjct  1   RWGRFLRKIRRF  12
+
+
+>DRAMP01653
+Length=24
+
+ Score = 17.3 bits (33),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 7/15 (47%), Positives = 8/15 (53%), Gaps = 0/15 (0%)
+
+Query  3   WKSFIKKIEKFALNR  17
+           WK  +K   K ALN 
+Sbjct  3   WKDILKNAGKAALNE  17
+
+
+>DRAMP01676
+Length=23
+
+ Score = 17.3 bits (33),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 7/15 (47%), Positives = 8/15 (53%), Gaps = 0/15 (0%)
+
+Query  3   WKSFIKKIEKFALNR  17
+           WK  +K   K ALN 
+Sbjct  3   WKDILKNAGKAALNE  17
+
+
+>DRAMP18557
+Length=26
+
+ Score = 17.3 bits (33),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSF+K  +K
+Sbjct  1   KWKSFLKTFKK  11
+
+
+>DRAMP18552
+Length=26
+
+ Score = 17.3 bits (33),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSF+K  +K
+Sbjct  1   KWKSFLKTFKK  11
+
+
+>DRAMP08869
+Length=26
+
+ Score = 17.3 bits (33),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWKSF+K  +K
+Sbjct  1   KWKSFLKTFKK  11
+
+
+>DRAMP18855
+Length=26
+
+ Score = 17.3 bits (33),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWK FIK + K
+Sbjct  1   KWKKFIKNLTK  11
+
+
+>DRAMP04849
+Length=26
+
+ Score = 17.3 bits (33),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWK FIK + K
+Sbjct  1   KWKKFIKNLTK  11
+
+
+>DRAMP04270
+Length=26
+
+ Score = 17.3 bits (33),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 7/11 (64%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  2   KWKSFIKKIEK  12
+           KWK FIK + K
+Sbjct  1   KWKKFIKNLTK  11
+
+
+>DRAMP12677
+Length=33
+
+ Score = 17.3 bits (33),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 5/10 (50%), Positives = 8/10 (80%), Gaps = 0/10 (0%)
+
+Query  11  EKFALNRYPV  20
+           +KF  N+YP+
+Sbjct  12  DKFPGNKYPI  21
+
+
+>DRAMP18923
+Length=26
+
+ Score = 17.3 bits (33),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 7/10 (70%), Positives = 8/10 (80%), Gaps = 0/10 (0%)
+
+Query  2   KWKSFIKKIE  11
+           KWK FIKK+ 
+Sbjct  1   KWKLFIKKLT  10
+
+
+>DRAMP05369
+Length=26
+
+ Score = 17.3 bits (33),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 7/10 (70%), Positives = 8/10 (80%), Gaps = 0/10 (0%)
+
+Query  2   KWKSFIKKIE  11
+           KWK FIKK+ 
+Sbjct  1   KWKLFIKKLT  10
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.513    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 14623476
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

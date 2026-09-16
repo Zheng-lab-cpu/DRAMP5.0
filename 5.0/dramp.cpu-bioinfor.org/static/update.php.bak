@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Welcome To Dramp Database</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="http://dramp.cpu-bioinfor.org/lazysheep/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="http://dramp.cpu-bioinfor.org/lazysheep/css/private.css">
+    <link rel="stylesheet" type="text/css" href="http://dramp.cpu-bioinfor.org/lazysheep/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="http://dramp.cpu-bioinfor.org/lazysheep/css/public.css">
+
+          <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+<?php
+
+          require_once ("../head/head_content.php");
+
+?>
+<div class="container">
+                   <div class="content">
+                   
+                   <h2>Feburary 19,2016</h2>
+                        <ul class="item">
+						    <li>Newly released structures of Cm-p1, Hylin-a1, DEFA1, Protegrin-3, Protegrin-2, Anoplin, Defensin-BvL are registered.</li>
+                        </ul>  
+
+                   <h2>December 27,2015</h2>
+                        <ul class="item">
+						    <li>Three new entries -<a href="http://dramp.cpu-bioinfor.org/browse/All_Information.php?id=DRAMP18193">DRAMP18193</a>, <a href="http://dramp.cpu-bioinfor.org/browse/All_Information.php?id=DRAMP18194">DRAMP18194</a>, <a href="http://dramp.cpu-bioinfor.org/browse/All_Information.php?id=DRAMP18195">DRAMP18195</a>, are added to the General dataset.</li>
+                        </ul>                   
+                   
+                   
+                   <h2>November 24,2015</h2>
+                        <ul class="item">
+						    <li>Ten new entries from swiss-prot are added to the database as an update.</li>
+                        </ul>
+                   <h2>August 19,2015</h2>
+                        <ul class="item">
+						    <li>Some dulplicate sequences were integrated and entries in general dataset have distinct sequences.</li>
+                        </ul>
+                    <h2>January 5,2015</h2>
+                        <ul class="item">    
+						    <li>Clinical dataset has been updated! Three peptides are registered into Clinical dataset, including two anti-HIV peptides and one pre-clinical antibacterial peptide.</li>
+                        </ul>
+                        
+                    <h2>January 4,2015</h2>
+                        <ul class="item">                         
+						    <li>Clinical dataset has been updated!clinical trail state is examined and updated by checking the website of <a href="https://clinicaltrials.gov">clinicaltrail.gov</a>.</li> 
+                            <li>Sequences of XOMA-629,DiaPep277,Ghrelin have been added.</li>
+                        </ul>
+                        
+                    <h2>December 29,2014</h2>
+                        <ul class="item">                       
+						    <li>-Some errors are fixed. 6 repeated entries are deleted. We are sorry for the careless mistakes. The supervision of the data will be continual.</li>
+                        </ul>
+                        
+                    <h2>October 30,2014</h2>
+                        <ul class="item">                         
+						    <li>-Database updated!</li>
+                        </ul>
+                        
+                    <h2>September 12,2014</h2>
+                        <ul class="item">                         
+						    <li>-Database updated!</li>
+                        </ul> 
+                                               
+                    <h2>June 06,2014</h2>
+                        <ul class="item">                         
+						    <li>-<a href="http://dramp.cpu-bioinfor.org/software/">FTP software</a> is provided.</li>
+                        </ul>                         
+
+
+                    <h2>May 03,2014</h2>
+                        <ul class="item">                         
+						    <li>-Database updated!</li>
+                        </ul> 
+                        
+                    <h2>April 15,2014</h2>
+                        <ul class="item">                         
+						    <li>-Several analysis tools (similariy search, sequence alignment, CD-search) are integrated into DRAMP</li>
+                        </ul>                         
+
+                    <h2>January 20,2014</h2>
+                        <ul class="item"> 
+                            <li>-DRAMP V1.0 released! Comments and suggestions are welcome</li>           
+                        </ul>
+                    </div>
+</div>
+<?php
+
+	require_once("../head/footer.php");
+
+?>
+</body>

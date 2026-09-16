@@ -1,0 +1,45 @@
+########################################
+# Program: stretcher
+# Rundate: Fri 13 Mar 2026 06:37:39
+# Commandline: stretcher
+#    -asequence /var/www/dramp/tmp/align_tmp/stretcherp_gksVrAEpRqnBpqyrh9/gksVrAEpRqnBpqyrh9_1.in
+#    -bsequence /var/www/dramp/tmp/align_tmp/stretcherp_gksVrAEpRqnBpqyrh9/gksVrAEpRqnBpqyrh9_2.in
+#    -datafile EPAM10
+#    -outfile /var/www/dramp/tmp/align_tmp/stretcherp_gksVrAEpRqnBpqyrh9/gksVrAEpRqnBpqyrh9.stretcherp
+# Align_format: markx0
+# Report_file: /var/www/dramp/tmp/align_tmp/stretcherp_gksVrAEpRqnBpqyrh9/gksVrAEpRqnBpqyrh9.stretcherp
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EPAM10
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 62
+# Identity:      14/62 (22.6%)
+# Similarity:    14/62 (22.6%)
+# Gaps:          37/62 (59.7%)
+# Score: -98
+# 
+#
+#=======================================
+
+                10                            20         
+       GSAQVKGH-GK--K---------------VADA-LTN--AVAHVDDMPNA
+              : ::  :               : :: : :   : ::      
+       NNPELQAHAGKVFKLVYEAAIQLQVTGVVVTDATLKNLGSV-HV------
+               10        20        30        40          
+
+      30        40 
+       LSALSDLHAHKL
+        :        : 
+       -S--------KG
+                   
+
+
+#---------------------------------------
+#---------------------------------------

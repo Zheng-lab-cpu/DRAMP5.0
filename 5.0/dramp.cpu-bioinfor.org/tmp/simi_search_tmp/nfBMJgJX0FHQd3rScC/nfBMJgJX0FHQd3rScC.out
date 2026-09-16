@@ -1,0 +1,136 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=40
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP18384                                                            33.1    2e-05
+DRAMP18385                                                            30.4    2e-04
+DRAMP14909                                                            19.2    6.5  
+DRAMP14832                                                            19.2    7.1  
+DRAMP00792                                                            18.9    7.4  
+DRAMP00527                                                            18.9    7.9  
+DRAMP00486                                                            18.9    9.9  
+
+
+>DRAMP18384
+Length=32
+
+ Score = 33.1 bits (74),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 17/23 (74%), Gaps = 0/23 (0%)
+
+Query  1   KSCHTGLNRNAGWKVPDSAICGK  23
+           KSCHTGL+R+AGW +P   +  K
+Sbjct  2   KSCHTGLDRSAGWVIPIGTLVKK  24
+
+
+>DRAMP18385
+Length=29
+
+ Score = 30.4 bits (67),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 14/16 (88%), Gaps = 0/16 (0%)
+
+Query  1   KSCHTGLNRNAGWKVP  16
+           KSCHTGL ++AGW +P
+Sbjct  2   KSCHTGLKKSAGWVIP  17
+
+
+>DRAMP14909
+Length=55
+
+ Score = 19.2 bits (38),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 12/31 (39%), Gaps = 0/31 (0%)
+
+Query  2   SCHTGLNRNAGWKVPDSAICGKTPDCTLYKF  32
+           S HTGL R  G  +       K  D    KF
+Sbjct  24  SSHTGLIRKYGLNICRQCFREKANDIGFNKF  54
+
+
+>DRAMP14832
+Length=69
+
+ Score = 19.2 bits (38),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 7/9 (78%), Gaps = 0/9 (0%)
+
+Query  17  DSAICGKTP  25
+           DS ICGK P
+Sbjct  3   DSEICGKRP  11
+
+
+>DRAMP00792
+Length=29
+
+ Score = 18.9 bits (37),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 14/19 (74%), Gaps = 2/19 (11%)
+
+Query  20  ICGKTPDCTLYKFFSKGCA  38
+           +CG+T  CTL K ++ GC+
+Sbjct  4   VCGET--CTLGKCYTAGCS  20
+
+
+>DRAMP00527
+Length=41
+
+ Score = 18.9 bits (37),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 6/11 (55%), Positives = 6/11 (55%), Gaps = 0/11 (0%)
+
+Query  11  AGWKVPDSAIC  21
+            GWK PD   C
+Sbjct  29  VGWKTPDMCCC  39
+
+
+>DRAMP00486
+Length=51
+
+ Score = 18.9 bits (37),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 7/19 (37%), Positives = 10/19 (53%), Gaps = 1/19 (5%)
+
+Query  10  NAGWKVPDSAICGKTPDCT  28
+             GW + +  +C K PDC 
+Sbjct  7   QGGWYLVE-GLCSKFPDCN  24
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.495    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17908208
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

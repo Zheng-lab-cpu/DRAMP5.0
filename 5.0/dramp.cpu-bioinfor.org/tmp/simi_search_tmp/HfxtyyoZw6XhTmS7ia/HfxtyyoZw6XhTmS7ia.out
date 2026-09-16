@@ -1,0 +1,1205 @@
+# /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/bin/fasta36 -Q -s BL62 -b 10 -d 10 -E 20.0 -T 8 /www/wwwroot/dramp.cpu-bioinfor.org/tmp/simi_search_tmp/HfxtyyoZw6XhTmS7ia/HfxtyyoZw6XhTmS7ia.in /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.6 Sep, 2013(preload9)
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: /www/wwwroot/dramp.cpu-bioinfor.org/tmp/simi_search_tmp/HfxtyyoZw6XhTmS7ia/HfxtyyoZw6XhTmS7ia.in
+  1>>>Peptide_1 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6863;  K= 1.542 (cen=1413)
+ statistics sampled from 18327 (18327) to 18327 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.924), E-opt: 0.2 (0.648), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 20
+  2>>>Peptide_2 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6452;  K= 1.325 (cen=1428)
+ statistics sampled from 18716 (18716) to 18716 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.924), E-opt: 0.2 (0.655), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 20
+  3>>>Peptide_3 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.7537;  K= 2.886 (cen=1453)
+ statistics sampled from 19323 (19323) to 19323 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.924), E-opt: 0.2 (0.665), width:  16
+ Scan time:  0.060
+
+The best scores are:                                      opt bits E(28274)
+DRAMP11075                                         (   9)   15 15.4      18
+DRAMP07218                                         (   9)   15 15.4      18
+DRAMP20575                                         (   9)   15 15.4      18
+DRAMP11051                                         (   9)   15 15.4      18
+DRAMP20264                                         (   9)   15 15.4      18
+DRAMP20599                                         (   9)   15 15.4      18
+DRAMP07133                                         (   9)   15 15.4      18
+DRAMP10744                                         (   9)   15 15.4      18
+
+>>DRAMP11075                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 102.9  bits: 15.4 E(28274):   18
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:3-5)
+
+                
+Pepti    KIF    
+         :::    
+DRAMP1 RWKIFIRWW
+                
+
+>>DRAMP07218                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 102.9  bits: 15.4 E(28274):   18
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:1-3)
+
+                
+Pepti  KIF      
+       :::      
+DRAMP0 KIFLKYKGW
+                
+
+>>DRAMP20575                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 102.9  bits: 15.4 E(28274):   18
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:3-5)
+
+                
+Pepti    KIF    
+         :::    
+DRAMP2 KWKIFRRWW
+                
+
+>>DRAMP11051                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 102.9  bits: 15.4 E(28274):   18
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:3-5)
+
+                
+Pepti    KIF    
+         :::    
+DRAMP1 KWKIFRRWW
+                
+
+>>DRAMP20264                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 102.9  bits: 15.4 E(28274):   18
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:6-8)
+
+                
+Pepti       KIF 
+            ::: 
+DRAMP2 RIWMFKIFR
+                
+
+>>DRAMP20599                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 102.9  bits: 15.4 E(28274):   18
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:3-5)
+
+                
+Pepti    KIF    
+         :::    
+DRAMP2 RWKIFIRWW
+                
+
+>>DRAMP07133                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 102.9  bits: 15.4 E(28274):   18
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:6-8)
+
+                
+Pepti       KIF 
+            ::: 
+DRAMP0 PKNYMKIFP
+                
+
+>>DRAMP10744                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 102.9  bits: 15.4 E(28274):   18
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:6-8)
+
+                
+Pepti       KIF 
+            ::: 
+DRAMP1 RIWMFKIFR
+                
+
+
+  4>>>Peptide_4 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.7061;  K= 1.944 (cen=1423)
+ statistics sampled from 18959 (18959) to 18959 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.924), E-opt: 0.2 (0.666), width:  16
+ Scan time:  0.060
+
+The best scores are:                                      opt bits E(28274)
+DRAMP00766                                         (   7)   15 14.9      19
+
+>>DRAMP00766                                              (7 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 102.3  bits: 14.9 E(28274):   19
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:1-3)
+
+              
+Pepti  KVF    
+       :::    
+DRAMP0 KVFLGLK
+              
+
+
+  5>>>Peptide_5 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6483;  K= 1.268 (cen=1399)
+ statistics sampled from 18595 (18595) to 18595 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.924), E-opt: 0.2 (0.664), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 20
+  6>>>Peptide_6 - 4 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6205;  K=0.9018 (cen=1475)
+ statistics sampled from 19784 (19784) to 19784 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.929), E-opt: 0.2 (0.67), width:  16
+ Scan time:  0.060
+
+The best scores are:                                      opt bits E(28274)
+DRAMP07005                                         (   9)   17 15.9      16
+
+>>DRAMP07005                                              (9 aa)
+ initn:  17 init1:  17 opt:  17  Z-score: 103.7  bits: 15.9 E(28274):   16
+Smith-Waterman score: 17; 75.0% identity (100.0% similar) in 4 aa overlap (1-4:4-7)
+
+                
+Pepti     LSFK  
+          .:::  
+DRAMP0 RWTISFKRS
+                
+
+
+  7>>>Peptide_7 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.5805;  K= 1.024 (cen=1399)
+ statistics sampled from 18723 (18723) to 18723 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.928), E-opt: 0.2 (0.669), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 20
+  8>>>Peptide_8 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6096;  K= 1.037 (cen=1381)
+ statistics sampled from 18424 (18424) to 18424 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.927), E-opt: 0.2 (0.667), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 20
+  9>>>Peptide_9 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6382;  K= 1.383 (cen=1146)
+ statistics sampled from 14938 (14938) to 14938 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.928), E-opt: 0.2 (0.652), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 20
+ 10>>>Peptide_10 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.7479;  K= 2.319 (cen=1365)
+ statistics sampled from 17720 (17720) to 17720 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.923), E-opt: 0.2 (0.649), width:  16
+ Scan time:  0.050
+
+The best scores are:                                      opt bits E(28274)
+DRAMP05836                                         (   8)   16 16.7     6.5
+DRAMP07575                                         (   9)   16 16.7     7.3
+DRAMP10895                                         (   9)   16 16.7     7.3
+DRAMP20415                                         (   9)   16 16.7     7.3
+DRAMP27604                                         (  11)   16 16.7     8.9
+DRAMP08732                                         (  11)   16 16.7     8.9
+DRAMP12898                                         (  11)   16 16.7     8.9
+DRAMP08748                                         (  11)   16 16.7     8.9
+DRAMP29196                                         (  13)   16 16.7      11
+DRAMP25995                                         (  14)   16 16.7      11
+
+>>DRAMP05836                                              (8 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 110.8  bits: 16.7 E(28274):  6.5
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:2-4)
+
+               
+Pepti   KTF    
+        :::    
+DRAMP0 MKTFSVAV
+               
+
+>>DRAMP07575                                              (9 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 109.9  bits: 16.7 E(28274):  7.3
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:4-6)
+
+                
+Pepti     KTF   
+          :::   
+DRAMP0 HNRKTFNGG
+                
+
+>>DRAMP10895                                              (9 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 109.9  bits: 16.7 E(28274):  7.3
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:2-4)
+
+                
+Pepti   KTF     
+        :::     
+DRAMP1 IKTFIKRWR
+                
+
+>>DRAMP20415                                              (9 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 109.9  bits: 16.7 E(28274):  7.3
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:2-4)
+
+                
+Pepti   KTF     
+        :::     
+DRAMP2 IKTFIKRWR
+                
+
+>>DRAMP27604                                              (11 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 108.3  bits: 16.7 E(28274):  8.9
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:7-9)
+
+                  
+Pepti        KTF  
+             :::  
+DRAMP2 RRIVRKKTFKR
+               10 
+
+>>DRAMP08732                                              (11 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 108.3  bits: 16.7 E(28274):  8.9
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:2-4)
+
+                  
+Pepti   KTF       
+        :::       
+DRAMP0 FKTFLKWLHRF
+               10 
+
+>>DRAMP12898                                              (11 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 108.3  bits: 16.7 E(28274):  8.9
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:1-3)
+
+                  
+Pepti  KTF        
+       :::        
+DRAMP1 KTFQWQRNMRK
+               10 
+
+>>DRAMP08748                                              (11 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 108.3  bits: 16.7 E(28274):  8.9
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:2-4)
+
+                  
+Pepti   KTF       
+        :::       
+DRAMP0 FKTFLQWLHRF
+               10 
+
+>>DRAMP29196                                              (13 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 107.0  bits: 16.7 E(28274):   11
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:3-5)
+
+                    
+Pepti    KTF        
+         :::        
+DRAMP2 QAKTFLDKFNHEA
+               10   
+
+>>DRAMP25995                                              (14 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 106.5  bits: 16.7 E(28274):   11
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:11-13)
+
+                     
+Pepti            KTF 
+                 ::: 
+DRAMP2 QWDAISSLFGKTFS
+               10    
+
+
+ 11>>>Peptide_11 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6666;  K= 2.049 (cen=1136)
+ statistics sampled from 14472 (14472) to 14472 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.917), E-opt: 0.2 (0.637), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 20
+ 12>>>Peptide_12 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.8029;  K= 3.827 (cen=1487)
+ statistics sampled from 19026 (19026) to 19026 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.918), E-opt: 0.2 (0.64), width:  16
+ Scan time:  0.060
+
+The best scores are:                                      opt bits E(28274)
+DRAMP04870                                         (   8)   15 16.1     9.8
+DRAMP18876                                         (   8)   15 16.1     9.8
+DRAMP10546                                         (   9)   15 16.1      11
+DRAMP07598                                         (   9)   15 16.1      11
+DRAMP07446                                         (   9)   15 16.1      11
+DRAMP05708                                         (   9)   15 16.1      11
+DRAMP10655                                         (   9)   15 16.1      11
+DRAMP05196                                         (   9)   15 16.1      11
+DRAMP20415                                         (   9)   15 16.1      11
+DRAMP10895                                         (   9)   15 16.1      11
+
+>>DRAMP04870                                              (8 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 107.6  bits: 16.1 E(28274):  9.8
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:5-7)
+
+               
+Pepti      FIK 
+           ::: 
+DRAMP0 KWKSFIKK
+               
+
+>>DRAMP18876                                              (8 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 107.6  bits: 16.1 E(28274):  9.8
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:5-7)
+
+               
+Pepti      FIK 
+           ::: 
+DRAMP1 KWKSFIKK
+               
+
+>>DRAMP10546                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 106.7  bits: 16.1 E(28274):   11
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:5-7)
+
+                
+Pepti      FIK  
+           :::  
+DRAMP1 RIRRFIKKW
+                
+
+>>DRAMP07598                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 106.7  bits: 16.1 E(28274):   11
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:6-8)
+
+                
+Pepti       FIK 
+            ::: 
+DRAMP0 ARRWKFIKT
+                
+
+>>DRAMP07446                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 106.7  bits: 16.1 E(28274):   11
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:2-4)
+
+                
+Pepti   FIK     
+        :::     
+DRAMP0 WFIKWRLWA
+                
+
+>>DRAMP05708                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 106.7  bits: 16.1 E(28274):   11
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:3-5)
+
+                
+Pepti    FIK    
+         :::    
+DRAMP0 VRFIKFLYQ
+                
+
+>>DRAMP10655                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 106.7  bits: 16.1 E(28274):   11
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:1-3)
+
+                
+Pepti  FIK      
+       :::      
+DRAMP1 FIKRVRRRW
+                
+
+>>DRAMP05196                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 106.7  bits: 16.1 E(28274):   11
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:2-4)
+
+                
+Pepti   FIK     
+        :::     
+DRAMP0 KFIKFIKFI
+                
+
+>--
+ initn:  15 init1:  15 opt:  15  Z-score: 106.7  bits: 16.1 E(28274):   11
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:5-7)
+
+                
+Pepti      FIK  
+           :::  
+DRAMP0 KFIKFIKFI
+                
+
+>>DRAMP20415                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 106.7  bits: 16.1 E(28274):   11
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:4-6)
+
+                
+Pepti     FIK   
+          :::   
+DRAMP2 IKTFIKRWR
+                
+
+>>DRAMP10895                                              (9 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 106.7  bits: 16.1 E(28274):   11
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:4-6)
+
+                
+Pepti     FIK   
+          :::   
+DRAMP1 IKTFIKRWR
+                
+
+
+ 13>>>Peptide_13 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.5865;  K= 1.028 (cen=1496)
+ statistics sampled from 19233 (19233) to 19233 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.918), E-opt: 0.2 (0.643), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 20
+ 14>>>Peptide_14 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6710;  K= 1.606 (cen=1471)
+ statistics sampled from 18977 (18977) to 18977 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.919), E-opt: 0.2 (0.645), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 20
+ 15>>>Peptide_15 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6235;  K= 1.249 (cen=1185)
+ statistics sampled from 15117 (15117) to 15117 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.92), E-opt: 0.2 (0.637), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 20
+ 16>>>Peptide_16 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.7357;  K= 2.737 (cen=1518)
+ statistics sampled from 19450 (19450) to 19450 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.922), E-opt: 0.2 (0.641), width:  16
+ Scan time:  0.060
+
+The best scores are:                                      opt bits E(28274)
+DRAMP08857                                         (   7)   15 15.1      17
+
+>>DRAMP08857                                              (7 aa)
+ initn:  15 init1:  15 opt:  15  Z-score: 103.4  bits: 15.1 E(28274):   17
+Smith-Waterman score: 15; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:4-6)
+
+              
+Pepti     FLR 
+          ::: 
+DRAMP0 LRLFLRF
+              
+
+
+ 17>>>Peptide_17 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6773;  K= 2.329 (cen=1467)
+ statistics sampled from 18842 (18842) to 18842 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.925), E-opt: 0.2 (0.642), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 20
+ 18>>>Peptide_18 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6314;  K= 1.406 (cen=1439)
+ statistics sampled from 18506 (18506) to 18506 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.925), E-opt: 0.2 (0.643), width:  16
+ Scan time:  0.060
+
+The best scores are:                                      opt bits E(28274)
+DRAMP16568                                         (   6)   16 14.7      19
+
+>>DRAMP16568                                              (6 aa)
+ initn:  16 init1:  16 opt:  16  Z-score: 102.5  bits: 14.7 E(28274):   19
+Smith-Waterman score: 16; 100.0% identity (100.0% similar) in 3 aa overlap (1-3:2-4)
+
+             
+Pepti   YLK  
+        :::  
+DRAMP1 RYLKDQ
+             
+
+
+ 19>>>Peptide_19 - 4 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6319;  K= 1.569 (cen=1545)
+ statistics sampled from 20528 (20528) to 20528 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.927), E-opt: 0.2 (0.647), width:  16
+ Scan time:  0.060
+
+The best scores are:                                      opt bits E(28274)
+DRAMP15834                                         (  10)   20 18.2     3.7
+DRAMP26036                                         (  20)   20 18.2     7.5
+DRAMP27388                                         (  20)   20 18.2     7.5
+DRAMP25498                                         (  21)   20 18.2     7.8
+DRAMP28288                                         (  11)   18 16.4      15
+
+>>DRAMP15834                                              (10 aa)
+ initn:  20 init1:  20 opt:  20  Z-score: 115.2  bits: 18.2 E(28274):  3.7
+Smith-Waterman score: 20; 100.0% identity (100.0% similar) in 4 aa overlap (1-4:2-5)
+
+                 
+Pepti   YLLR     
+        ::::     
+DRAMP1 RYLLRLLLGY
+               10
+
+>>DRAMP26036                                              (20 aa)
+ initn:  20 init1:  20 opt:  20  Z-score: 109.8  bits: 18.2 E(28274):  7.5
+Smith-Waterman score: 20; 100.0% identity (100.0% similar) in 4 aa overlap (1-4:12-15)
+
+                           
+Pepti             YLLR     
+                  ::::     
+DRAMP2 CFISPPLSVLYYLLRSLLDL
+               10        20
+
+>>DRAMP27388                                              (20 aa)
+ initn:  20 init1:  20 opt:  20  Z-score: 109.8  bits: 18.2 E(28274):  7.5
+Smith-Waterman score: 20; 100.0% identity (100.0% similar) in 4 aa overlap (1-4:5-8)
+
+                           
+Pepti      YLLR            
+           ::::            
+DRAMP2 FLLFYLLRALITSCKSHLRL
+               10        20
+
+>>DRAMP25498                                              (21 aa)
+ initn:  20 init1:  20 opt:  20  Z-score: 109.4  bits: 18.2 E(28274):  7.8
+Smith-Waterman score: 20; 100.0% identity (100.0% similar) in 4 aa overlap (1-4:5-8)
+
+                            
+Pepti      YLLR             
+           ::::             
+DRAMP2 ISSDYLLRPGLSWDTSSYCVN
+               10        20 
+
+>>DRAMP28288                                              (11 aa)
+ initn:  18 init1:  18 opt:  18  Z-score: 104.6  bits: 16.4 E(28274):   15
+Smith-Waterman score: 18; 75.0% identity (100.0% similar) in 4 aa overlap (1-4:4-7)
+
+                  
+Pepti     YLLR    
+          ::.:    
+DRAMP2 SLLYLIRKLLT
+               10 
+
+
+ 20>>>Peptide_20 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6183;  K=0.8148 (cen=748)
+ statistics sampled from 9449 (9449) to 9449 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.922), E-opt: 0.2 (0.632), width:  16
+ Scan time:  0.040
+!! No sequences with E() < 20
+ 21>>>Peptide_21 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6056;  K=0.7461 (cen=736)
+ statistics sampled from 9079 (9079) to 9079 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.917), E-opt: 0.2 (0.617), width:  16
+ Scan time:  0.040
+!! No sequences with E() < 20
+ 22>>>Peptide_22 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6249;  K=0.8201 (cen=759)
+ statistics sampled from 9164 (9164) to 9164 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.913), E-opt: 0.2 (0.603), width:  16
+ Scan time:  0.040
+!! No sequences with E() < 20
+ 23>>>Peptide_23 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.5436;  K=0.6464 (cen=514)
+ statistics sampled from 6032 (6032) to 6032 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.901), E-opt: 0.2 (0.586), width:  16
+ Scan time:  0.040
+!! No sequences with E() < 20
+ 24>>>Peptide_24 - 3 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.6263;  K=0.9066 (cen=874)
+ statistics sampled from 10092 (10092) to 10092 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.899), E-opt: 0.2 (0.577), width:  16
+ Scan time:  0.040
+!! No sequences with E() < 20
+ 25>>>Peptide_25 - 5 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.4712;  K=0.3924 (cen=1635)
+ statistics sampled from 18996 (18996) to 18996 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.9), E-opt: 0.2 (0.581), width:  16
+ Scan time:  0.070
+
+The best scores are:                                      opt bits E(28274)
+DRAMP01766                                         (  17)   22 17.1      17
+DRAMP01768                                         (  17)   22 17.1      17
+DRAMP03007                                         (  17)   22 17.1      17
+DRAMP01165                                         (  19)   22 17.1      19
+
+>>DRAMP01766                                              (17 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 103.2  bits: 17.1 E(28274):   17
+Smith-Waterman score: 22; 80.0% identity (100.0% similar) in 5 aa overlap (1-5:2-6)
+
+                        
+Pepti   LPVVL           
+        :::.:           
+DRAMP0 FLPVILPVIGKLLSGIL
+               10       
+
+>>DRAMP01768                                              (17 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 103.2  bits: 17.1 E(28274):   17
+Smith-Waterman score: 22; 80.0% identity (100.0% similar) in 5 aa overlap (1-5:2-6)
+
+                        
+Pepti   LPVVL           
+        :::.:           
+DRAMP0 FLPVILPVIGKLLNGIL
+               10       
+
+>>DRAMP03007                                              (17 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 103.2  bits: 17.1 E(28274):   17
+Smith-Waterman score: 22; 80.0% identity (100.0% similar) in 5 aa overlap (1-5:10-14)
+
+                        
+Pepti           LPVVL   
+                ::.::   
+DRAMP0 GFLSALKKYLPIVLKHV
+               10       
+
+>>DRAMP01165                                              (19 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 102.3  bits: 17.1 E(28274):   19
+Smith-Waterman score: 22; 80.0% identity (100.0% similar) in 5 aa overlap (1-5:2-6)
+
+                          
+Pepti   LPVVL             
+        :::.:             
+DRAMP0 FLPVILPVIGKLLNGILGK
+               10         
+
+
+ 26>>>Peptide_26 - 4 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.4777;  K=0.4372 (cen=1706)
+ statistics sampled from 20430 (20430) to 20430 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.9), E-opt: 0.2 (0.586), width:  16
+ Scan time:  0.060
+
+The best scores are:                                      opt bits E(28274)
+DRAMP24401                                         (  20)   24 18.5     6.1
+DRAMP22787                                         (  20)   24 18.5     6.1
+DRAMP04358                                         (  28)   24 18.5     8.5
+DRAMP12687                                         (  45)   24 18.5      14
+DRAMP27137                                         (  20)   22 17.1      16
+DRAMP22879                                         (  20)   22 17.1      16
+DRAMP21723                                         (  20)   22 17.1      16
+DRAMP24078                                         (  20)   22 17.1      16
+DRAMP25872                                         (  21)   22 17.1      17
+DRAMP09337                                         (  59)   24 18.5      18
+
+>>DRAMP24401                                              (20 aa)
+ initn:  24 init1:  24 opt:  24  Z-score: 111.3  bits: 18.5 E(28274):  6.1
+Smith-Waterman score: 24; 100.0% identity (100.0% similar) in 4 aa overlap (1-4:1-4)
+
+                           
+Pepti  PGLP                
+       ::::                
+DRAMP2 PGLPCVLVYYNMIFTLPCAF
+               10        20
+
+>>DRAMP22787                                              (20 aa)
+ initn:  24 init1:  24 opt:  24  Z-score: 111.3  bits: 18.5 E(28274):  6.1
+Smith-Waterman score: 24; 100.0% identity (100.0% similar) in 4 aa overlap (1-4:12-15)
+
+                           
+Pepti             PGLP     
+                  ::::     
+DRAMP2 PSAELCMPNAFPGLPNGSSP
+               10        20
+
+>>DRAMP04358                                              (28 aa)
+ initn:  24 init1:  24 opt:  24  Z-score: 108.7  bits: 18.5 E(28274):  8.5
+Smith-Waterman score: 24; 100.0% identity (100.0% similar) in 4 aa overlap (1-4:19-22)
+
+                                   
+Pepti                    PGLP      
+                         ::::      
+DRAMP0 KWKLFKKIGIGAVLKVLTPGLPALKLTK
+               10        20        
+
+>>DRAMP12687                                              (45 aa)
+ initn:  24 init1:  24 opt:  24  Z-score: 105.0  bits: 18.5 E(28274):   14
+Smith-Waterman score: 24; 100.0% identity (100.0% similar) in 4 aa overlap (1-4:23-26)
+
+                                                    
+Pepti                        PGLP                   
+                             ::::                   
+DRAMP1 QEIENGIHPCKKNEDCNHMCVMPGLPWCHENNLCFCYENAYGNTR
+               10        20        30        40     
+
+>>DRAMP27137                                              (20 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 103.9  bits: 17.1 E(28274):   16
+Smith-Waterman score: 22; 75.0% identity (100.0% similar) in 4 aa overlap (1-4:8-11)
+
+                           
+Pepti         PGLP         
+              ::.:         
+DRAMP2 HCVRLDDPGIPLWVCTAFPG
+               10        20
+
+>>DRAMP22879                                              (20 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 103.9  bits: 17.1 E(28274):   16
+Smith-Waterman score: 22; 75.0% identity (100.0% similar) in 4 aa overlap (1-4:1-4)
+
+                           
+Pepti  PGLP                
+       ::.:                
+DRAMP2 PGMPSPSFAGQRNMPCSRSG
+               10        20
+
+>>DRAMP21723                                              (20 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 103.9  bits: 17.1 E(28274):   16
+Smith-Waterman score: 22; 75.0% identity (100.0% similar) in 4 aa overlap (1-4:6-9)
+
+                           
+Pepti       PGLP           
+            ::.:           
+DRAMP2 CTPAPPGIPCCSAYTFYYNR
+               10        20
+
+>>DRAMP24078                                              (20 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 103.9  bits: 17.1 E(28274):   16
+Smith-Waterman score: 22; 75.0% identity (100.0% similar) in 4 aa overlap (1-4:1-4)
+
+                           
+Pepti  PGLP                
+       ::.:                
+DRAMP2 PGIPIDSCYNCYFDIRPGST
+               10        20
+
+>>DRAMP25872                                              (21 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 103.5  bits: 17.1 E(28274):   17
+Smith-Waterman score: 22; 75.0% identity (100.0% similar) in 4 aa overlap (1-4:12-15)
+
+                            
+Pepti             PGLP      
+                  ::.:      
+DRAMP2 HGVRIMYNNSVPGIPSGAFFN
+               10        20 
+
+>>DRAMP09337                                              (59 aa)
+ initn:  24 init1:  24 opt:  24  Z-score: 102.9  bits: 18.5 E(28274):   18
+Smith-Waterman score: 24; 100.0% identity (100.0% similar) in 4 aa overlap (1-4:45-48)
+
+                                                    
+Pepti                                PGLP           
+                                     ::::           
+DRAMP0 RLQSEDKAIRTIMEFLAFLHLKEAGALGRLPGLPSAASSEDAGQS
+           20        30        40        50         
+
+
+ 27>>>Peptide_27 - 5 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.5807;  K=0.8244 (cen=1688)
+ statistics sampled from 21223 (21223) to 21223 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.899), E-opt: 0.2 (0.592), width:  16
+ Scan time:  0.070
+
+The best scores are:                                      opt bits E(28274)
+DRAMP17692                                         (  98)   25 22.0     3.4
+DRAMP27685                                         (  20)   22 19.5     3.9
+DRAMP27696                                         (  20)   22 19.5     3.9
+DRAMP17661                                         (  63)   23 20.3     6.9
+DRAMP17722                                         (  65)   23 20.3     7.1
+DRAMP20653                                         (   9)   19 17.0      10
+DRAMP11128                                         (   9)   19 17.0      10
+DRAMP01066                                         (  19)   20 17.8      12
+DRAMP27721                                         (  20)   20 17.8      12
+DRAMP21679                                         (  15)   19 17.0      17
+
+>>DRAMP17692                                              (98 aa)
+ initn:  25 init1:  25 opt:  25  Z-score: 116.0  bits: 22.0 E(28274):  3.4
+Smith-Waterman score: 25; 80.0% identity (100.0% similar) in 5 aa overlap (1-5:55-59)
+
+                                                                   
+Pepti                                EEFYK                         
+                                     ::.::                         
+DRAMP1 DEENGFFYVSVLDPDGKEIISGFVEADKPIEEYYKELLGKCDQDISFKDLLGFLNGRRDT
+           30        40        50        60        70        80    
+
+DRAMP1 ERTDIRFLKRDSGV
+           90        
+
+>>DRAMP27685                                              (20 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 114.8  bits: 19.5 E(28274):  3.9
+Smith-Waterman score: 22; 60.0% identity (100.0% similar) in 5 aa overlap (1-5:8-12)
+
+                           
+Pepti         EEFYK        
+              :.::.        
+DRAMP2 RQVMEAYEQFYRDGNRAYRR
+               10        20
+
+>>DRAMP27696                                              (20 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 114.8  bits: 19.5 E(28274):  3.9
+Smith-Waterman score: 22; 60.0% identity (100.0% similar) in 5 aa overlap (1-5:8-12)
+
+                           
+Pepti         EEFYK        
+              :.::.        
+DRAMP2 RAYMEYYEQFYRMGKRASRR
+               10        20
+
+>>DRAMP17661                                              (63 aa)
+ initn:  23 init1:  23 opt:  23  Z-score: 110.4  bits: 20.3 E(28274):  6.9
+Smith-Waterman score: 23; 80.0% identity (100.0% similar) in 5 aa overlap (1-5:36-40)
+
+                                                                 
+Pepti                                EEFYK                       
+                                     :.:::                       
+DRAMP1 EKKAYLFTIYGLHSYPSVIGVDSYSDSVAMERFYKIWRKHYPKHYKTHKEFTVKKFDI
+          10        20        30        40        50        60   
+
+>>DRAMP17722                                              (65 aa)
+ initn:  23 init1:  23 opt:  23  Z-score: 110.1  bits: 20.3 E(28274):  7.1
+Smith-Waterman score: 23; 80.0% identity (100.0% similar) in 5 aa overlap (1-5:28-32)
+
+                                                                   
+Pepti                             EEFYK                            
+                                  ::.::                            
+DRAMP1 MLKNIKKSDKLTRKDIQGFWGDEAKTLEEWYKSISKESDTDKMINTLKEYANNNEFHFVK
+               10        20        30        40        50        60
+
+DRAMP1 GEQGQ
+            
+
+>>DRAMP20653                                              (9 aa)
+ initn:  19 init1:  19 opt:  19  Z-score: 107.4  bits: 17.0 E(28274):   10
+Smith-Waterman score: 19; 75.0% identity (100.0% similar) in 4 aa overlap (2-5:2-5)
+
+                
+Pepti  EEFYK    
+        .:::    
+DRAMP2 GKFYKVWVR
+                
+
+>>DRAMP11128                                              (9 aa)
+ initn:  19 init1:  19 opt:  19  Z-score: 107.4  bits: 17.0 E(28274):   10
+Smith-Waterman score: 19; 75.0% identity (100.0% similar) in 4 aa overlap (2-5:2-5)
+
+                
+Pepti  EEFYK    
+        .:::    
+DRAMP1 GKFYKVWVR
+                
+
+>>DRAMP01066                                              (19 aa)
+ initn:  20 init1:  20 opt:  20  Z-score: 106.1  bits: 17.8 E(28274):   12
+Smith-Waterman score: 20; 75.0% identity (100.0% similar) in 4 aa overlap (1-4:15-18)
+
+                          
+Pepti                EEFYK
+                     ::.: 
+DRAMP0 PVVDTTGNNPLQQQEEYYV
+               10         
+
+>>DRAMP27721                                              (20 aa)
+ initn:  20 init1:  20 opt:  20  Z-score: 105.7  bits: 17.8 E(28274):   12
+Smith-Waterman score: 20; 75.0% identity (100.0% similar) in 4 aa overlap (2-5:5-8)
+
+                           
+Pepti     EEFYK            
+           :.::            
+DRAMP2 RSGMEYYKQAFRAGYRVTRR
+               10        20
+
+>>DRAMP21679                                              (15 aa)
+ initn:  19 init1:  19 opt:  19  Z-score: 103.5  bits: 17.0 E(28274):   17
+Smith-Waterman score: 19; 60.0% identity (80.0% similar) in 5 aa overlap (1-5:9-13)
+
+                      
+Pepti          EEFYK  
+               . :::  
+DRAMP2 LTLLICPDDTFYKAK
+               10     
+
+
+ 28>>>Peptide_28 - 6 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.4751;  K=0.2906 (cen=1665)
+ statistics sampled from 23151 (23151) to 23151 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.9), E-opt: 0.2 (0.6), width:  16
+ Scan time:  0.070
+
+The best scores are:                                      opt bits E(28274)
+DRAMP24132                                         (  20)   22 17.6      17
+DRAMP22723                                         (  20)   22 17.6      17
+DRAMP04539                                         (  13)   21 16.9      18
+
+>>DRAMP24132                                              (20 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 103.3  bits: 17.6 E(28274):   17
+Smith-Waterman score: 22; 60.0% identity (100.0% similar) in 5 aa overlap (2-6:4-8)
+
+                           
+Pepti    LGAGPE            
+          :.::.            
+DRAMP2 LCGGSGPDCSDQSDNLANTI
+               10        20
+
+>>DRAMP22723                                              (20 aa)
+ initn:  22 init1:  22 opt:  22  Z-score: 103.3  bits: 17.6 E(28274):   17
+Smith-Waterman score: 22; 100.0% identity (100.0% similar) in 4 aa overlap (3-6:1-4)
+
+                             
+Pepti  LGAGPE                
+         ::::                
+DRAMP2   AGPENAAAPANFVDISLYAC
+                 10        20
+
+>>DRAMP04539                                              (13 aa)
+ initn:  21 init1:  21 opt:  21  Z-score: 102.9  bits: 16.9 E(28274):   18
+Smith-Waterman score: 21; 60.0% identity (100.0% similar) in 5 aa overlap (2-6:2-6)
+
+                    
+Pepti  LGAGPE       
+        :.::.       
+DRAMP0 EGGGPQWAVGHFM
+               10   
+
+
+ 29>>>Peptide_29 - 13 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.2064+/-0.000498; mu= 5.4521+/- 0.017
+ mean_var=6.1257+/- 2.684, 0's: 2770 Z-trim(115.8): 2775  B-trim: 0 in 0/24
+ Lambda= 0.518199
+ statistics sampled from 13821 (13823) to 13821 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.903), E-opt: 0.2 (0.597), width:  16
+ Scan time:  0.070
+
+The best scores are:                                      opt bits E(28274)
+DRAMP18080                                         (  61)   39 29.5   0.029
+DRAMP22867                                         (  20)   30 23.0    0.87
+DRAMP26013                                         (  20)   28 21.5     2.5
+DRAMP25064                                         (  20)   28 21.5     2.5
+DRAMP03069                                         (  37)   29 22.1     2.9
+DRAMP25306                                         (  17)   27 20.8     3.4
+DRAMP23101                                         (  20)   27 20.8     4.1
+DRAMP03526                                         (  42)   28 21.4     5.7
+DRAMP00714                                         (  47)   28 21.3     6.5
+DRAMP26374                                         (  20)   26 20.0     6.9
+
+>>DRAMP18080                                              (61 aa)
+ initn:  39 init1:  39 opt:  39  Z-score: 152.9  bits: 29.5 E(28274): 0.029
+Smith-Waterman score: 39; 100.0% identity (100.0% similar) in 7 aa overlap (7-13:54-60)
+
+                                       10    
+Pepti                          DLHF
+                                     ::::::: 
+DRAMP1 GYKGGYCAKGGFVCKCYDISULFIDEBONDPEPTIDES
+            30        40        50        60 
+
+>>DRAMP22867                                              (20 aa)
+ initn:  30 init1:  30 opt:  30  Z-score: 126.5  bits: 23.0 E(28274): 0.87
+Smith-Waterman score: 30; 62.5% identity (87.5% similar) in 8 aa overlap (3-10:1-8)
+
+               10            
+Pepti  DLHF
+         ::..: ::            
+DRAMP2   HFNCPLPTSRDPFESKESFR
+                 10        20
+
+>>DRAMP26013                                              (20 aa)
+ initn:  28 init1:  28 opt:  28  Z-score: 118.4  bits: 21.5 E(28274):  2.5
+Smith-Waterman score: 28; 57.1% identity (100.0% similar) in 7 aa overlap (1-7:1-7)
+
+               10          
+Pepti  DLHF
+       :::...:             
+DRAMP2 DLHYYNPRLYCLSPAFALLD
+               10        20
+
+>>DRAMP25064                                              (20 aa)
+ initn:  28 init1:  28 opt:  28  Z-score: 118.4  bits: 21.5 E(28274):  2.5
+Smith-Waterman score: 28; 55.6% identity (77.8% similar) in 9 aa overlap (4-12:10-18)
+
+                     10    
+Pepti        DLHF
+                :..: :: :  
+DRAMP2 LRLGCISGAFVVPYPTTDNM
+               10        20
+
+>>DRAMP03069                                              (37 aa)
+ initn:  29 init1:  29 opt:  29  Z-score: 117.0  bits: 22.1 E(28274):  2.9
+Smith-Waterman score: 29; 41.7% identity (83.3% similar) in 12 aa overlap (1-12:1-12)
+
+               10                           
+Pepti  DLHF
+       :::...:.  :.                         
+DRAMP0 DLHIPPPDNKINWPQLSGGGGGSPKTGYDININAQQK
+               10        20        30       
+
+>>DRAMP25306                                              (17 aa)
+ initn:  27 init1:  27 opt:  27  Z-score: 115.8  bits: 20.8 E(28274):  3.4
+Smith-Waterman score: 27; 44.4% identity (88.9% similar) in 9 aa overlap (1-9:6-14)
+
+                    10   
+Pepti       DLHF
+            :. :..:.:    
+DRAMP2 GSYYHDMSFRHPNPPTG 
+               10        
+
+>>DRAMP23101                                              (20 aa)
+ initn:  30 init1:  27 opt:  27  Z-score: 114.4  bits: 20.8 E(28274):  4.1
+Smith-Waterman score: 27; 57.1% identity (85.7% similar) in 7 aa overlap (3-9:3-9)
+
+               10          
+Pepti  DLHF
+         ::..: :           
+DRAMP2 SEHFGLPPPRHILVPILDDT
+               10        20
+
+>>DRAMP03526                                              (42 aa)
+ initn:  34 init1:  28 opt:  28  Z-score: 111.8  bits: 21.4 E(28274):  5.7
+Smith-Waterman score: 28; 50.0% identity (100.0% similar) in 8 aa overlap (4-11:8-15)
+
+                   10                            
+Pepti      DLHF
+              :..:.::.                           
+DRAMP0 EIRLPEPFRFPSPTVPKPIDIDPILPHPWSPRQTYPIIARRS
+               10        20        30        40  
+
+>>DRAMP00714                                              (47 aa)
+ initn:  28 init1:  28 opt:  28  Z-score: 110.8  bits: 21.3 E(28274):  6.5
+Smith-Waterman score: 28; 38.5% identity (76.9% similar) in 13 aa overlap (1-13:1-13)
+
+               10                                     
+Pepti  DLHF
+       :  :.. .:..::                                  
+DRAMP0 DYKFHVCDPSFDEKDCDFECKEFGHPGGYCRPDRVQPRIRMCYCTDR
+               10        20        30        40       
+
+>>DRAMP26374                                              (20 aa)
+ initn:  26 init1:  26 opt:  26  Z-score: 110.3  bits: 20.0 E(28274):  6.9
+Smith-Waterman score: 26; 50.0% identity (87.5% similar) in 8 aa overlap (3-10:5-12)
+
+                 10        
+Pepti    DLHF
+           .:..: ::        
+DRAMP2 AGFRYFPSPAPTWIYRKQQS
+               10        20
+
+
+
+107 residues in 29 query   sequences
+696332 residues in 28274 library sequences
+ Tcomplib [36.3.6 Sep, 2013(preload9)] (8 proc in memory [0G])
+ start: Mon Jun  1 14:28:15 2026 done: Mon Jun  1 14:28:16 2026
+ Total Scan time:  1.620 Total Display time:  0.000
+
+Function used was FASTA [36.3.6 Sep, 2013(preload9)]

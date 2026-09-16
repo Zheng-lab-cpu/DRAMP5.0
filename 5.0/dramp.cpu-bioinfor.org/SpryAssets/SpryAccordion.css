@@ -1,0 +1,103 @@
+@charset "UTF-8";
+.Accordion {
+	overflow: hidden;
+	width:240px;
+}
+#Accordion1 {
+}
+.AccordionPanel {
+    margin-bottom: 15px;
+	padding: 0px;
+	background-color:#fff;
+}
+.AccordionPanelTab {
+	background-image:url(../images/sidebar.gif);
+	height:27px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	font-size: 18px;
+	color: #FFF;
+	padding-top: 3px;
+	padding-right: 0;
+	padding-left: 20px;
+	margin: 0px;
+	padding-bottom: 0px;
+
+}
+
+.AccordionPanelContent {
+	overflow:auto;
+	margin: 0px;
+	padding: 0;
+	height:137px;
+}
+#about {
+	margin-top:10px;
+}
+.AccordionPanelContent p {
+	padding: 0px 18px;
+	line-height: 1.5;
+}
+.AccordionPanelContent ul {
+	margin:10px 20px;
+
+}
+.AccordionPanelContent ul li {
+	font-size: 12px;
+	border-bottom: 1px solid #E0E0E0;
+	background: url(../images/img_li.jpg) no-repeat left 13px;
+	
+}
+.AccordionPanelContent ul li a {
+	text-decoration:none;
+	margin-left:20px;
+	font-weight: normal;
+}
+
+
+/* This is an example of how to change the appearance of the panel tab that is
+ * currently open. The class "AccordionPanelOpen" is programatically added and removed
+ * from panels as the user clicks on the tabs within the Accordion.
+ */
+.AccordionPanelOpen .AccordionPanelTab {
+
+}
+
+/* This is an example of how to change the appearance of the panel tab as the
+ * mouse hovers over it. The class "AccordionPanelTabHover" is programatically added
+ * and removed from panel tab containers as the mouse enters and exits the tab container.
+ */
+.AccordionPanelTabHover {
+}
+.AccordionPanelOpen .AccordionPanelTabHover {
+
+}
+
+/* This is an example of how to change the appearance of all the panel tabs when the
+ * Accordion has focus. The "AccordionFocused" class is programatically added and removed
+ * whenever the Accordion gains or loses keyboard focus.
+ */
+.AccordionFocused .AccordionPanelTab {
+}
+
+/* This is an example of how to change the appearance of the panel tab that is
+ * currently open when the Accordion has focus.
+ */
+.AccordionFocused .AccordionPanelOpen .AccordionPanelTab {
+
+}
+/* Rules for Printing */
+
+@media print {
+
+  .Accordion {
+  overflow: visible !important;
+  }
+  
+  .AccordionPanelContent {
+  display: block !important;
+  overflow: visible !important;
+  height: auto !important;
+  }
+}

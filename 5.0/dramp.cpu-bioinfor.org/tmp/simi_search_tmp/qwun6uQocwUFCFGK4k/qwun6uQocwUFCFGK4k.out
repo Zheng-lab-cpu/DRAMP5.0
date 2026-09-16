@@ -1,0 +1,335 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= Cluster_1
+
+Length=31
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP15398                                                            25.4    0.026
+DRAMP17846                                                            20.0    2.4  
+
+
+>DRAMP15398
+Length=86
+
+ Score = 25.4 bits (54),  Expect = 0.026, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 14/19 (74%), Gaps = 0/19 (0%)
+
+Query  12  NIKKPNAKLAKIIITQYGG  30
+            ++ P A+L KII+T +GG
+Sbjct  55  RLEAPXARLGKIILTPFGG  73
+
+
+>DRAMP17846
+Length=96
+
+ Score = 20.0 bits (40),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 12/23 (52%), Gaps = 0/23 (0%)
+
+Query  7   LQYPVNIKKPNAKLAKIIITQYG  29
+           +Q  +  K PN KL KI +   G
+Sbjct  66  IQNSIVQKSPNGKLWKITVDDSG  88
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17122952
+
+
+Query= Cluster_2
+
+Length=32
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP16345                                                            18.5    7.6  
+
+
+>DRAMP16345
+Length=46
+
+ Score = 18.5 bits (36),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 7/23 (30%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  9   GFFILLSVRLLRTSVYARYRALN  31
+           GFF+L  +  +  S+ + + +LN
+Sbjct  8   GFFLLTRILTIPQSLDSWWTSLN  30
+
+
+
+Lambda      K        H        a         alpha
+   0.339    0.145    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17734486
+
+
+Query= Cluster_3
+
+Length=19
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.133    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13230764
+
+
+Query= Cluster_4
+
+Length=51
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP00630                                                            21.9    0.92 
+DRAMP23278                                                            19.6    4.3  
+
+
+>DRAMP00630
+Length=63
+
+ Score = 21.9 bits (45),  Expect = 0.92, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 13/35 (37%), Gaps = 0/35 (0%)
+
+Query  13  FFYSGSSVLWSKGKRKSEMRGGEKLYHDSTAFCDC  47
+           FFY  S++           RGG     D  A C C
+Sbjct  22  FFYCSSTLCEDNCINTGAYRGGTCDMEDEVAICRC  56
+
+
+>DRAMP23278
+Length=20
+
+ Score = 19.6 bits (39),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 10/16 (63%), Gaps = 0/16 (0%)
+
+Query  3   VRYHDRYHTGFFYSGS  18
+           +RY +R HT   +S S
+Sbjct  2   LRYLERQHTSILHSSS  17
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.463    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18559380
+
+
+Query= Cluster_5
+
+Length=34
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP15143                                                            18.9    6.8  
+
+
+>DRAMP15143
+Length=69
+
+ Score = 18.9 bits (37),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  3   LVIHNTHELHQLKKALP  19
+           LVI +  +  +LK++LP
+Sbjct  44  LVITDKEKAEKLKQSLP  60
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.140    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17497800
+
+
+Query= Cluster_6
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP03670                                                            20.8    2.3  
+DRAMP03669                                                            20.8    2.5  
+DRAMP00702                                                            19.6    6.6  
+DRAMP03668                                                            19.2    8.3  
+
+
+>DRAMP03670
+Length=63
+
+ Score = 20.8 bits (42),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 9/22 (41%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  22  CQTSCQSACKTSCTVGNQTCEQ  43
+           CQ  C++AC+     G + CEQ
+Sbjct  26  CQIGCRAACQQPGCGGYKECEQ  47
+
+
+>DRAMP03669
+Length=63
+
+ Score = 20.8 bits (42),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 9/22 (41%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  22  CQTSCQSACKTSCTVGNQTCEQ  43
+           CQ  C++AC+     G + CEQ
+Sbjct  26  CQIGCRAACQQPGCGGYKECEQ  47
+
+
+>DRAMP00702
+Length=79
+
+ Score = 19.6 bits (39),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 13/24 (54%), Gaps = 0/24 (0%)
+
+Query  21  ECQTSCQSACKTSCTVGNQTCEQS  44
+           +C   C + CK    + N+TCE S
+Sbjct  49  QCNKVCPATCKYKVCIFNRTCEFS  72
+
+
+>DRAMP03668
+Length=63
+
+ Score = 19.2 bits (38),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 8/22 (36%), Positives = 12/22 (55%), Gaps = 0/22 (0%)
+
+Query  22  CQTSCQSACKTSCTVGNQTCEQ  43
+           CQ  C++ C+     G + CEQ
+Sbjct  26  CQIGCRAVCQQPGCSGYKECEQ  47
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.118    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17396068
+
+
+Query= Cluster_7
+
+Length=43
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP02936                                                            25.4    0.042
+DRAMP03780                                                            20.4    3.3  
+DRAMP13567                                                            19.6    6.6  
+DRAMP03440                                                            19.2    9.8  
+
+
+>DRAMP02936
+Length=79
+
+ Score = 25.4 bits (54),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 13/40 (33%), Positives = 19/40 (48%), Gaps = 1/40 (3%)
+
+Query  3   FITLVVVVGLVGLAVRSMIKDKKSGKGSCGGNCGQCKGHC  42
+           +  LV +VG   +   + I+   S   SC GN G C+  C
+Sbjct  18  WAYLVALVGAAAVTA-ANIRRASSDNHSCAGNRGWCRSKC  56
+
+
+>DRAMP03780
+Length=84
+
+ Score = 20.4 bits (41),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 8/25 (32%), Positives = 13/25 (52%), Gaps = 0/25 (0%)
+
+Query  18  RSMIKDKKSGKGSCGGNCGQCKGHC  42
+           R + + + +   SC GN G C+  C
+Sbjct  37  RVINRSRSNDNHSCYGNRGWCRSSC  61
+
+
+>DRAMP13567
+Length=87
+
+ Score = 19.6 bits (39),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 14/31 (45%), Gaps = 0/31 (0%)
+
+Query  6   LVVVVGLVGLAVRSMIKDKKSGKGSCGGNCG  36
+           +VV   ++ L + S      S   SCGG C 
+Sbjct  4   VVVQFFIISLLLTSSFSVLSSADSSCGGKCN  34
+
+
+>DRAMP03440
+Length=83
+
+ Score = 19.2 bits (38),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 9/36 (25%), Positives = 16/36 (44%), Gaps = 0/36 (0%)
+
+Query  7   VVVVGLVGLAVRSMIKDKKSGKGSCGGNCGQCKGHC  42
+           +V++ L       ++   K+    C GN G C+  C
+Sbjct  3   LVLLLLAIFVTTELVMSGKNPTLQCMGNRGFCRPSC  38
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.143    0.458    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17943768
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

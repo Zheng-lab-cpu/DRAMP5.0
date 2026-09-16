@@ -1,0 +1,309 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= AMP_1
+
+Length=26
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP18099                                                          18.9    2.9  
+  DRAMP18126                                                          18.9    3.4  
+  DRAMP17201                                                          18.5    4.0  
+  DRAMP17206                                                          18.5    5.9  
+  DRAMP12141                                                          18.5    6.4  
+  DRAMP26439                                                          17.7    7.2  
+  DRAMP12597                                                          17.7    8.0  
+
+
+> DRAMP18099
+Length=37
+
+ Score = 18.9 bits (37),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  13  RAYTGCMSYPKS  24
+           R+Y GCM  P S
+Sbjct  26  RSYPGCMCRPNS  37
+
+
+> DRAMP18126
+Length=37
+
+ Score = 18.9 bits (37),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  13  RAYTGCMSYPKS  24
+           R+Y GCM  P S
+Sbjct  26  RSYPGCMCRPSS  37
+
+
+> DRAMP17201
+Length=37
+
+ Score = 18.5 bits (36),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  13  RAYTGCMSYPKS  24
+           R+Y GCM  P S
+Sbjct  26  RSYPGCMCRPNS  37
+
+
+> DRAMP17206
+Length=56
+
+ Score = 18.5 bits (36),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  13  RAYTGCMSYPKS  24
+           R+Y GCM  P S
+Sbjct  45  RSYPGCMCRPNS  56
+
+
+> DRAMP12141
+Length=49
+
+ Score = 18.5 bits (36),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 10/21 (48%), Gaps = 3/21 (14%)
+
+Query  6   FQGCNGRRAYT---GCMSYPK  23
+           F G N    +     C+SYPK
+Sbjct  29  FPGVNAHHLWCDNGNCVSYPK  49
+
+
+> DRAMP26439
+Length=20
+
+ Score = 17.7 bits (34),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  14  AYTGCMSY  21
+           AYT C+SY
+Sbjct  9   AYTSCVSY  16
+
+
+> DRAMP12597
+Length=34
+
+ Score = 17.7 bits (34),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 10/21 (48%), Gaps = 3/21 (14%)
+
+Query  6   FQGCNGRRAYT---GCMSYPK  23
+           F G N    +     C+SYPK
+Sbjct  14  FPGVNAHHLWCDNGNCVSYPK  34
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18105256
+
+
+Query= AMP_2
+
+Length=42
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP03280                                                          20.4    2.2  
+  DRAMP03201                                                          19.2    5.0  
+  DRAMP13638                                                          19.6    5.9  
+
+
+> DRAMP03280
+Length=51
+
+ Score = 20.4 bits (41),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 7/18 (39%), Positives = 10/18 (56%), Gaps = 0/18 (0%)
+
+Query  8   GKTVTCRTIMGLMPRRGT  25
+           GKT  C+  + + PR G 
+Sbjct  21  GKTAICKCYVKVCPRDGA  38
+
+
+> DRAMP03201
+Length=32
+
+ Score = 19.2 bits (38),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 8/16 (50%), Positives = 10/16 (63%), Gaps = 0/16 (0%)
+
+Query  12  TCRTIMGLMPRRGTYS  27
+           TCR  +G   RR +YS
+Sbjct  2   TCRCRLGRCSRRESYS  17
+
+
+> DRAMP13638
+Length=73
+
+ Score = 19.6 bits (39),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 6/12 (50%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  30  EVIYHPRGDGQP  41
+           +V+  PRG+ QP
+Sbjct  48  QVVISPRGNSQP  59
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.139    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17445330
+
+
+Query= AMP_3
+
+Length=40
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP13198                                                          20.0    2.6  
+  DRAMP02393                                                          20.0    2.7  
+  DRAMP05266                                                          19.6    3.5  
+  DRAMP02391                                                          19.6    3.5  
+
+
+> DRAMP13198
+Length=37
+
+ Score = 20.0 bits (40),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 9/15 (60%), Gaps = 0/15 (0%)
+
+Query  7   WQPGKHACREQLSTA  21
+           W+  KHA R  L TA
+Sbjct  7   WRKVKHAGRRVLDTA  21
+
+
+> DRAMP02393
+Length=38
+
+ Score = 20.0 bits (40),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 9/15 (60%), Gaps = 0/15 (0%)
+
+Query  7   WQPGKHACREQLSTA  21
+           W+  KHA R  L TA
+Sbjct  7   WRKVKHAGRRVLDTA  21
+
+
+> DRAMP05266
+Length=38
+
+ Score = 19.6 bits (39),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 9/15 (60%), Gaps = 0/15 (0%)
+
+Query  7   WQPGKHACREQLSTA  21
+           W+  KHA R  L TA
+Sbjct  7   WRKVKHAGRRVLDTA  21
+
+
+> DRAMP02391
+Length=38
+
+ Score = 19.6 bits (39),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 9/15 (60%), Gaps = 0/15 (0%)
+
+Query  7   WQPGKHACREQLSTA  21
+           W+  KHA R  L TA
+Sbjct  7   WRKVKHAGRRVLDTA  21
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.457    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17908208
+
+
+Query= AMP_4
+
+Length=34
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP26155                                                          20.8    0.64 
+
+
+> DRAMP26155
+Length=20
+
+ Score = 20.8 bits (42),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  3   NPRPSLRSLHSHA  15
+           NPRPSLR++ + A
+Sbjct  3   NPRPSLRAIKNGA  15
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.131    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17497800
+
+
+Query= AMP_5
+
+Length=35
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.138    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18081060
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,316 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= 
+Length=24
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DRAMP00017                                                            48.5    6e-12
+DRAMP18308                                                            35.4    1e-06
+DRAMP00055                                                            34.3    2e-06
+DRAMP18319                                                            25.4    0.008
+DRAMP18354                                                            25.4    0.008
+DRAMP00041                                                            25.0    0.012
+DRAMP00042                                                            23.9    0.030
+DRAMP00037                                                            22.3    0.14 
+DRAMP05642                                                            22.3    0.14 
+DRAMP00036                                                            22.3    0.14 
+DRAMP18174                                                            22.3    0.14 
+DRAMP00053                                                            22.3    0.15 
+DRAMP00054                                                            22.3    0.16 
+DRAMP00014                                                            21.9    0.17 
+DRAMP00038                                                            21.6    0.25 
+DRAMP02443                                                            20.8    0.53 
+DRAMP00040                                                            20.4    0.61 
+DRAMP18318                                                            20.4    0.79 
+DRAMP00028                                                            19.6    1.3  
+DRAMP00051                                                            19.6    1.4  
+DRAMP05644                                                            19.6    2.5  
+DRAMP00048                                                            18.5    3.9  
+
+
+>DRAMP00017
+Length=24
+
+ Score = 48.5 bits (114),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 24/24 (100%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+           VTSWSLCTPGCTSPGGGSNCSFCC
+Sbjct  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+
+
+>DRAMP18308
+Length=56
+
+ Score = 35.4 bits (80),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 18/24 (75%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+           +TS S CTPGCTS GGGS CS CC
+Sbjct  33  ITSVSWCTPGCTSEGGGSGCSHCC  56
+
+
+>DRAMP00055
+Length=24
+
+ Score = 34.3 bits (77),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 18/24 (75%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+           +TS S CTPGCTS GGGS CS CC
+Sbjct  1   ITSVSWCTPGCTSEGGGSGCSHCC  24
+
+
+>DRAMP18319
+Length=22
+
+ Score = 25.4 bits (54),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 14/24 (58%), Positives = 16/24 (67%), Gaps = 2/24 (8%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+           +TS SLCTPGC   G  +  SFCC
+Sbjct  1   ITSHSLCTPGCAKTGSFN--SFCC  22
+
+
+>DRAMP18354
+Length=22
+
+ Score = 25.4 bits (54),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 17/24 (71%), Gaps = 2/24 (8%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+           +TS+SLCTPGC   G  +  S+CC
+Sbjct  1   ITSFSLCTPGCAKTGSFN--SYCC  22
+
+
+>DRAMP00041
+Length=22
+
+ Score = 25.0 bits (53),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 15/24 (63%), Gaps = 2/24 (8%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+             SWSLCTPGC   G  +  S+CC
+Sbjct  1   FKSWSLCTPGCARTGSFN--SYCC  22
+
+
+>DRAMP00042
+Length=22
+
+ Score = 23.9 bits (50),  Expect = 0.030, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 14/24 (58%), Gaps = 2/24 (8%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+             SWS CTPGC   G  +  S+CC
+Sbjct  1   FKSWSFCTPGCAKTGSFN--SYCC  22
+
+
+>DRAMP00037
+Length=34
+
+ Score = 22.3 bits (46),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   VTSWSLCTPGCTS  13
+           +TS SLCTPGC +
+Sbjct  1   ITSISLCTPGCKT  13
+
+
+>DRAMP05642
+Length=34
+
+ Score = 22.3 bits (46),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   VTSWSLCTPGCTS  13
+           +TS SLCTPGC +
+Sbjct  1   ITSISLCTPGCKT  13
+
+
+>DRAMP00036
+Length=34
+
+ Score = 22.3 bits (46),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   VTSWSLCTPGCTS  13
+           +TS SLCTPGC +
+Sbjct  1   ITSISLCTPGCKT  13
+
+
+>DRAMP18174
+Length=34
+
+ Score = 22.3 bits (46),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   VTSWSLCTPGCTS  13
+           +TS SLCTPGC +
+Sbjct  1   ITSISLCTPGCKT  13
+
+
+>DRAMP00053
+Length=34
+
+ Score = 22.3 bits (46),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   VTSWSLCTPGCTS  13
+           +TS SLCTPGC +
+Sbjct  1   ITSISLCTPGCKT  13
+
+
+>DRAMP00054
+Length=34
+
+ Score = 22.3 bits (46),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   VTSWSLCTPGCTS  13
+           +TS SLCTPGC +
+Sbjct  1   ITSISLCTPGCKT  13
+
+
+>DRAMP00014
+Length=33
+
+ Score = 21.9 bits (45),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 10/13 (77%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   VTSWSLCTPGCTS  13
+           VTS SLCTPGC +
+Sbjct  1   VTSKSLCTPGCIT  13
+
+
+>DRAMP00038
+Length=31
+
+ Score = 21.6 bits (44),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  1   VTSWSLCTPGCTS  13
+           +TS SLCTPGC +
+Sbjct  1   ITSKSLCTPGCKT  13
+
+
+>DRAMP02443
+Length=29
+
+ Score = 20.8 bits (42),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 13/23 (57%), Gaps = 1/23 (4%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFC  23
+           V S SLCTPGC + G    C  C
+Sbjct  1   VLSKSLCTPGCIT-GPLQTCYLC  22
+
+
+>DRAMP00040
+Length=22
+
+ Score = 20.4 bits (41),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 14/24 (58%), Gaps = 2/24 (8%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+           + S  LCTPGC   G  +  S+CC
+Sbjct  1   IASKFLCTPGCAKTGSFN--SYCC  22
+
+
+>DRAMP18318
+Length=22
+
+ Score = 20.4 bits (41),  Expect = 0.79, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 15/24 (63%), Gaps = 2/24 (8%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+           +TS+  CTPGC     GS  SFCC
+Sbjct  1   ITSFIGCTPGCGKT--GSFNSFCC  22
+
+
+>DRAMP00028
+Length=22
+
+ Score = 19.6 bits (39),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 14/24 (58%), Gaps = 2/24 (8%)
+
+Query  1   VTSWSLCTPGCTSPGGGSNCSFCC  24
+           + S  +CTPGC   G  +  S+CC
+Sbjct  1   IASKFICTPGCAKTGSFN--SYCC  22
+
+
+>DRAMP00051
+Length=24
+
+ Score = 19.6 bits (39),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  2   TSWSLCTPGCTSPGGGSNCSFCC  24
+           +S SLC+ GCT     S  S+CC
+Sbjct  2   SSLSLCSLGCTGVKNPSFNSYCC  24
+
+
+>DRAMP05644
+Length=56
+
+ Score = 19.6 bits (39),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  3   SWSLCTPGCTS  13
+           S SLCTPGC +
+Sbjct  27  SESLCTPGCVT  37
+
+
+>DRAMP00048
+Length=32
+
+ Score = 18.5 bits (36),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  3   SWSLCTPGCTS  13
+           S SLCTPGC +
+Sbjct  3   SESLCTPGCVT  13
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.555    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 16712544
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

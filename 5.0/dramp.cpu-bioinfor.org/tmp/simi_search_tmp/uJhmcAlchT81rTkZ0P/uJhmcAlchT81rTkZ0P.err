@@ -1,0 +1,32 @@
+Critical: Secure socket layer (GNUTLS) has not been properly initialized in the NCBI toolkit.  Have you forgotten to call SOCK_SetupSSL()?
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (310.5) [blast4]  Service not found
+Error: (315.2) CConn_Streambuf::CConn_Streambuf():  NULL connector: Unknown
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (310.5) [blast4]  Service not found
+Error: (315.2) CConn_Streambuf::CConn_Streambuf():  NULL connector: Unknown
+Error: (802.5) CObjectOStream: error at byte 14: stack is empty: write fault
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (310.5) [blast4]  Service not found
+Error: (315.2) CConn_Streambuf::CConn_Streambuf():  NULL connector: Unknown
+Error: (802.5) CObjectOStream: error at byte 14: stack is empty: write fault
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (303.7) [URL_Connect]  Failed to connect to www.ncbi.nlm.nih.gov:443: Not supported
+Error: (310.5) [blast4]  Service not found
+Error: (315.2) CConn_Streambuf::CConn_Streambuf():  NULL connector: Unknown
+Error: (802.5) CObjectOStream: error at byte 0: stack is empty: cannot close output stream
+Error: (CIOException::eFlush) COStreamBuffer::Flush: failed
+Error: (CSerialException::eIoError) byte 0: cannot close output stream
+Error: (802.4) Cannot close serializing output stream(CSerialException::eIoError) byte 0: cannot close output stream
+Error: (802.5) CObjectOStream: error at byte 14: stack is empty: write fault
+Error: NCBI C++ Exception:
+    "/home/coremake/release_build/build/PrepareRelease_Linux64-Centos_JSID_01_491_130.14.22.10_9052_1363121432/c++/src/util/strbuffer.cpp", line 794: Error: ncbi::COStreamBuffer::FlushBuffer() - write fault
+    "/home/coremake/release_build/build/PrepareRelease_Linux64-Centos_JSID_01_491_130.14.22.10_9052_1363121432/c++/src/serial/objostr.cpp", line 582: Error: ncbi::CObjectOStream::Write() -  Frame type= eFrameNamed, Object type= Blast4-request
+

@@ -1,0 +1,117 @@
+# /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/bin/fasta36 -Q -s BL62 -b 100 -d 100 -E 20.0 -T 8 /www/wwwroot/dramp.cpu-bioinfor.org/tmp/simi_search_tmp/Iz7MbkKTAdzhXewSp3/Iz7MbkKTAdzhXewSp3.in /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.6 Sep, 2013(preload9)
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: /www/wwwroot/dramp.cpu-bioinfor.org/tmp/simi_search_tmp/Iz7MbkKTAdzhXewSp3/Iz7MbkKTAdzhXewSp3.in
+  1>>>Peptide_6 - 7 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.4293;  K=0.2577 (cen=1139)
+ statistics sampled from 24820 (24821) to 24820 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL62 matrix (11:-4), open/ext: -11/-1
+ ktup: 1, E-join: 1 (0.97), E-opt: 0.2 (0.878), width:  16
+ Scan time:  0.100
+
+The best scores are:                                      opt bits E(28274)
+DRAMP25236                                         (  20)   32 22.0    0.97
+DRAMP22380                                         (  11)   26 18.2       7
+DRAMP22827                                         (  20)   26 18.2      13
+DRAMP19577                                         (  13)   24 17.0      19
+DRAMP10059                                         (  13)   24 17.0      19
+DRAMP24180                                         (  20)   25 17.6      20
+DRAMP26466                                         (  20)   25 17.6      20
+DRAMP25472                                         (  20)   25 17.6      20
+
+>>DRAMP25236                                              (20 aa)
+ initn:  32 init1:  32 opt:  32  Z-score: 125.7  bits: 22.0 E(28274): 0.97
+Smith-Waterman score: 32; 100.0% identity (100.0% similar) in 6 aa overlap (1-6:12-17)
+
+                           
+Pepti             VIPAGYP  
+                  ::::::   
+DRAMP2 TSSQHTPPIPEVIPAGYHNY
+               10        20
+
+>>DRAMP22380                                              (11 aa)
+ initn:  26 init1:  26 opt:  26  Z-score: 110.3  bits: 18.2 E(28274):    7
+Smith-Waterman score: 26; 80.0% identity (80.0% similar) in 5 aa overlap (3-7:4-8)
+
+                  
+Pepti   VIPAGYP   
+          : :::   
+DRAMP2 IYPPIGYPVYL
+               10 
+
+>>DRAMP22827                                              (20 aa)
+ initn:  26 init1:  26 opt:  26  Z-score: 105.6  bits: 18.2 E(28274):   13
+Smith-Waterman score: 26; 80.0% identity (100.0% similar) in 5 aa overlap (2-6:1-5)
+
+                            
+Pepti  VIPAGYP              
+        .::::               
+DRAMP2  LPAGYETRRVYLANSAGGTS
+                10        20
+
+>>DRAMP19577                                              (13 aa)
+ initn:  24 init1:  24 opt:  24  Z-score: 102.3  bits: 17.0 E(28274):   19
+Smith-Waterman score: 24; 42.9% identity (85.7% similar) in 7 aa overlap (1-7:1-7)
+
+                    
+Pepti  VIPAGYP      
+       ..: :.:      
+DRAMP1 ILPWGWPWWPWRR
+               10   
+
+>>DRAMP10059                                              (13 aa)
+ initn:  24 init1:  24 opt:  24  Z-score: 102.3  bits: 17.0 E(28274):   19
+Smith-Waterman score: 24; 42.9% identity (85.7% similar) in 7 aa overlap (1-7:1-7)
+
+                    
+Pepti  VIPAGYP      
+       ..: :.:      
+DRAMP1 ILPWGWPWWPWRR
+               10   
+
+>>DRAMP24180                                              (20 aa)
+ initn:  25 init1:  25 opt:  25  Z-score: 102.2  bits: 17.6 E(28274):   20
+Smith-Waterman score: 25; 80.0% identity (80.0% similar) in 5 aa overlap (3-7:7-11)
+
+                           
+Pepti      VIPAGYP         
+             : :::         
+DRAMP2 PLMYCHPYGYPYRAFIFDTL
+               10        20
+
+>>DRAMP26466                                              (20 aa)
+ initn:  25 init1:  25 opt:  25  Z-score: 102.2  bits: 17.6 E(28274):   20
+Smith-Waterman score: 25; 80.0% identity (80.0% similar) in 5 aa overlap (3-7:9-13)
+
+                           
+Pepti        VIPAGYP       
+               : :::       
+DRAMP2 WYGYLPTWPYGYPQVAIYSH
+               10        20
+
+>>DRAMP25472                                              (20 aa)
+ initn:  25 init1:  25 opt:  25  Z-score: 102.2  bits: 17.6 E(28274):   20
+Smith-Waterman score: 25; 80.0% identity (80.0% similar) in 5 aa overlap (3-7:2-6)
+
+                            
+Pepti  VIPAGYP              
+         : :::              
+DRAMP2  CPFGYPFNRCRACTLPFMAV
+                10        20
+
+
+
+7 residues in 1 query   sequences
+696332 residues in 28274 library sequences
+ Tcomplib [36.3.6 Sep, 2013(preload9)] (8 proc in memory [0G])
+ start: Tue Jul 28 08:37:21 2026 done: Tue Jul 28 08:37:21 2026
+ Total Scan time:  0.100 Total Display time:  0.010
+
+Function used was FASTA [36.3.6 Sep, 2013(preload9)]

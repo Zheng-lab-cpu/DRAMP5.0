@@ -1,0 +1,521 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: DRAMP.fa
+           28,274 sequences; 696,356 total letters
+
+
+
+Query= seq_1
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DRAMP03760                                                          33.5    1e-05
+  DRAMP03759                                                          30.8    1e-04
+  DRAMP21024                                                          30.8    1e-04
+  DRAMP20933                                                          30.8    1e-04
+  DRAMP03702                                                          28.1    0.001
+  DRAMP21251                                                          27.7    0.002
+  DRAMP03707                                                          27.3    0.002
+  DRAMP20957                                                          27.3    0.003
+  DRAMP21252                                                          26.9    0.003
+  DRAMP18416                                                          26.9    0.003
+  DRAMP03704                                                          26.9    0.004
+  DRAMP03687                                                          26.2    0.006
+  DRAMP01561                                                          26.2    0.007
+  DRAMP20958                                                          26.2    0.007
+  DRAMP03706                                                          25.8    0.008
+  DRAMP04335                                                          25.8    0.008
+  DRAMP01548                                                          25.8    0.008
+  DRAMP18456                                                          25.4    0.012
+  DRAMP03688                                                          25.4    0.012
+  DRAMP21025                                                          25.0    0.014
+  DRAMP03752                                                          25.0    0.015
+  DRAMP18418                                                          25.0    0.015
+  DRAMP03705                                                          25.0    0.018
+  DRAMP18191                                                          23.9    0.044
+  DRAMP21254                                                          23.9    0.044
+  DRAMP18192                                                          23.5    0.050
+  DRAMP18413                                                          23.5    0.051
+  DRAMP03703                                                          23.5    0.052
+  DRAMP01311                                                          23.5    0.057
+  DRAMP01312                                                          23.1    0.065
+  DRAMP21026                                                          23.1    0.074
+  DRAMP03747                                                          22.7    0.085
+  DRAMP21253                                                          22.7    0.089
+  DRAMP01289                                                          21.9    0.17 
+  DRAMP01291                                                          21.2    0.33 
+  DRAMP21244                                                          20.8    0.45 
+  DRAMP01141                                                          18.1    3.3  
+  DRAMP18415                                                          17.3    7.2  
+  DRAMP03690                                                          17.3    7.2  
+
+
+> DRAMP03760
+Length=17
+
+ Score = 33.5 bits (75),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           FFSLIPSLIGGLVSAIK
+Sbjct  1   FFSLIPSLIGGLVSAIK  17
+
+
+> DRAMP03759
+Length=17
+
+ Score = 30.8 bits (68),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           FFSLIPSLIGGLV AIK
+Sbjct  1   FFSLIPSLIGGLVFAIK  17
+
+
+> DRAMP21024
+Length=17
+
+ Score = 30.8 bits (68),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 14/17 (82%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           FFSLIPSL+GGL+SA K
+Sbjct  1   FFSLIPSLVGGLISAFK  17
+
+
+> DRAMP20933
+Length=17
+
+ Score = 30.8 bits (68),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 14/17 (82%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           FFSLIPSL+GGL+SA K
+Sbjct  1   FFSLIPSLVGGLISAFK  17
+
+
+> DRAMP03702
+Length=17
+
+ Score = 28.1 bits (61),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 14/16 (88%), Positives = 14/16 (88%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           F LIPSLIGGLVSA K
+Sbjct  2   FGLIPSLIGGLVSAFK  17
+
+
+> DRAMP21251
+Length=19
+
+ Score = 27.7 bits (60),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 13/16 (81%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           FSLIPS+I GLVSAI+
+Sbjct  3   FSLIPSVIAGLVSAIR  18
+
+
+> DRAMP03707
+Length=18
+
+ Score = 27.3 bits (59),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 13/16 (81%), Positives = 14/16 (88%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           FSLIP  IGGL+SAIK
+Sbjct  3   FSLIPHAIGGLISAIK  18
+
+
+> DRAMP20957
+Length=17
+
+ Score = 27.3 bits (59),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           FFSLIP L+ GL+SA K
+Sbjct  1   FFSLIPKLVKGLISAFK  17
+
+
+> DRAMP21252
+Length=19
+
+ Score = 26.9 bits (58),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 13/16 (81%), Positives = 14/16 (88%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           FSLIPS I GLVSAI+
+Sbjct  3   FSLIPSAIAGLVSAIR  18
+
+
+> DRAMP18416
+Length=17
+
+ Score = 26.9 bits (58),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           F  +IP LIGGL+SAIK
+Sbjct  1   FIGMIPGLIGGLISAIK  17
+
+
+> DRAMP03704
+Length=17
+
+ Score = 26.9 bits (58),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 14/16 (88%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           F LIPS++GGLVSA K
+Sbjct  2   FGLIPSMMGGLVSAFK  17
+
+
+> DRAMP03687
+Length=17
+
+ Score = 26.2 bits (56),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           F SLIPSL+GG +SA K
+Sbjct  1   FLSLIPSLVGGSISAFK  17
+
+
+> DRAMP01561
+Length=74
+
+ Score = 26.2 bits (56),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           FSLIPS I GL+SA K
+Sbjct  25  FSLIPSAISGLISAFK  40
+
+
+> DRAMP20958
+Length=17
+
+ Score = 26.2 bits (56),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 11/17 (65%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           FF LIP L+ GL+SA K
+Sbjct  1   FFKLIPKLVKGLISAFK  17
+
+
+> DRAMP03706
+Length=18
+
+ Score = 25.8 bits (55),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           FSLIP  IGGL+SA K
+Sbjct  3   FSLIPHAIGGLISAFK  18
+
+
+> DRAMP04335
+Length=18
+
+ Score = 25.8 bits (55),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           FSLIP  IGGL+SA K
+Sbjct  3   FSLIPKAIGGLISAFK  18
+
+
+> DRAMP01548
+Length=74
+
+ Score = 25.8 bits (55),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           FSLIPS I GL+SA K
+Sbjct  25  FSLIPSAISGLISAFK  40
+
+
+> DRAMP18456
+Length=14
+
+ Score = 25.4 bits (54),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 12/14 (86%), Positives = 13/14 (93%), Gaps = 0/14 (0%)
+
+Query  2   FSLIPSLIGGLVSA  15
+           FSLIPS IGGL+SA
+Sbjct  1   FSLIPSAIGGLISA  14
+
+
+> DRAMP03688
+Length=17
+
+ Score = 25.4 bits (54),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 11/17 (65%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           F  +IP LIGGL+SA K
+Sbjct  1   FLGMIPGLIGGLISAFK  17
+
+
+> DRAMP21025
+Length=17
+
+ Score = 25.0 bits (53),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 11/17 (65%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           FFSLIPSL+  L+ A K
+Sbjct  1   FFSLIPSLVKKLIKAFK  17
+
+
+> DRAMP03752
+Length=18
+
+ Score = 25.0 bits (53),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 12/16 (75%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           FSLIPS I GL+SA K
+Sbjct  3   FSLIPSAISGLISAFK  18
+
+
+> DRAMP18418
+Length=17
+
+ Score = 25.0 bits (53),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 11/17 (65%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           F  +IP LIGGL+SA K
+Sbjct  1   FIGMIPGLIGGLISAFK  17
+
+
+> DRAMP03705
+Length=16
+
+ Score = 25.0 bits (53),  Expect = 0.018, Method: Compositional matrix adjust.
+ Identities = 11/13 (85%), Positives = 13/13 (100%), Gaps = 0/13 (0%)
+
+Query  5   IPSLIGGLVSAIK  17
+           +PSLIGGL+SAIK
+Sbjct  4   LPSLIGGLISAIK  16
+
+
+> DRAMP18191
+Length=18
+
+ Score = 23.9 bits (50),  Expect = 0.044, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           FSLIP  I GL+SA K
+Sbjct  3   FSLIPHAISGLISAFK  18
+
+
+> DRAMP21254
+Length=19
+
+ Score = 23.9 bits (50),  Expect = 0.044, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           F LIP +I GLV AI+
+Sbjct  3   FKLIPKVIKGLVKAIR  18
+
+
+> DRAMP18192
+Length=18
+
+ Score = 23.5 bits (49),  Expect = 0.050, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           FSLIP+ I GL+SA K
+Sbjct  3   FSLIPNAISGLLSAFK  18
+
+
+> DRAMP18413
+Length=20
+
+ Score = 23.5 bits (49),  Expect = 0.051, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           FFS+IP + GG+ S +K
+Sbjct  1   FFSMIPKIAGGIASLVK  17
+
+
+> DRAMP03703
+Length=16
+
+ Score = 23.5 bits (49),  Expect = 0.052, Method: Compositional matrix adjust.
+ Identities = 10/13 (77%), Positives = 12/13 (92%), Gaps = 0/13 (0%)
+
+Query  5   IPSLIGGLVSAIK  17
+           +PSLIGGL+SA K
+Sbjct  4   LPSLIGGLISAFK  16
+
+
+> DRAMP01311
+Length=19
+
+ Score = 23.5 bits (49),  Expect = 0.057, Method: Compositional matrix adjust.
+ Identities = 10/17 (59%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           F SL+PSL+ G VS +K
+Sbjct  1   FLSLLPSLVSGAVSLVK  17
+
+
+> DRAMP01312
+Length=19
+
+ Score = 23.1 bits (48),  Expect = 0.065, Method: Compositional matrix adjust.
+ Identities = 10/17 (59%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           F SL+PSL+ G VS +K
+Sbjct  1   FLSLLPSLVSGAVSLVK  17
+
+
+> DRAMP21026
+Length=17
+
+ Score = 23.1 bits (48),  Expect = 0.074, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 11/17 (65%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           FF LIP L+  L+ A K
+Sbjct  1   FFKLIPKLVKKLIKAFK  17
+
+
+> DRAMP03747
+Length=18
+
+ Score = 22.7 bits (47),  Expect = 0.085, Method: Compositional matrix adjust.
+ Identities = 11/15 (73%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  3   SLIPSLIGGLVSAIK  17
+           SLIPS I GL+SA K
+Sbjct  4   SLIPSAISGLISAFK  18
+
+
+> DRAMP21253
+Length=19
+
+ Score = 22.7 bits (47),  Expect = 0.089, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  2   FSLIPSLIGGLVSAIK  17
+           F LIP  I GLV AI+
+Sbjct  3   FKLIPKAIKGLVKAIR  18
+
+
+> DRAMP01289
+Length=19
+
+ Score = 21.9 bits (45),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           F SLIP + GG+ S +K
+Sbjct  1   FLSLIPKIAGGIASLVK  17
+
+
+> DRAMP01291
+Length=19
+
+ Score = 21.2 bits (43),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 8/17 (47%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           FFS+IP +  G+ S +K
+Sbjct  1   FFSMIPKIATGIASLVK  17
+
+
+> DRAMP21244
+Length=17
+
+ Score = 20.8 bits (42),  Expect = 0.45, Method: Compositional matrix adjust.
+ Identities = 8/17 (47%), Positives = 11/17 (65%), Gaps = 0/17 (0%)
+
+Query  1   FFSLIPSLIGGLVSAIK  17
+           F SLIP L+  ++ A K
+Sbjct  1   FLSLIPKLVKKIIKAFK  17
+
+
+> DRAMP01141
+Length=19
+
+ Score = 18.1 bits (35),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 6/16 (38%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  1   FFSLIPSLIGGLVSAI  16
+           FF L   ++GG+ +A+
+Sbjct  2   FFDLAKKVVGGIRNAL  17
+
+
+> DRAMP18415
+Length=27
+
+ Score = 17.3 bits (33),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  4   LIPSLIGG  11
+           ++PSLIGG
+Sbjct  12  ILPSLIGG  19
+
+
+> DRAMP03690
+Length=27
+
+ Score = 17.3 bits (33),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 6/8 (75%), Positives = 8/8 (100%), Gaps = 0/8 (0%)
+
+Query  4   LIPSLIGG  11
+           ++PSLIGG
+Sbjct  12  ILPSLIGG  19
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.151    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11838052
+
+
+  Database: DRAMP.fa
+    Posted date:  Jun 2, 2022  5:36 PM
+  Number of letters in database: 696,356
+  Number of sequences in database:  28,274
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

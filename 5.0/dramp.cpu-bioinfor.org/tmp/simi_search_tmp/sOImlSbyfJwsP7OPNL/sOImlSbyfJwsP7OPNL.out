@@ -1,0 +1,383 @@
+# /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/bin/ssearch35 -Q -s BL80 -b 100 -d 100 -E 20.0 -T 8 /www/wwwroot/dramp.cpu-bioinfor.org/tmp/simi_search_tmp/sOImlSbyfJwsP7OPNL/sOImlSbyfJwsP7OPNL.in /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+SSEARCH searches a sequence data bank
+ version 36.05 March, 2010
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: /www/wwwroot/dramp.cpu-bioinfor.org/tmp/simi_search_tmp/sOImlSbyfJwsP7OPNL/sOImlSbyfJwsP7OPNL.in
+  1>>>Peptide_1 - 8 aa
+Library: /www/wwwroot/dramp.cpu-bioinfor.org/cgi-bin/seq-search/database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+       opt      E()
+< 20    14     0:=
+  22    10     0:=          one = represents 62 library sequences
+  24    48     0:=
+  26   155     1:*==
+  28   102     6:*=
+  30    94    39:*=
+  32   189   151:==*=
+  34   329   408:======*
+  36   957   839:=============*==
+  38   828  1386:==============        *
+  40  3675  1934:===============================*============================
+  42  1987  2364:=================================     *
+  44  2718  2607:==========================================*=
+  46  2478  2656:========================================  *
+  48  1655  2543:===========================              *
+  50  1969  2320:================================     *
+  52  1724  2040:============================    *
+  54  1949  1742:============================*===
+  56  1481  1455:=======================*
+  58  1378  1195:===================*===
+  60  1062   968:===============*==
+  62   738   776:============*
+  64   587   617:=========*
+  66   397   488:=======*
+  68   411   384:======*
+  70   248   301:====*
+  72   177   235:===*
+  74   207   183:==*=
+  76   125   143:==*
+  78   111   111:=*
+  80    88    86:=*
+  82    93    66:=*
+  84    68    52:*=
+  86    47    40:*
+  88    62    31:*          inset = represents 1 library sequences
+  90    28    24:*
+  92    15    19:*         :===============   *
+  94    10    14:*         :==========   *
+  96    16    11:*         :==========*=====
+  98    11     9:*         :========*==
+ 100     6     7:*         :======*
+ 102     0     5:*         :    *
+ 104     3     4:*         :===*
+ 106     9     3:*         :==*======
+ 108    10     2:*         :=*========
+ 110     3     2:*         :=*=
+ 112     0     1:*         :*
+ 114     0     1:*         :*
+ 116     0     1:*         :*
+ 118     1     1:*         :*
+>120     1     1:*         :*
+   696332 residues in 28274 sequences
+Statistics: MLE_cen statistics: Lambda= 0.4392;  K= 0.161 (cen=999)
+ statistics sampled from 28273 (28274) to 28273 sequences
+ Kolmogorov-Smirnov  statistic: 0.0574 (N=29) at  40
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.1 Aug 2009)
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ Scan time:  0.060
+
+The best scores are:                                      s-w bits E(28274)
+DRAMP09275                                         (  24)   30 21.6     1.7
+DRAMP21105                                         (   9)   27 19.7     2.3
+DRAMP28978                                         (  24)   27 19.7     6.2
+DRAMP28967                                         (  18)   26 19.1     7.2
+DRAMP03179                                         (  31)   27 19.7       8
+DRAMP01722                                         (  13)   25 18.5     8.1
+DRAMP02127                                         (  22)   26 19.1     8.8
+DRAMP03151                                         (  36)   27 19.7     9.3
+DRAMP28963                                         (  24)   26 19.1     9.6
+DRAMP28965                                         (  24)   26 19.1     9.6
+DRAMP28960                                         (  24)   26 19.1     9.6
+DRAMP28961                                         (  24)   26 19.1     9.6
+DRAMP28962                                         (  24)   26 19.1     9.6
+DRAMP28964                                         (  24)   26 19.1     9.6
+DRAMP21415                                         (  24)   26 19.1     9.6
+DRAMP02306                                         (  16)   25 18.5     9.9
+DRAMP01143                                         (  19)   25 18.5      12
+DRAMP28956                                         (  30)   26 19.1      12
+DRAMP28949                                         (  30)   26 19.1      12
+DRAMP28955                                         (  30)   26 19.1      12
+DRAMP28954                                         (  30)   26 19.1      12
+DRAMP28952                                         (  30)   26 19.1      12
+DRAMP28951                                         (  30)   26 19.1      12
+DRAMP28957                                         (  30)   26 19.1      12
+DRAMP28953                                         (  30)   26 19.1      12
+DRAMP05892                                         (  83)   28 20.4      14
+DRAMP02308                                         (  15)   24 17.8      14
+
+>>DRAMP09275                                              (24 aa)
+ s-w opt:  30  Z-score: 121.5  bits: 21.6 E(28274):  1.7
+Smith-Waterman score: 30; 100.0% identity (100.0% similar) in 6 aa overlap (2-7:2-7)
+
+                               
+Peptid FAIGLLGG                
+        ::::::                 
+DRAMP0 KAIGLLGNNSAANLATGGAAGWKS
+               10        20    
+
+>>DRAMP21105                                              (9 aa)
+ s-w opt:  27  Z-score: 118.9  bits: 19.7 E(28274):  2.3
+Smith-Waterman score: 27; 83.3% identity (100.0% similar) in 6 aa overlap (3-8:2-7)
+
+                 
+Peptid FAIGLLGG  
+         .:::::  
+DRAMP2  FLGLLGGLL
+                 
+
+>>DRAMP28978                                              (24 aa)
+ s-w opt:  27  Z-score: 111.2  bits: 19.7 E(28274):  6.2
+Smith-Waterman score: 27; 83.3% identity (100.0% similar) in 6 aa overlap (3-8:9-14)
+
+                               
+Peptid       FAIGLLGG          
+               .:::::          
+DRAMP2 LKKWWKKVLGLLGGLKGKVTSVIK
+               10        20    
+
+>>DRAMP28967                                              (18 aa)
+ s-w opt:  26  Z-score: 110.0  bits: 19.1 E(28274):  7.2
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:10-14)
+
+                         
+Peptid       FAIGLLGG    
+                :::::    
+DRAMP2 LKKWWKKVKGLLGGLLGK
+               10        
+
+>>DRAMP03179                                              (31 aa)
+ s-w opt:  27  Z-score: 109.2  bits: 19.7 E(28274):    8
+Smith-Waterman score: 27; 71.4% identity (100.0% similar) in 7 aa overlap (2-8:23-29)
+
+                                      
+Peptid                      FAIGLLGG  
+                             ::..:::  
+DRAMP0 SWLSKTYKKLENSAKKRISEGVAIAILGGLR
+               10        20        30 
+
+>>DRAMP01722                                              (13 aa)
+ s-w opt:  25  Z-score: 109.1  bits: 18.5 E(28274):  8.1
+Smith-Waterman score: 25; 62.5% identity (75.0% similar) in 8 aa overlap (1-8:1-8)
+
+                    
+Peptid FAIGLLGG     
+       :  ::.::     
+DRAMP0 FLAGLIGGLAKML
+               10   
+
+>>DRAMP02127                                              (22 aa)
+ s-w opt:  26  Z-score: 108.5  bits: 19.1 E(28274):  8.8
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:1-5)
+
+                                
+Peptid FAIGLLGG                 
+          :::::                 
+DRAMP0    GLLGGLLGPLLGGGGGGGGGLL
+                  10        20  
+
+>>DRAMP03151                                              (36 aa)
+ s-w opt:  27  Z-score: 108.1  bits: 19.7 E(28274):  9.3
+Smith-Waterman score: 27; 83.3% identity (100.0% similar) in 6 aa overlap (2-7:25-30)
+
+                                           
+Peptid                        FAIGLLGG     
+                               :::.::      
+DRAMP0 RWKVFKKIEKVGRNVRDGIIKAGPAIGVLGQAKALG
+               10        20        30      
+
+>>DRAMP28963                                              (24 aa)
+ s-w opt:  26  Z-score: 107.8  bits: 19.1 E(28274):  9.6
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:10-14)
+
+                               
+Peptid       FAIGLLGG          
+                :::::          
+DRAMP2 LKKWWKKVKGLLGGLLGKVTSVIK
+               10        20    
+
+>>DRAMP28965                                              (24 aa)
+ s-w opt:  26  Z-score: 107.8  bits: 19.1 E(28274):  9.6
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:10-14)
+
+                               
+Peptid       FAIGLLGG          
+                :::::          
+DRAMP2 LKKWWKKVKGLLGGLLGKVKKVIK
+               10        20    
+
+>>DRAMP28960                                              (24 aa)
+ s-w opt:  26  Z-score: 107.8  bits: 19.1 E(28274):  9.6
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:10-14)
+
+                               
+Peptid       FAIGLLGG          
+                :::::          
+DRAMP2 LKKWWKXXKGLLGGLLGKVXXVIK
+               10        20    
+
+>>DRAMP28961                                              (24 aa)
+ s-w opt:  26  Z-score: 107.8  bits: 19.1 E(28274):  9.6
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:10-14)
+
+                               
+Peptid       FAIGLLGG          
+                :::::          
+DRAMP2 LKKWWKTSKGLLGGLLGKVTSVIK
+               10        20    
+
+>>DRAMP28962                                              (24 aa)
+ s-w opt:  26  Z-score: 107.8  bits: 19.1 E(28274):  9.6
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:10-14)
+
+                               
+Peptid       FAIGLLGG          
+                :::::          
+DRAMP2 LKKWWKTVKGLLGGLLGKVTSVIK
+               10        20    
+
+>>DRAMP28964                                              (24 aa)
+ s-w opt:  26  Z-score: 107.8  bits: 19.1 E(28274):  9.6
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:10-14)
+
+                               
+Peptid       FAIGLLGG          
+                :::::          
+DRAMP2 LKKWWKKVKGLLGGLLGKVKSVIK
+               10        20    
+
+>>DRAMP21415                                              (24 aa)
+ s-w opt:  26  Z-score: 107.8  bits: 19.1 E(28274):  9.6
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:10-14)
+
+                               
+Peptid       FAIGLLGG          
+                :::::          
+DRAMP2 LKKWWKTSKGLLGGLLGKVTSVIK
+               10        20    
+
+>>DRAMP02306                                              (16 aa)
+ s-w opt:  25  Z-score: 107.5  bits: 18.5 E(28274):  9.9
+Smith-Waterman score: 25; 71.4% identity (85.7% similar) in 7 aa overlap (2-8:9-15)
+
+                       
+Peptid        FAIGLLGG 
+               :.::: : 
+DRAMP0 IIEKLVNTALGLLSGL
+               10      
+
+>>DRAMP01143                                              (19 aa)
+ s-w opt:  25  Z-score: 106.2  bits: 18.5 E(28274):   12
+Smith-Waterman score: 25; 71.4% identity (85.7% similar) in 7 aa overlap (1-7:5-11)
+
+                          
+Peptid     FAIGLLGG       
+           :: :.::        
+DRAMP0 GIVDFAKGVLGKIKNVLGI
+               10         
+
+>>DRAMP28956                                              (30 aa)
+ s-w opt:  26  Z-score: 106.0  bits: 19.1 E(28274):   12
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:11-15)
+
+                                     
+Peptid        FAIGLLGG               
+                 :::::               
+DRAMP2 ILKKWWKTSKGLLGGLLGGVTSVIKKLKKI
+               10        20        30
+
+>>DRAMP28949                                              (30 aa)
+ s-w opt:  26  Z-score: 106.0  bits: 19.1 E(28274):   12
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:11-15)
+
+                                     
+Peptid        FAIGLLGG               
+                 :::::               
+DRAMP2 ILKPGGGTSGGLLGGLLGKVTSVIPGLNNI
+               10        20        30
+
+>>DRAMP28955                                              (30 aa)
+ s-w opt:  26  Z-score: 106.0  bits: 19.1 E(28274):   12
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:11-15)
+
+                                     
+Peptid        FAIGLLGG               
+                 :::::               
+DRAMP2 ILKKWWKTSKGLLGGLLGGVTSVIKKLKKI
+               10        20        30
+
+>>DRAMP28954                                              (30 aa)
+ s-w opt:  26  Z-score: 106.0  bits: 19.1 E(28274):   12
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:11-15)
+
+                                     
+Peptid        FAIGLLGG               
+                 :::::               
+DRAMP2 ILKKWWKTSKGLLGGLLGKVTSVIKGLKNI
+               10        20        30
+
+>>DRAMP28952                                              (30 aa)
+ s-w opt:  26  Z-score: 106.0  bits: 19.1 E(28274):   12
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:11-15)
+
+                                     
+Peptid        FAIGLLGG               
+                 :::::               
+DRAMP2 ILKKWWKTSGGLLGGLLGKVTSVIKGLNNI
+               10        20        30
+
+>>DRAMP28951                                              (30 aa)
+ s-w opt:  26  Z-score: 106.0  bits: 19.1 E(28274):   12
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:11-15)
+
+                                     
+Peptid        FAIGLLGG               
+                 :::::               
+DRAMP2 ILKKWWGTSGGLLGGLLGKVTSVIKGLNNI
+               10        20        30
+
+>>DRAMP28957                                              (30 aa)
+ s-w opt:  26  Z-score: 106.0  bits: 19.1 E(28274):   12
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:11-15)
+
+                                     
+Peptid        FAIGLLGG               
+                 :::::               
+DRAMP2 ILKKWWKTVKGLLGGLLGGVTSVIKKLKKI
+               10        20        30
+
+>>DRAMP28953                                              (30 aa)
+ s-w opt:  26  Z-score: 106.0  bits: 19.1 E(28274):   12
+Smith-Waterman score: 26; 100.0% identity (100.0% similar) in 5 aa overlap (4-8:11-15)
+
+                                     
+Peptid        FAIGLLGG               
+                 :::::               
+DRAMP2 ILKKWWKTSKGLLGGLLGKVTSVIKGLNNI
+               10        20        30
+
+>>DRAMP05892                                              (83 aa)
+ s-w opt:  28  Z-score: 105.0  bits: 20.4 E(28274):   14
+Smith-Waterman score: 28; 71.4% identity (85.7% similar) in 7 aa overlap (2-8:51-57)
+
+                                                                   
+Peptid                              FAIGLLGG                       
+                                     :.: :::                       
+DRAMP0 PKVAHCASQIGRSTAWGAVSGAATGTAVGQAVGALGGALFGGSMGVIKGSAACVSYLTRH
+               30        40        50        60        70        80
+
+DRAMP0 RHH
+          
+
+>>DRAMP02308                                              (15 aa)
+ s-w opt:  24  Z-score: 104.6  bits: 17.8 E(28274):   14
+Smith-Waterman score: 24; 66.7% identity (100.0% similar) in 6 aa overlap (2-7:9-14)
+
+                      
+Peptid        FAIGLLGG
+               :.:.:: 
+DRAMP0 IIGHLIKTALGMLGL
+               10     
+
+
+
+8 residues in 1 query   sequences
+696332 residues in 28274 library sequences
+ Scomplib [36.05]
+ start: Mon Jul 27 16:45:13 2026 done: Mon Jul 27 16:45:13 2026
+ Total Scan time:  0.060 Total Display time:  0.000
+
+Function used was SSEARCH [version 36.05 March, 2010]

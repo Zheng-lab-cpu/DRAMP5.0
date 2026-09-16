@@ -1,0 +1,778 @@
+# ../../cgi-bin/seq-search/bin/fasta36 -Q -s BL80 -b 10 -d 10 -E 0.1 -T 8 ../../tmp/simi_search_tmp/EdmMwpIsQuppNI9nNS/EdmMwpIsQuppNI9nNS.in ./database/DRAMP.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.6 Sep, 2013(preload9)
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: ../../tmp/simi_search_tmp/EdmMwpIsQuppNI9nNS/EdmMwpIsQuppNI9nNS.in
+  1>>>lcl|ORF80_ZT-469_1:9288:9326_unnamed_protein_product - 12 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.8050+/-0.000612; mu= 5.9687+/- 0.019
+ mean_var=7.0587+/- 2.287, 0's: 2600 Z-trim(112.2): 2603  B-trim: 471 in 1/23
+ Lambda= 0.482737
+ statistics sampled from 12092 (12093) to 12092 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.973), E-opt: 0.2 (0.428), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+  2>>>lcl|ORF172_ZT-469_1:21681:21734_unnamed_protein_product - 17 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.2012+/-0.000646; mu= 6.7168+/- 0.020
+ mean_var=8.1634+/- 2.597, 0's: 2614 Z-trim(110.7): 2617  B-trim: 0 in 0/24
+ Lambda= 0.448888
+ statistics sampled from 10634 (10634) to 10634 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.947), E-opt: 0.2 (0.402), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.1
+  3>>>lcl|ORF174_ZT-469_1:21771:21812_unnamed_protein_product - 13 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.1027+/-0.000597; mu= 9.0707+/- 0.019
+ mean_var=8.1447+/- 2.479, 0's: 3126 Z-trim(111.8): 3130  B-trim: 443 in 1/23
+ Lambda= 0.449403
+ statistics sampled from 12071 (12073) to 12071 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.935), E-opt: 0.2 (0.41), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+  4>>>lcl|ORF189_ZT-469_1:23205:23240_unnamed_protein_product - 11 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.8471+/-0.000461; mu= 5.8616+/- 0.015
+ mean_var=9.7950+/- 2.446, 0's: 3215 Z-trim(115.3): 3215  B-trim: 3109 in 1/23
+ Lambda= 0.409801
+ statistics sampled from 16965 (16965) to 16965 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.943), E-opt: 0.2 (0.458), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+  5>>>lcl|ORF258_ZT-469_1:30567:30611_unnamed_protein_product - 14 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.8591+/-0.000666; mu= 7.0622+/- 0.021
+ mean_var=11.2907+/- 4.310, 0's: 3104 Z-trim(113.1): 3106  B-trim: 1780 in 1/23
+ Lambda= 0.381693
+ statistics sampled from 12824 (12827) to 12824 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.922), E-opt: 0.2 (0.457), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.1
+  6>>>lcl|ORF420_ZT-469_1:48483:48524_unnamed_protein_product - 13 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.8283+/-0.000472; mu= 8.0711+/- 0.015
+ mean_var=16.5609+/- 7.280, 0's: 3517 Z-trim(115.9): 3517  B-trim: 0 in 0/24
+ Lambda= 0.315161
+ statistics sampled from 17307 (17307) to 17307 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.923), E-opt: 0.2 (0.483), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+  7>>>lcl|ORF470_ZT-469_1:54165:54209_unnamed_protein_product - 14 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.1657+/-0.000697; mu= 5.3118+/- 0.022
+ mean_var=7.4565+/- 2.208, 0's: 2634 Z-trim(111.5): 2634  B-trim: 0 in 0/24
+ Lambda= 0.469685
+ statistics sampled from 10166 (10166) to 10166 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.922), E-opt: 0.2 (0.465), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+  8>>>lcl|ORF513_ZT-469_1:59988:60038_unnamed_protein_product - 16 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.9378+/-0.000721; mu= 6.6298+/- 0.022
+ mean_var=7.6179+/- 2.611, 0's: 2070 Z-trim(109.8): 2075  B-trim: 0 in 0/24
+ Lambda= 0.464683
+ statistics sampled from 8610 (8614) to 8610 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.919), E-opt: 0.2 (0.445), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.1
+  9>>>lcl|ORF569_ZT-469_1:66588:66635_unnamed_protein_product - 15 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.2267+/-0.000741; mu= 5.2913+/- 0.023
+ mean_var=6.0328+/- 2.528, 0's: 2594 Z-trim(110.7): 2599  B-trim: 0 in 0/24
+ Lambda= 0.522175
+ statistics sampled from 9895 (9898) to 9895 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.923), E-opt: 0.2 (0.435), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 10>>>lcl|ORF602_ZT-469_1:69819:69863_unnamed_protein_product - 14 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.6241+/-0.000719; mu= 7.3770+/- 0.023
+ mean_var=6.3876+/- 2.170, 0's: 1968 Z-trim(111.1): 1970  B-trim: 1580 in 1/23
+ Lambda= 0.507466
+ statistics sampled from 10485 (10485) to 10485 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.921), E-opt: 0.2 (0.428), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 11>>>lcl|ORF668_ZT-469_1:78120:78170_unnamed_protein_product - 16 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.5637+/-0.000638; mu= 4.2730+/- 0.019
+ mean_var=5.6607+/- 1.960, 0's: 3151 Z-trim(112.1): 3157  B-trim: 0 in 0/24
+ Lambda= 0.539061
+ statistics sampled from 11997 (11998) to 11997 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.922), E-opt: 0.2 (0.428), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 12>>>lcl|ORF673_ZT-469_1:78795:78827_unnamed_protein_product - 10 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.5906;  K= 7.205 (cen=1231)
+ statistics sampled from 10410 (10412) to 10410 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.924), E-opt: 0.2 (0.423), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 0.1
+ 13>>>lcl|ORF770_ZT-469_1:89907:89969_unnamed_protein_product - 20 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.1632+/-0.000661; mu= 6.6870+/- 0.021
+ mean_var=6.2568+/- 2.142, 0's: 2916 Z-trim(111.1): 2925  B-trim: 398 in 1/23
+ Lambda= 0.512741
+ statistics sampled from 10787 (10796) to 10787 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.927), E-opt: 0.2 (0.42), width:  16
+ Scan time:  0.080
+
+The best scores are:                                      opt bits E(28274)
+DRAMP09396                                         (  10)   36 26.0   0.083
+
+>>DRAMP09396                                              (10 aa)
+ initn:  36 init1:  36 opt:  36  Z-score: 144.8  bits: 26.0 E(28274): 0.083
+Smith-Waterman score: 36; 77.8% identity (88.9% similar) in 9 aa overlap (10-18:2-10)
+
+               10        20
+lcl|O  MTIISRLGPGKKLLSRKKYL
+                :.::: :::  
+DRAMP0         RGRKLLRRKK  
+                       10  
+
+
+ 14>>>lcl|ORF812_ZT-469_1:94641:94673_unnamed_protein_product - 10 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.5294;  K= 3.764 (cen=1347)
+ statistics sampled from 11268 (11270) to 11268 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.929), E-opt: 0.2 (0.418), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 15>>>lcl|ORF1068_ZT-469_1:130191:130235_unnamed_protein_product - 14 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.0817+/-0.000641; mu= 5.5258+/- 0.021
+ mean_var=6.2977+/- 1.880, 0's: 2235 Z-trim(110.6): 2284  B-trim: 252 in 1/23
+ Lambda= 0.511075
+ statistics sampled from 10184 (10240) to 10184 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.932), E-opt: 0.2 (0.414), width:  16
+ Scan time:  0.060
+
+The best scores are:                                      opt bits E(28274)
+DRAMP02094                                         (  24)   39 28.0   0.036
+DRAMP19440                                         (  24)   39 28.0   0.036
+DRAMP01919                                         (  24)   39 28.0   0.036
+DRAMP02093                                         (  24)   39 28.0   0.036
+DRAMP19421                                         (  24)   39 28.0   0.036
+DRAMP01965                                         (  24)   38 27.2   0.061
+
+>>DRAMP02094                                              (24 aa)
+ initn:  39 init1:  39 opt:  39  Z-score: 151.2  bits: 28.0 E(28274): 0.036
+Smith-Waterman score: 39; 53.8% identity (84.6% similar) in 13 aa overlap (2-14:8-20)
+
+                     10        
+lcl|O        MVGVKYLPKLGCQI    
+              :..:.:::. : :    
+DRAMP0 FLPAIAGVAAKFLPKIFCAISKKC
+               10        20    
+
+>>DRAMP19440                                              (24 aa)
+ initn:  39 init1:  39 opt:  39  Z-score: 151.2  bits: 28.0 E(28274): 0.036
+Smith-Waterman score: 39; 53.8% identity (84.6% similar) in 13 aa overlap (2-14:8-20)
+
+                     10        
+lcl|O        MVGVKYLPKLGCQI    
+              :..:.:::. : :    
+DRAMP1 FLPAIAGVAAKFLPKIFCAISKKC
+               10        20    
+
+>>DRAMP01919                                              (24 aa)
+ initn:  39 init1:  39 opt:  39  Z-score: 151.2  bits: 28.0 E(28274): 0.036
+Smith-Waterman score: 39; 53.8% identity (84.6% similar) in 13 aa overlap (2-14:8-20)
+
+                     10        
+lcl|O        MVGVKYLPKLGCQI    
+              :..:.:::. : :    
+DRAMP0 FLPVIAGVAAKFLPKIFCAITKKC
+               10        20    
+
+>>DRAMP02093                                              (24 aa)
+ initn:  39 init1:  39 opt:  39  Z-score: 151.2  bits: 28.0 E(28274): 0.036
+Smith-Waterman score: 39; 53.8% identity (84.6% similar) in 13 aa overlap (2-14:8-20)
+
+                     10        
+lcl|O        MVGVKYLPKLGCQI    
+              :..:.:::. : :    
+DRAMP0 FLPFIAGVAAKFLPKIFCAISKKC
+               10        20    
+
+>>DRAMP19421                                              (24 aa)
+ initn:  39 init1:  39 opt:  39  Z-score: 151.2  bits: 28.0 E(28274): 0.036
+Smith-Waterman score: 39; 53.8% identity (84.6% similar) in 13 aa overlap (2-14:8-20)
+
+                     10        
+lcl|O        MVGVKYLPKLGCQI    
+              :..:.:::. : :    
+DRAMP1 FLPFIAGVAAKFLPKIFCAISKKC
+               10        20    
+
+>>DRAMP01965                                              (24 aa)
+ initn:  38 init1:  38 opt:  38  Z-score: 147.2  bits: 27.2 E(28274): 0.061
+Smith-Waterman score: 38; 46.2% identity (84.6% similar) in 13 aa overlap (2-14:8-20)
+
+                     10        
+lcl|O        MVGVKYLPKLGCQI    
+              ...:.:::. : :    
+DRAMP0 FLPIIAGIAAKFLPKIFCTISKKC
+               10        20    
+
+
+ 16>>>lcl|ORF1088_ZT-469_1:132024:132062_unnamed_protein_product - 12 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.1939+/-0.00061; mu= 4.3320+/- 0.019
+ mean_var=5.6621+/- 1.855, 0's: 2472 Z-trim(112.2): 2482  B-trim: 457 in 1/23
+ Lambda= 0.538998
+ statistics sampled from 12420 (12426) to 12420 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.934), E-opt: 0.2 (0.416), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 17>>>lcl|ORF1169_ZT-469_1:142467:142502_unnamed_protein_product - 11 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.3979+/-0.000561; mu= 6.6569+/- 0.018
+ mean_var=5.2053+/- 1.442, 0's: 2182 Z-trim(111.7): 2186  B-trim: 0 in 0/24
+ Lambda= 0.562148
+ statistics sampled from 11655 (11658) to 11655 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.937), E-opt: 0.2 (0.416), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 18>>>lcl|ORF1286_ZT-469_1:153690:153725_unnamed_protein_product - 11 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.5948+/-0.000594; mu= 6.1439+/- 0.019
+ mean_var=6.5389+/- 2.647, 0's: 2005 Z-trim(111.4): 2017  B-trim: 0 in 0/24
+ Lambda= 0.501558
+ statistics sampled from 11262 (11268) to 11262 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.939), E-opt: 0.2 (0.415), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 0.1
+ 19>>>lcl|ORF1358_ZT-469_1:161592:161642_unnamed_protein_product - 16 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.1161+/-0.000635; mu= 6.0862+/- 0.019
+ mean_var=7.0605+/- 2.816, 0's: 2770 Z-trim(111.9): 2785  B-trim: 0 in 0/24
+ Lambda= 0.482678
+ statistics sampled from 12001 (12013) to 12001 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.94), E-opt: 0.2 (0.415), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 20>>>lcl|ORF1368_ZT-469_1:162405:162467_unnamed_protein_product - 20 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.5623+/-0.000658; mu= 6.0490+/- 0.023
+ mean_var=9.6864+/- 2.331, 0's: 2112 Z-trim(110.9): 2112  B-trim: 2966 in 1/23
+ Lambda= 0.412091
+ statistics sampled from 10683 (10683) to 10683 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.939), E-opt: 0.2 (0.414), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.1
+ 21>>>lcl|ORF1503_ZT-469_1:8644:8682_unnamed_protein_product - 12 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.5205+/-0.000655; mu= 6.6254+/- 0.020
+ mean_var=8.1174+/- 2.634, 0's: 3393 Z-trim(112.2): 3401  B-trim: 0 in 0/24
+ Lambda= 0.450158
+ statistics sampled from 12564 (12567) to 12564 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.939), E-opt: 0.2 (0.415), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 22>>>lcl|ORF1521_ZT-469_1:10411:10452_unnamed_protein_product - 13 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.5252+/-0.000527; mu= 4.0547+/- 0.017
+ mean_var=6.7165+/- 1.895, 0's: 2077 Z-trim(112.9): 2081  B-trim: 0 in 0/24
+ Lambda= 0.494884
+ statistics sampled from 13638 (13639) to 13638 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.939), E-opt: 0.2 (0.418), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 23>>>lcl|ORF1536_ZT-469_1:11704:11748_unnamed_protein_product - 14 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 1.8582+/-0.000695; mu= 10.0426+/- 0.022
+ mean_var=7.7560+/- 2.392, 0's: 3057 Z-trim(111.2): 3063  B-trim: 466 in 1/23
+ Lambda= 0.460527
+ statistics sampled from 10902 (10906) to 10902 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.935), E-opt: 0.2 (0.417), width:  16
+ Scan time:  0.060
+
+The best scores are:                                      opt bits E(28274)
+DRAMP28344                                         (  11)   39 25.6   0.083
+
+>>DRAMP28344                                              (11 aa)
+ initn:  39 init1:  39 opt:  39  Z-score: 144.8  bits: 25.6 E(28274): 0.083
+Smith-Waterman score: 39; 70.0% identity (90.0% similar) in 10 aa overlap (5-14:2-11)
+
+               10    
+lcl|O  MKTFLLKMLWKLLT
+           :: ..:::::
+DRAMP2    SLLSLIWKLLT
+                  10 
+
+
+ 24>>>lcl|ORF1573_ZT-469_1:15610:15666_unnamed_protein_product - 18 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 4.4646+/-0.000554; mu= 3.0145+/- 0.018
+ mean_var=9.6386+/- 3.164, 0's: 2293 Z-trim(112.5): 2295  B-trim: 0 in 0/24
+ Lambda= 0.413112
+ statistics sampled from 12847 (12847) to 12847 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.935), E-opt: 0.2 (0.418), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.1
+ 25>>>lcl|ORF1723_ZT-469_1:34840:34893_unnamed_protein_product - 17 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.5233+/-0.000719; mu= 4.9565+/- 0.023
+ mean_var=5.6723+/- 1.852, 0's: 1730 Z-trim(109.8): 1734  B-trim: 0 in 0/24
+ Lambda= 0.538512
+ statistics sampled from 9176 (9179) to 9176 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.935), E-opt: 0.2 (0.414), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 26>>>lcl|ORF1860_ZT-469_1:57967:58002_unnamed_protein_product - 11 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.8805+/-0.000712; mu= 4.7758+/- 0.023
+ mean_var=5.1674+/- 1.436, 0's: 2059 Z-trim(109.7): 2059  B-trim: 1811 in 1/23
+ Lambda= 0.564206
+ statistics sampled from 9174 (9180) to 9174 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.936), E-opt: 0.2 (0.411), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 27>>>lcl|ORF1916_ZT-469_1:63223:63255_unnamed_protein_product - 10 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.5133;  K= 5.065 (cen=1949)
+ statistics sampled from 16251 (16263) to 16251 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.936), E-opt: 0.2 (0.417), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 28>>>lcl|ORF1991_ZT-469_1:71707:71754_unnamed_protein_product - 15 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.2334+/-0.000533; mu= 6.1626+/- 0.017
+ mean_var=9.2866+/- 2.388, 0's: 2736 Z-trim(113.6): 2738  B-trim: 3353 in 1/23
+ Lambda= 0.420868
+ statistics sampled from 14679 (14681) to 14679 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.937), E-opt: 0.2 (0.421), width:  16
+ Scan time:  0.080
+!! No sequences with E() < 0.1
+ 29>>>lcl|ORF2007_ZT-469_1:73876:73929_unnamed_protein_product - 17 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 4.2905+/-0.000555; mu= 2.6307+/- 0.018
+ mean_var=7.2053+/- 2.144, 0's: 2499 Z-trim(112.3): 2502  B-trim: 334 in 1/23
+ Lambda= 0.477803
+ statistics sampled from 12461 (12461) to 12461 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.938), E-opt: 0.2 (0.421), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 30>>>lcl|ORF2022_ZT-469_1:75748:75783_unnamed_protein_product - 11 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 1.7714+/-0.000567; mu= 9.6106+/- 0.019
+ mean_var=9.7932+/- 3.234, 0's: 2991 Z-trim(113.6): 2992  B-trim: 1849 in 1/23
+ Lambda= 0.409838
+ statistics sampled from 14635 (14636) to 14635 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.939), E-opt: 0.2 (0.425), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 31>>>lcl|ORF2028_ZT-469_1:76303:76335_unnamed_protein_product - 10 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.5094;  K= 2.882 (cen=1565)
+ statistics sampled from 13339 (13341) to 13339 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.94), E-opt: 0.2 (0.426), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 32>>>lcl|ORF2074_ZT-469_1:83998:84030_unnamed_protein_product - 10 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.5438;  K= 3.694 (cen=1410)
+ statistics sampled from 12015 (12019) to 12015 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.941), E-opt: 0.2 (0.426), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 33>>>lcl|ORF2121_ZT-469_1:88603:88650_unnamed_protein_product - 15 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.7937+/-0.000614; mu= 3.8460+/- 0.020
+ mean_var=6.6814+/- 2.380, 0's: 1640 Z-trim(111.7): 1647  B-trim: 0 in 0/24
+ Lambda= 0.496181
+ statistics sampled from 11477 (11482) to 11477 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.941), E-opt: 0.2 (0.426), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 34>>>lcl|ORF2292_ZT-469_1:108229:108273_unnamed_protein_product - 14 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.5920+/-0.000615; mu= 3.6752+/- 0.019
+ mean_var=5.9575+/- 1.567, 0's: 3516 Z-trim(112.4): 3516  B-trim: 1806 in 1/23
+ Lambda= 0.525461
+ statistics sampled from 12528 (12528) to 12528 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.941), E-opt: 0.2 (0.426), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 35>>>lcl|ORF2308_ZT-469_1:111439:111486_unnamed_protein_product - 15 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.1871+/-0.00068; mu= 9.2710+/- 0.021
+ mean_var=8.7234+/- 2.878, 0's: 3629 Z-trim(113.1): 3631  B-trim: 1701 in 1/23
+ Lambda= 0.434242
+ statistics sampled from 13658 (13660) to 13658 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.942), E-opt: 0.2 (0.428), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 36>>>lcl|ORF2482_ZT-469_1:130534:130590_unnamed_protein_product - 18 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.9341+/-0.000699; mu= 3.8832+/- 0.023
+ mean_var=5.5672+/- 2.194, 0's: 2082 Z-trim(109.9): 2096  B-trim: 206 in 1/23
+ Lambda= 0.543573
+ statistics sampled from 9135 (9141) to 9135 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.941), E-opt: 0.2 (0.425), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 37>>>lcl|ORF2507_ZT-469_1:133609:133650_unnamed_protein_product - 13 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.9333+/-0.000701; mu= 5.5896+/- 0.022
+ mean_var=5.6640+/- 1.863, 0's: 1953 Z-trim(110.4): 1958  B-trim: 0 in 0/24
+ Lambda= 0.538906
+ statistics sampled from 9691 (9693) to 9691 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.942), E-opt: 0.2 (0.423), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 38>>>lcl|ORF2653_ZT-469_1:148327:148359_unnamed_protein_product - 10 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics: MLE_cen statistics: Lambda= 0.5696;  K= 3.761 (cen=1345)
+ statistics sampled from 11355 (11357) to 11355 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.943), E-opt: 0.2 (0.422), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 0.1
+ 39>>>lcl|ORF2803_ZT-469_1:164464:164499_unnamed_protein_product - 11 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.4619+/-0.000663; mu= 6.0363+/- 0.021
+ mean_var=4.6758+/- 1.563, 0's: 2158 Z-trim(110.2): 2162  B-trim: 0 in 0/24
+ Lambda= 0.593125
+ statistics sampled from 9546 (9547) to 9546 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.943), E-opt: 0.2 (0.42), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 0.1
+ 40>>>lcl|ORF2817_ZT-469_1:165313:165357_unnamed_protein_product - 14 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 1.8612+/-0.000705; mu= 9.5408+/- 0.021
+ mean_var=6.1401+/- 2.431, 0's: 2530 Z-trim(110.9): 2537  B-trim: 0 in 0/24
+ Lambda= 0.517589
+ statistics sampled from 10478 (10480) to 10478 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.943), E-opt: 0.2 (0.419), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 41>>>lcl|ORF2854_ZT-469_1:168709:168753_unnamed_protein_product - 14 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 1.8432+/-0.000669; mu= 10.0796+/- 0.020
+ mean_var=8.5178+/- 2.818, 0's: 3626 Z-trim(112.1): 3631  B-trim: 0 in 0/24
+ Lambda= 0.439452
+ statistics sampled from 12164 (12166) to 12164 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.942), E-opt: 0.2 (0.419), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 42>>>lcl|ORF2883_ZT-469_1:1907:1942_unnamed_protein_product - 11 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.7562+/-0.000676; mu= 5.4574+/- 0.022
+ mean_var=5.6253+/- 1.497, 0's: 2004 Z-trim(109.2): 2007  B-trim: 411 in 1/23
+ Lambda= 0.540757
+ statistics sampled from 8441 (8441) to 8441 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.943), E-opt: 0.2 (0.416), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 0.1
+ 43>>>lcl|ORF2914_ZT-469_1:7244:7279_unnamed_protein_product - 11 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.7830+/-0.000501; mu= 5.9435+/- 0.016
+ mean_var=8.3596+/- 2.898, 0's: 2610 Z-trim(113.2): 2614  B-trim: 0 in 0/24
+ Lambda= 0.443589
+ statistics sampled from 14168 (14169) to 14168 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.943), E-opt: 0.2 (0.418), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 44>>>lcl|ORF3228_ZT-469_1:48710:48766_unnamed_protein_product - 18 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.5681+/-0.00073; mu= 5.0553+/- 0.023
+ mean_var=5.5245+/- 1.439, 0's: 1557 Z-trim(108.1): 1562  B-trim: 0 in 0/24
+ Lambda= 0.545665
+ statistics sampled from 7425 (7426) to 7425 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.942), E-opt: 0.2 (0.414), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 45>>>lcl|ORF3235_ZT-469_1:49298:49339_unnamed_protein_product - 13 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.1232+/-0.000708; mu= 4.9288+/- 0.022
+ mean_var=6.2786+/- 1.812, 0's: 1536 Z-trim(109.4): 1542  B-trim: 0 in 0/24
+ Lambda= 0.511851
+ statistics sampled from 8811 (8813) to 8811 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.942), E-opt: 0.2 (0.412), width:  16
+ Scan time:  0.060
+!! No sequences with E() < 0.1
+ 46>>>lcl|ORF3403_ZT-469_1:79532:79585_unnamed_protein_product - 17 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.8023+/-0.000721; mu= 3.7922+/- 0.024
+ mean_var=5.0861+/- 1.590, 0's: 1740 Z-trim(108.9): 1745  B-trim: 0 in 0/24
+ Lambda= 0.568698
+ statistics sampled from 8261 (8262) to 8261 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.942), E-opt: 0.2 (0.41), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 47>>>lcl|ORF3410_ZT-469_1:80186:80245_unnamed_protein_product - 19 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.4298+/-0.000706; mu= 5.7286+/- 0.022
+ mean_var=5.9653+/- 2.219, 0's: 2488 Z-trim(110.5): 2502  B-trim: 0 in 0/24
+ Lambda= 0.525118
+ statistics sampled from 10251 (10257) to 10251 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.942), E-opt: 0.2 (0.409), width:  16
+ Scan time:  0.070
+
+The best scores are:                                      opt bits E(28274)
+DRAMP24369                                         (  20)   38 27.4   0.062
+
+>>DRAMP24369                                              (20 aa)
+ initn:  36 init1:  31 opt:  38  Z-score: 147.0  bits: 27.4 E(28274): 0.062
+Smith-Waterman score: 38; 66.7% identity (73.3% similar) in 15 aa overlap (6-19:4-18)
+
+               10            
+lcl|O  MVLPNSISFALR-LPKRLKS  
+            :: .: : ::::: :  
+DRAMP2   FIFSIVYARRNLPKRLPSTS
+                 10        20
+
+
+ 48>>>lcl|ORF3598_ZT-469_1:102263:102310_unnamed_protein_product - 15 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 2.1409+/-0.000729; mu= 9.1106+/- 0.022
+ mean_var=6.7797+/- 2.773, 0's: 2421 Z-trim(109.9): 2427  B-trim: 0 in 0/24
+ Lambda= 0.492572
+ statistics sampled from 9487 (9488) to 9487 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.941), E-opt: 0.2 (0.407), width:  16
+ Scan time:  0.070
+!! No sequences with E() < 0.1
+ 49>>>lcl|ORF3599_ZT-469_1:102311:102346_unnamed_protein_product - 11 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 1.8780+/-0.000694; mu= 8.1383+/- 0.022
+ mean_var=5.8614+/- 2.115, 0's: 1083 Z-trim(107.4): 1086  B-trim: 0 in 0/24
+ Lambda= 0.529752
+ statistics sampled from 6983 (6984) to 6983 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 1, E-join: 1 (0.94), E-opt: 0.2 (0.404), width:  16
+ Scan time:  0.050
+!! No sequences with E() < 0.1
+ 50>>>lcl|ORF3649_ZT-469_1:108422:108466_unnamed_protein_product - 41 aa
+Library: ./database/DRAMP.fa
+   696332 residues in 28274 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 3.7539+/-0.000547; mu= 5.9765+/- 0.018
+ mean_var=9.3025+/- 2.745, 0's: 2697 Z-trim(111.9): 2712  B-trim: 0 in 0/24
+ Lambda= 0.420507
+ statistics sampled from 12405 (12419) to 12405 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: BL80 matrix (11:-6), open/ext: -10/-2
+ ktup: 2, E-join: 1 (0.937), E-opt: 0.2 (0.405), width:  16
+ Scan time:  0.040
+
+The best scores are:                                      opt bits E(28274)
+DRAMP13003                                         (  23)   45 28.6   0.068
+
+>>DRAMP13003                                              (23 aa)
+ initn:  45 init1:  45 opt:  45  Z-score: 146.4  bits: 28.6 E(28274): 0.068
+Smith-Waterman score: 45; 61.5% identity (76.9% similar) in 13 aa overlap (5-17:9-21)
+
+                   10        20        30        40 
+lcl|O      MRQRKRALRILFRH
+               :.::: : :: .:                        
+DRAMP1 IQRVAQKLKKALRALARHWKRAL                      
+               10        20                         
+
+
+
+717 residues in 50 query   sequences
+696332 residues in 28274 library sequences
+ Tcomplib [36.3.6 Sep, 2013(preload9)] (8 proc in memory [0G])
+ start: Thu Aug 21 14:53:11 2025 done: Thu Aug 21 14:53:15 2025
+ Total Scan time:  3.210 Total Display time:  0.040
+
+Function used was FASTA [36.3.6 Sep, 2013(preload9)]

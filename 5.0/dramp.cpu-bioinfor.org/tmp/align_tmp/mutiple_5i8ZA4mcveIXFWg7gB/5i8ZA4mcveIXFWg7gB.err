@@ -1,0 +1,10 @@
+HHalignWrapper:hhalign_wrapper.c:783: (not essential) HMM pre-alignment failed, error 4, 
+	#=1 (len=348), lead-seq=Цей, len(HMM)=297	CARRY ON REGARDLESS
+HHalignWrapper:hhalign_wrapper.c:942: problem in alignment (profile sizes: 1 + 2) (Цей + Місія), forcing Viterbi
+	hh-error-code=4 (mac-ram=2048)
+hhalign:hhalign.cpp:959: Problem Reading/Preparing profiles (len(q)=0/len(t)=479)
+HHalignWrapper:hhalign_wrapper.c:977: problem in alignment, even Viterbi did not work
+	hh-error-code=4 (mac-ram=64000)
+hhalign:hhalign.cpp:959: Problem Reading/Preparing profiles (len(q)=0/len(t)=479)
+FATAL: could not perform alignment -- bailing out
+
